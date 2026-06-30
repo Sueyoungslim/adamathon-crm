@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f1117;
+    color: #f3f4f6;
+  }
+
+  .candidate-card {
+    background: #1a1d27;
+    border-color: #2e303a;
+  }
+
+  .search {
+    background: #1a1d27;
+    border-color: #2e303a;
+    color: #f3f4f6;
+  }
+
+  .subtitle {
+    color: #9ca3af;
+  }
+
+  .note {
+    color: #9ca3af;
+  }
+}
