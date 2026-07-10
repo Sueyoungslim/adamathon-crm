@@ -10,6 +10,8 @@ import { readFileSync, writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { join, dirname } from 'path'
 
+const PONTY_BASE = 'https://larenius.ponty-system.se'
+
 const csvPath = process.argv[2]
 if (!csvPath) {
   console.error('Usage: node scripts/convert-csv.js path/to/candidates.csv')
@@ -74,13 +76,17 @@ const candidates = rows
     const fullname  = find(row, 'namn', 'name', 'fullname', 'full name')
     const name = fullname || [firstname, lastname].filter(Boolean).join(' ') || '(No name)'
 
+    const pontyId = find(row, '﻿id', 'id') // handle BOM on first column
+    const ponty_url = pontyId ? `${PONTY_BASE}/candidate/${pontyId}/show` : null
+
     return {
-      id: String(i + 1),
+      id: pontyId || String(i + 1),
       name,
-      email:    find(row, 'e-post', 'email', 'epost', 'mail') ,
+      ponty_url,
+      role:     find(row, 'roll', 'role', 'titel', 'title', 'befattning', 'position'),
+      email:    find(row, 'e-post', 'email', 'epost', 'mail'),
       phone:    find(row, 'telefon', 'phone', 'tel', 'mobile', 'mobil'),
       linkedin: find(row, 'linkedin', 'url', 'länk', 'link'),
-      role:     find(row, 'roll', 'role', 'titel', 'title', 'befattning', 'position'),
       notes:    [find(row, 'scribble', 'anteckning', 'note', 'kommentar', 'comment')].filter(Boolean),
     }
   })
