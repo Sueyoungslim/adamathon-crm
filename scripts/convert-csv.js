@@ -81,7 +81,7 @@ const candidates = rows
       phone:    find(row, 'telefon', 'phone', 'tel', 'mobile', 'mobil'),
       linkedin: find(row, 'linkedin', 'url', 'länk', 'link'),
       role:     find(row, 'roll', 'role', 'titel', 'title', 'befattning', 'position'),
-      notes:    [find(row, 'anteckning', 'note', 'kommentar', 'comment')].filter(Boolean),
+      notes:    [find(row, 'scribble', 'anteckning', 'note', 'kommentar', 'comment')].filter(Boolean),
     }
   })
   .filter(c => {

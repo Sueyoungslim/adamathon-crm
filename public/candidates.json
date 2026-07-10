@@ -1,1 +1,452 @@
-[]
+[
+  {
+    "id": "1",
+    "name": "Johan",
+    "email": "johan.lewenhaupt@gmail.com",
+    "phone": "+46703326030",
+    "linkedin": "https://se.linkedin.com/in/jlewenhaupt",
+    "role": "Senior Full Stack Developer",
+    "notes": []
+  },
+  {
+    "id": "2",
+    "name": "Pontus",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/pontus-svensson1",
+    "role": "System Developer",
+    "notes": []
+  },
+  {
+    "id": "3",
+    "name": "Jonathan",
+    "email": null,
+    "phone": "+46768297937",
+    "linkedin": "https://www.linkedin.com/in/jonathan-lundholm-65aa14a4/",
+    "role": "IT LAS Backend",
+    "notes": []
+  },
+  {
+    "id": "4",
+    "name": "Hugo",
+    "email": null,
+    "phone": "+46760450484",
+    "linkedin": "https://www.linkedin.com/in/hugo-dahl958/",
+    "role": "Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "5",
+    "name": "Natália",
+    "email": null,
+    "phone": "+46735062079",
+    "linkedin": "https://www.linkedin.com/in/nat%C3%A1lia-nakagawa-a7a09b32/",
+    "role": "Senior Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "6",
+    "name": "Hamza",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/hamzaacimi/",
+    "role": "Senior Frontend Developer",
+    "notes": []
+  },
+  {
+    "id": "7",
+    "name": "Chaitali",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/chaitalideore786/",
+    "role": "Fullstack Developer",
+    "notes": []
+  },
+  {
+    "id": "8",
+    "name": "Manos",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/manos-vekrakis",
+    "role": "Senior Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "9",
+    "name": "Åsa",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/%C3%A5sa-israelsson-2638b3115/",
+    "role": "Testledare",
+    "notes": []
+  },
+  {
+    "id": "10",
+    "name": "Albin",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/albin-gustafsson-b3b024176/",
+    "role": "Full-time",
+    "notes": []
+  },
+  {
+    "id": "11",
+    "name": "Danish",
+    "email": null,
+    "phone": "+46768068324",
+    "linkedin": "https://www.linkedin.com/in/danish-jalil-4aa3341aa/",
+    "role": "Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "12",
+    "name": "Erik",
+    "email": "erik.ekerot@gmail.com",
+    "phone": "+46702501202",
+    "linkedin": "https://www.linkedin.com/in/erik-ekerot-96a1035b/",
+    "role": "AI/ML Tech Lead (ML Platform & Applied AI)",
+    "notes": []
+  },
+  {
+    "id": "13",
+    "name": "Carlo",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/carlobarone1897/",
+    "role": "Uppsägning/borttagen tjänst",
+    "notes": []
+  },
+  {
+    "id": "14",
+    "name": "Viktor",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/viktor-salomonsson-418271272/",
+    "role": "Full Stack Developer",
+    "notes": []
+  },
+  {
+    "id": "15",
+    "name": "Patrik",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/patrik-eriksson-162688152/",
+    "role": "Frontend Developer",
+    "notes": []
+  },
+  {
+    "id": "16",
+    "name": "Viktor",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/viktor-tell-74196b57",
+    "role": "Developer",
+    "notes": []
+  },
+  {
+    "id": "17",
+    "name": "Yue",
+    "email": "yue.wang.sv@gmail.com",
+    "phone": "+46739892219",
+    "linkedin": "https://www.linkedin.com/in/yue-wang-748a46119",
+    "role": "Web Engineer",
+    "notes": []
+  },
+  {
+    "id": "18",
+    "name": "Mikael",
+    "email": null,
+    "phone": "+46735898090",
+    "linkedin": "https://www.linkedin.com/in/mikael-zehnter-frisk-636aba83",
+    "role": "AI Engineer",
+    "notes": []
+  },
+  {
+    "id": "19",
+    "name": "Waleed",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/waleedahmadfaridi",
+    "role": "AI Engineer",
+    "notes": []
+  },
+  {
+    "id": "20",
+    "name": "Alejo",
+    "email": "alejperz7@gmail.com",
+    "phone": "+46762924652",
+    "linkedin": "https://www.linkedin.com/in/alejo-perez-gomez-858422172",
+    "role": "Intrapreneur",
+    "notes": []
+  },
+  {
+    "id": "21",
+    "name": "Marius",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/marius-ziegenbein-241b27238",
+    "role": null,
+    "notes": []
+  },
+  {
+    "id": "22",
+    "name": "Malin",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/malinjsoderlund/",
+    "role": "Frontend Developer",
+    "notes": []
+  },
+  {
+    "id": "23",
+    "name": "Denis",
+    "email": null,
+    "phone": "+46793570757",
+    "linkedin": "https://www.linkedin.com/in/denisshvets/",
+    "role": "Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "24",
+    "name": "Johnny",
+    "email": "kan.johnny@gmail.com",
+    "phone": "+46720020405",
+    "linkedin": "https://www.linkedin.com/in/johnnykan",
+    "role": "Full Stack Developer",
+    "notes": []
+  },
+  {
+    "id": "25",
+    "name": "Shan",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/shan-e-ali",
+    "role": "Machine Learning Engineer",
+    "notes": []
+  },
+  {
+    "id": "26",
+    "name": "Lars",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/larserikberger",
+    "role": "Frontend Developer",
+    "notes": []
+  },
+  {
+    "id": "27",
+    "name": "Sathvik",
+    "email": null,
+    "phone": "+46722324382",
+    "linkedin": "https://www.linkedin.com/in/sathvik-katam",
+    "role": "Machine Learning Engineer",
+    "notes": []
+  },
+  {
+    "id": "28",
+    "name": "Mohammad",
+    "email": null,
+    "phone": "+46707847650",
+    "linkedin": "https://www.linkedin.com/in/mohammad-mirzaei-3b37aa153",
+    "role": "Senior Application Engineer",
+    "notes": []
+  },
+  {
+    "id": "29",
+    "name": "Benjamin",
+    "email": null,
+    "phone": "+46730931654",
+    "linkedin": "https://www.linkedin.com/in/benjamin-suljevic",
+    "role": "Telecommunications Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "30",
+    "name": "Juan",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/juan-manuel-l-228565145",
+    "role": "AI Engineering Lead, Fixed Income GenAI Platform",
+    "notes": []
+  },
+  {
+    "id": "31",
+    "name": "Eser",
+    "email": "eserinanarslan@gmail.com",
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/eser-inan-arslan",
+    "role": "Senior Machine Learning Engineer / Senior Data Scientist",
+    "notes": []
+  },
+  {
+    "id": "32",
+    "name": "Ganesh",
+    "email": null,
+    "phone": "+46760905763",
+    "linkedin": "https://www.linkedin.com/in/ganesh-balaji-r",
+    "role": "System Developer",
+    "notes": []
+  },
+  {
+    "id": "33",
+    "name": "Rickard",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/rickardtmolin/",
+    "role": "Embedded Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "34",
+    "name": "Salar",
+    "email": null,
+    "phone": "+46739551179",
+    "linkedin": "https://www.linkedin.com/in/salarsadek/",
+    "role": "Development Engineer",
+    "notes": []
+  },
+  {
+    "id": "35",
+    "name": "Raif",
+    "email": "raifkaraahmetoglu@hotmail.com",
+    "phone": "+46793424384",
+    "linkedin": "https://www.linkedin.com/in/raif-k-0a202b90",
+    "role": "Software Development Engineer",
+    "notes": []
+  },
+  {
+    "id": "36",
+    "name": "Lena",
+    "email": "lena.mondrejevski@gmail.com",
+    "phone": "+46793366581",
+    "linkedin": "https://www.linkedin.com/in/lena-mondrejevski",
+    "role": "Chief Technology Officer",
+    "notes": []
+  },
+  {
+    "id": "37",
+    "name": "Pedram",
+    "email": "pedram.kasebzadeh@gmail.com",
+    "phone": "+46729405668",
+    "linkedin": "https://se.linkedin.com/in/pedram-kasebzadeh",
+    "role": "Senior Data Scientist",
+    "notes": []
+  },
+  {
+    "id": "38",
+    "name": "Volkan",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/volkan-c-ba61036b/",
+    "role": "Senior Embedded Software Developer",
+    "notes": []
+  },
+  {
+    "id": "39",
+    "name": "Milos",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://linkedin.com/in/nextgen-softwarengineer",
+    "role": "System",
+    "notes": []
+  },
+  {
+    "id": "43",
+    "name": "Fredrik",
+    "email": "fredrik.thorsson@outlook.com",
+    "phone": "+46706089090",
+    "linkedin": "https://www.linkedin.com/in/fredrik-thorsson/",
+    "role": "IT Hubexo Fullstack",
+    "notes": []
+  },
+  {
+    "id": "44",
+    "name": "Adam",
+    "email": "risbergadam@gmail.com",
+    "phone": "+46704313494",
+    "linkedin": "https://www.linkedin.com/in/risbergadam",
+    "role": "Full Stack Engineer",
+    "notes": []
+  },
+  {
+    "id": "45",
+    "name": "Jonathan",
+    "email": null,
+    "phone": "+46733115582",
+    "linkedin": "https://linkedin.com/in/jonalonn",
+    "role": "IT Vitec Taxiteknik Frontend",
+    "notes": []
+  },
+  {
+    "id": "46",
+    "name": "Marcus",
+    "email": "marcus88sjoberg@gmail.com",
+    "phone": "+46735716358",
+    "linkedin": "https://www.linkedin.com/in/marcussjoberg/",
+    "role": "Full Stack Developer",
+    "notes": []
+  },
+  {
+    "id": "47",
+    "name": "Alireza",
+    "email": null,
+    "phone": "+46764398727",
+    "linkedin": "https://www.linkedin.com/in/art1373",
+    "role": "Software Engineer",
+    "notes": []
+  },
+  {
+    "id": "48",
+    "name": "Lucas",
+    "email": "lucasnordlinder@gmail.com",
+    "phone": "+46702409995",
+    "linkedin": "https://www.linkedin.com/in/lucas-nordlinder-464b3354",
+    "role": "Webbutvecklare",
+    "notes": []
+  },
+  {
+    "id": "49",
+    "name": "Max",
+    "email": "mkorlinge@gmail.com",
+    "phone": "+46737308074",
+    "linkedin": "https://www.linkedin.com/in/maxk%C3%B6rlinge/",
+    "role": "Head of Backend Engineering",
+    "notes": []
+  },
+  {
+    "id": "50",
+    "name": "Malin",
+    "email": "fuyuhime@hotmail.com",
+    "phone": "+46769250625",
+    "linkedin": "https://www.linkedin.com/in/malin-augustsson-b8b976137/",
+    "role": "Data Engineer",
+    "notes": []
+  },
+  {
+    "id": "51",
+    "name": "Anders",
+    "email": "anders.eriksson@gmail.com",
+    "phone": "+46706629454",
+    "linkedin": "https://www.linkedin.com/in/anderseriksson/",
+    "role": "Senior Data Engineer",
+    "notes": []
+  },
+  {
+    "id": "52",
+    "name": "Hiva",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/hiva-soofieh/",
+    "role": "Test Engineer",
+    "notes": []
+  },
+  {
+    "id": "53",
+    "name": "Kemal",
+    "email": "jernsten@gmail.com",
+    "phone": "+46768971651",
+    "linkedin": "https://www.linkedin.com/in/kemaldemirtas/",
+    "role": "Frontendutvecklare",
+    "notes": []
+  }
+]
