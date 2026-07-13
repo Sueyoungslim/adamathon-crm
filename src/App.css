@@ -1,92 +1,267 @@
+/* ── Layout ─────────────────────────────────────────── */
 .app {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 1.5rem;
 }
 
+/* ── Header ─────────────────────────────────────────── */
 .app-header {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .app-header h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #111;
-  margin: 0 0 0.25rem;
+  color: #0a0a0a;
+  letter-spacing: -0.02em;
+  margin: 0;
 }
 
 .subtitle {
-  color: #888;
-  font-size: 0.875rem;
-  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  color: #a0a0a0;
+  margin: 0;
+  font-weight: 400;
 }
 
 .search {
+  margin-top: 0.25rem;
   width: 100%;
-  max-width: 360px;
+  max-width: 320px;
   padding: 0.5rem 0.75rem;
-  border: 1px solid #ddd;
+  border: 1px solid #e2e2e2;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   outline: none;
-  box-sizing: border-box;
-  background: #fff;
-  color: #111;
+  background: #fafafa;
+  color: #0a0a0a;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
 .search:focus {
-  border-color: #111;
+  border-color: #0a0a0a;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.06);
 }
 
 .state-msg {
-  color: #aaa;
-  padding: 2rem 0;
-  font-size: 0.95rem;
+  color: #bbb;
+  padding: 3rem 0;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-.state-msg.error {
-  color: #dc2626;
-}
+.state-msg.error { color: #dc2626; }
 
+/* ── Grid ────────────────────────────────────────────── */
 .candidate-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+  align-items: start;
 }
 
-.candidate-card {
+/* ── Card ────────────────────────────────────────────── */
+.card {
   background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  padding: 1.1rem 1.25rem;
+  border: 1px solid #ebebeb;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.card:hover {
+  border-color: #d4d4d4;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+
+.card--open {
+  border-color: #d4d4d4;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+}
+
+.card-body {
+  padding: 1rem 1.1rem;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* ── Card header row ─────────────────────────────────── */
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.candidate-name {
+  font-size: 0.975rem;
+  font-weight: 700;
+  color: #0a0a0a;
+  line-height: 1.3;
+}
+
+.expand-btn {
+  font-size: 1rem;
+  color: #b0b0b0;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 1px;
+  transition: color 0.15s;
+}
+
+.card:hover .expand-btn { color: #666; }
+
+/* ── Role & org ──────────────────────────────────────── */
+.candidate-role {
+  font-size: 0.8rem;
+  color: #444;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.candidate-org {
+  font-size: 0.78rem;
+  color: #888;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* ── Tech pills ──────────────────────────────────────── */
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.45rem;
+}
+
+.tech-pill {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #3730a3;
+  background: #eef2ff;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
+/* ── Links ───────────────────────────────────────────── */
+.card-links {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.pill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: opacity 0.12s;
+  white-space: nowrap;
+}
+
+.pill-link:hover { opacity: 0.75; }
+
+.pill-link--linkedin {
+  background: #e8f0fe;
+  color: #1d4ed8;
+}
+
+.pill-link--ponty {
+  background: #f0fdf4;
+  color: #15803d;
+}
+
+/* ── Expanded section ────────────────────────────────── */
+.card-expanded {
+  border-top: 1px solid #f0f0f0;
+  padding: 0.9rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: #fafafa;
+}
+
+.notes-block {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
 
-.candidate-name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #111;
+.notes-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   margin: 0;
-  line-height: 1.3;
 }
 
-.candidate-role {
-  font-size: 0.85rem;
-  color: #555;
+.notes-text {
+  font-size: 0.82rem;
+  color: #444;
+  line-height: 1.55;
   margin: 0;
-  line-height: 1.4;
+  white-space: pre-wrap;
 }
 
-.ponty-link {
-  margin-top: 0.6rem;
-  font-size: 0.8rem;
-  color: #4f46e5;
-  text-decoration: none;
-  font-weight: 500;
+.notes-input {
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.82rem;
+  color: #222;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  resize: vertical;
+  outline: none;
+  font-family: inherit;
+  line-height: 1.5;
+  transition: border-color 0.15s;
+  box-sizing: border-box;
 }
 
-.ponty-link:hover {
-  text-decoration: underline;
+.notes-input:focus {
+  border-color: #0a0a0a;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+}
+
+.notes-input::placeholder { color: #bbb; }
+
+/* ── Dark mode ───────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  .app-header h1       { color: #f5f5f5; }
+  .subtitle            { color: #555; }
+  .search              { background: #1a1a1a; border-color: #2e2e2e; color: #f5f5f5; }
+  .search:focus        { border-color: #666; box-shadow: 0 0 0 3px rgba(255,255,255,0.05); }
+  .card                { background: #161616; border-color: #2a2a2a; }
+  .card:hover          { border-color: #3a3a3a; }
+  .card--open          { border-color: #3a3a3a; }
+  .candidate-name      { color: #f0f0f0; }
+  .candidate-role      { color: #b0b0b0; }
+  .candidate-org       { color: #666; }
+  .tech-pill           { background: #1e1b4b; color: #a5b4fc; }
+  .pill-link--linkedin { background: #1e3a8a22; color: #60a5fa; }
+  .pill-link--ponty    { background: #14532d22; color: #4ade80; }
+  .expand-btn          { color: #444; }
+  .card-expanded       { background: #111; border-color: #222; }
+  .notes-text          { color: #888; }
+  .notes-input         { background: #1a1a1a; border-color: #2e2e2e; color: #d0d0d0; }
+  .notes-input:focus   { border-color: #555; }
 }

@@ -72,17 +72,20 @@ async function fetchAllCandidates(token) {
   return all
 }
 
+const PONTY_BASE = 'https://larenius.ponty-system.se'
+
 function mapCandidate(c) {
   const notes = (c.notes ?? []).map(n => (typeof n === 'string' ? n : n.text ?? '')).filter(Boolean)
   return {
-    id: c.id,
+    id: String(c.id),
     name: [c.firstname, c.lastname].filter(Boolean).join(' ') || '(No name)',
+    ponty_url: `${PONTY_BASE}/candidate/${c.id}/show`,
+    role: c.role ?? null,
+    organization: c.organization_name ?? null,
     email: c.email ?? null,
     phone: c.phone ?? null,
     linkedin: c.url ?? null,
-    role: c.role ?? null,
     notes,
-    created_at: c.created_at ?? null,
   }
 }
 

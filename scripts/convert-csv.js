@@ -83,11 +83,12 @@ const candidates = rows
       id: pontyId || String(i + 1),
       name,
       ponty_url,
-      role:     find(row, 'roll', 'role', 'titel', 'title', 'befattning', 'position'),
-      email:    find(row, 'e-post', 'email', 'epost', 'mail'),
-      phone:    find(row, 'telefon', 'phone', 'tel', 'mobile', 'mobil'),
-      linkedin: find(row, 'linkedin', 'url', 'länk', 'link'),
-      notes:    [find(row, 'scribble', 'anteckning', 'note', 'kommentar', 'comment')].filter(Boolean),
+      role:         find(row, 'roll', 'role', 'titel', 'title', 'befattning', 'position'),
+      organization: find(row, 'organization', 'organisation', 'företag', 'company', 'employer'),
+      email:        find(row, 'e-post', 'email', 'epost', 'mail'),
+      phone:        find(row, 'telefon', 'phone', 'tel', 'mobile', 'mobil'),
+      linkedin:     find(row, 'linkedin', 'url', 'länk', 'link'),
+      notes:        [find(row, 'scribble', 'anteckning', 'note', 'kommentar', 'comment')].filter(Boolean),
     }
   })
   .filter(c => {
