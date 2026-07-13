@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState, useEffect } from 'react'
 
 const STAGES = [
   { label: 'Ny kandidat',  color: '#64748B' },
@@ -45,7 +45,16 @@ export default function CandidateCard({ candidate, savedData = {}, onUpdate, ind
 
   const set = (key, val) => onUpdate(id, { [key]: val })
   const stage = STAGES[d.stage_idx] ?? STAGES[0]
-  const cycleStage = () => set('stage_idx', (d.stage_idx + 1) % STAGES.length)
+
+  const [dropOpen, setDropOpen] = useState(false)
+  const dropRef = useRef(null)
+  useEffect(() => {
+    if (!dropOpen) return
+    const close = e => { if (!dropRef.current?.contains(e.target)) setDropOpen(false) }
+    document.addEventListener('mousedown', close)
+    return () => document.removeEventListener('mousedown', close)
+  }, [dropOpen])
+
   const cycleWork = () => {
     const i = WORK_PREFS.indexOf(d.work_pref)
     set('work_pref', WORK_PREFS[(i + 1) % WORK_PREFS.length])
@@ -110,14 +119,33 @@ export default function CandidateCard({ candidate, savedData = {}, onUpdate, ind
       <hr className="card-rule" />
 
       <footer className="card-footer">
-        <button
-          className="stage-stamp"
-          style={{ '--sc': stage.color }}
-          onClick={cycleStage}
-          title="Klicka för att ändra status"
-        >
-          {stage.label}
-        </button>
+        <div className="stage-wrap" ref={dropRef}>
+          <button
+            className="stage-stamp"
+            style={{ '--sc': stage.color }}
+            onClick={() => setDropOpen(o => !o)}
+            aria-haspopup="listbox"
+            aria-expanded={dropOpen}
+          >
+            {stage.label} <span className="stamp-caret">▾</span>
+          </button>
+          {dropOpen && (
+            <div className="stage-dropdown" role="listbox">
+              {STAGES.map((s, i) => (
+                <button
+                  key={i}
+                  role="option"
+                  aria-selected={i === d.stage_idx}
+                  className={`stage-option ${i === d.stage_idx ? 'stage-option--active' : ''}`}
+                  style={{ '--sc': s.color }}
+                  onClick={() => { set('stage_idx', i); setDropOpen(false) }}
+                >
+                  {s.label}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
 
         <div className="card-icons">
           {linkedin && (

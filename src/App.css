@@ -60,12 +60,14 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* ── Stage nav tabs ──────────────────────────────────── */
+/* ── Stage nav pills ─────────────────────────────────── */
 .stage-nav {
   display: flex;
-  gap: 0;
+  gap: 0.4rem;
   overflow-x: auto;
   scrollbar-width: none;
+  padding-bottom: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .stage-nav::-webkit-scrollbar { display: none; }
@@ -73,39 +75,45 @@
 .stage-tab {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.5rem 0.85rem;
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: var(--frame-muted);
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid transparent;
+  gap: 0.45rem;
+  padding: 0.38rem 0.8rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.06);
+  border: 1.5px solid rgba(255,255,255,0.1);
+  border-radius: 5px;
   cursor: pointer;
   white-space: nowrap;
-  transition: color 0.15s, border-color 0.15s;
-  letter-spacing: 0.01em;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
 }
 
-.stage-tab:hover { color: var(--frame-text); }
+.stage-tab:hover {
+  color: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.2);
+}
 
 .stage-tab--active {
-  color: var(--frame-text);
-  border-bottom-color: var(--tc, var(--frame-text));
+  color: #fff;
+  background: var(--tc, rgba(255,255,255,0.15));
+  border-color: var(--tc, rgba(255,255,255,0.3));
 }
 
 .tab-count {
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 700;
-  background: rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.2);
   border-radius: 999px;
-  padding: 0.05rem 0.4rem;
+  padding: 0.05rem 0.45rem;
   font-variant-numeric: tabular-nums;
 }
 
 .stage-tab--active .tab-count {
-  background: var(--tc, rgba(255,255,255,0.2));
-  color: #fff;
+  background: rgba(0,0,0,0.25);
 }
 
 /* ── Cork board ──────────────────────────────────────── */
@@ -398,6 +406,60 @@
   border-color: #DC2626;
   color: #DC2626;
   background: rgba(220,38,38,0.06);
+}
+
+/* ── Stage dropdown ──────────────────────────────────── */
+.stage-wrap {
+  position: relative;
+}
+
+.stamp-caret {
+  font-size: 0.5rem;
+  opacity: 0.8;
+  vertical-align: middle;
+  margin-left: 0.2rem;
+}
+
+.stage-dropdown {
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: 0;
+  background: #1C1008;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  z-index: 200;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  min-width: 130px;
+}
+
+.stage-option {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.38rem 0.65rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: rgba(255,255,255,0.55);
+  background: transparent;
+  transition: background 0.1s, color 0.1s;
+}
+
+.stage-option:hover {
+  background: var(--sc);
+  color: #fff;
+}
+
+.stage-option--active {
+  background: var(--sc);
+  color: #fff;
 }
 
 /* ── Responsive ──────────────────────────────────────── */

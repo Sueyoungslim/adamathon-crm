@@ -71,10 +71,9 @@ console.log()
 let skipped = 0
 const candidates = rows
   .map((row, i) => {
-    const firstname = find(row, 'förnamn', 'firstname', 'first name', 'fname')
-    const lastname  = find(row, 'efternamn', 'lastname', 'last name', 'lname', 'surname')
-    const fullname  = find(row, 'namn', 'name', 'fullname', 'full name')
-    const name = fullname || [firstname, lastname].filter(Boolean).join(' ') || '(No name)'
+    const firstname = find(row, 'förnamn', 'firstname', 'fname')
+    const lastname  = find(row, 'efternamn', 'lastname', 'lname', 'surname')
+    const name = [firstname, lastname].filter(Boolean).join(' ') || '(No name)'
 
     const pontyId = find(row, '﻿id', 'id') // handle BOM on first column
     const ponty_url = pontyId ? `${PONTY_BASE}/candidate/${pontyId}/show` : null
