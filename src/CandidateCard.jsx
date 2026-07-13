@@ -1,102 +1,153 @@
-import { useState } from 'react'
+import { useRef } from 'react'
+
+const STAGES = [
+  { label: 'Ny kandidat',  color: '#64748B' },
+  { label: 'Intresserad',  color: '#2563EB' },
+  { label: 'Intervju #1', color: '#D97706' },
+  { label: 'Intervju #2', color: '#DC2626' },
+  { label: 'Erbjudande',  color: '#16A34A' },
+]
 
 const TECH = [
-  'React','Vue','Angular','Svelte','Next.js','Nuxt','Remix',
-  'TypeScript','JavaScript','Node.js','Express','Fastify',
-  'Python','Django','FastAPI','Flask','Java','Spring','Kotlin',
-  'Swift','Go','Rust','C#','.NET','PHP','Ruby','Rails',
-  'AWS','Azure','GCP','Docker','Kubernetes','Terraform','Linux','CI/CD',
-  'PostgreSQL','MySQL','MongoDB','Redis','Elasticsearch','Kafka',
-  'GraphQL','REST','gRPC','Microservices','Serverless',
-  'Machine Learning','ML','AI','LLM','TensorFlow','PyTorch','OpenAI',
-  'React Native','Flutter','Tailwind','Figma',
-  'Git','GitHub','GitLab','Agile','Scrum',
+  'React','Vue','Angular','Svelte','Next.js','Remix','TypeScript','JavaScript',
+  'Node.js','Python','Java','Kotlin','Swift','Go','Rust','C#','.NET','PHP','Ruby',
+  'AWS','Azure','GCP','Docker','Kubernetes','Terraform','PostgreSQL','MySQL',
+  'MongoDB','Redis','GraphQL','Machine Learning','ML','AI','LLM','TensorFlow',
+  'PyTorch','React Native','Flutter','Tailwind','Spring','Django','FastAPI',
 ]
 
 function extractTech(texts) {
-  const combined = texts.join(' ').toLowerCase()
-  const found = []
-  for (const t of TECH) {
-    if (combined.includes(t.toLowerCase()) && !found.includes(t)) found.push(t)
-  }
-  return found
+  const s = texts.join(' ').toLowerCase()
+  return TECH.filter(t => s.includes(t.toLowerCase())).join(', ')
 }
 
-export default function CandidateCard({ candidate }) {
-  const { id, name, role, organization, ponty_url, linkedin, notes } = candidate
-  const [open, setOpen] = useState(false)
-  const [userNote, setUserNote] = useState(() => localStorage.getItem(`note-${id}`) || '')
+const WORK_PREFS = ['Hybrid', 'Remote', 'On-site']
 
-  const notesText = notes.join('\n')
-  const tech = extractTech([role ?? '', notesText])
-  const hasContent = notesText || true // always show notes area when expanded
+const ROTATIONS = [-0.6, 0.4, -0.3, 0.5, -0.4, 0.3, -0.5, 0.4]
+
+export default function CandidateCard({ candidate, savedData = {}, onUpdate, index = 0 }) {
+  const { id, name, role: pontyRole, organization, linkedin, ponty_url, notes } = candidate
+  const textRef = useRef(null)
+
+  const defaultStack = extractTech([...notes, pontyRole ?? ''])
+  const d = {
+    role: pontyRole ?? '',
+    stack: defaultStack,
+    city: '',
+    work_pref: 'Hybrid',
+    salary: '',
+    experience: '',
+    note: notes.join(' '),
+    stage_idx: 0,
+    eu: true,
+    ...savedData,
+  }
+
+  const set = (key, val) => onUpdate(id, { [key]: val })
+  const stage = STAGES[d.stage_idx] ?? STAGES[0]
+  const cycleStage = () => set('stage_idx', (d.stage_idx + 1) % STAGES.length)
+  const cycleWork = () => {
+    const i = WORK_PREFS.indexOf(d.work_pref)
+    set('work_pref', WORK_PREFS[(i + 1) % WORK_PREFS.length])
+  }
+
+  const rot = ROTATIONS[index % ROTATIONS.length]
 
   return (
-    <div className={`card${open ? ' card--open' : ''}`}>
-      {/* always-visible top section */}
-      <div className="card-body" onClick={() => setOpen(o => !o)} role="button" tabIndex={0}
-        onKeyDown={e => e.key === 'Enter' && setOpen(o => !o)}>
+    <article className="card" style={{ '--rot': `${rot}deg` }}>
+      <div className="pushpin" aria-hidden="true" />
 
-        <div className="card-header">
-          <span className="candidate-name">{name}</span>
-          <span className="expand-btn" aria-label={open ? 'Collapse' : 'Expand'}>
-            {open ? '−' : '+'}
-          </span>
-        </div>
+      <p className="card-name">{name}</p>
 
-        {role && <p className="candidate-role">{role}</p>}
-        {organization && <p className="candidate-org">{organization}</p>}
+      <input
+        className="card-role f-input"
+        value={d.role}
+        onChange={e => set('role', e.target.value)}
+        placeholder="Titel / Roll"
+      />
 
-        {tech.length > 0 && (
-          <div className="tech-list">
-            {tech.map(t => <span key={t} className="tech-pill">{t}</span>)}
+      <hr className="card-rule" />
+
+      <div className="card-fields">
+        <Row label="Stack">
+          <input className="f-input f-val" value={d.stack} onChange={e => set('stack', e.target.value)} placeholder="React, TypeScript…" />
+        </Row>
+
+        <Row label="Plats">
+          <div className="plats-row">
+            <button className="work-tag" onClick={cycleWork}>{d.work_pref}</button>
+            <span className="plats-dot">·</span>
+            <input className="f-input plats-city" value={d.city} onChange={e => set('city', e.target.value)} placeholder="Stad" />
           </div>
-        )}
+        </Row>
 
-        <div className="card-links" onClick={e => e.stopPropagation()}>
+        <Row label="Lön">
+          <input className="f-input f-val" value={d.salary} onChange={e => set('salary', e.target.value)} placeholder="70–80 000 kr" />
+        </Row>
+
+        <Row label="Erfarenhet">
+          <input className="f-input f-val" value={d.experience} onChange={e => set('experience', e.target.value)} placeholder="7 år" />
+        </Row>
+
+        {organization && (
+          <Row label="Bolag">
+            <span className="f-val f-static">{organization}</span>
+          </Row>
+        )}
+      </div>
+
+      <hr className="card-rule" />
+
+      <textarea
+        ref={textRef}
+        className="card-note f-input"
+        value={d.note}
+        onChange={e => set('note', e.target.value)}
+        placeholder="Anteckningar, bakgrund, EU-medborgare, work permit…"
+        rows={2}
+      />
+
+      <hr className="card-rule" />
+
+      <footer className="card-footer">
+        <button
+          className="stage-stamp"
+          style={{ '--sc': stage.color }}
+          onClick={cycleStage}
+          title="Klicka för att ändra status"
+        >
+          {stage.label}
+        </button>
+
+        <div className="card-icons">
           {linkedin && (
-            <a href={linkedin} target="_blank" rel="noopener noreferrer" className="pill-link pill-link--linkedin">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-              </svg>
-              LinkedIn
+            <a href={linkedin} target="_blank" rel="noopener noreferrer" className="icon-btn icon-btn--li" title="LinkedIn">
+              in
             </a>
           )}
           {ponty_url && (
-            <a href={ponty_url} target="_blank" rel="noopener noreferrer" className="pill-link pill-link--ponty">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
-              </svg>
-              Ponty
+            <a href={ponty_url} target="_blank" rel="noopener noreferrer" className="icon-btn icon-btn--po" title="Öppna i Ponty">
+              P
             </a>
           )}
+          <button
+            className={`eu-btn ${d.eu ? 'eu-btn--ja' : 'eu-btn--nej'}`}
+            onClick={() => set('eu', !d.eu)}
+            title="EU / Arbetstillstånd"
+          >
+            🇸🇪 {d.eu ? 'Ja' : 'Nej'}
+          </button>
         </div>
-      </div>
+      </footer>
+    </article>
+  )
+}
 
-      {/* expanded section */}
-      {open && (
-        <div className="card-expanded">
-          {notesText && (
-            <div className="notes-block">
-              <p className="notes-label">Notes from Ponty</p>
-              <p className="notes-text">{notesText}</p>
-            </div>
-          )}
-          <div className="notes-block">
-            <p className="notes-label">Your notes</p>
-            <textarea
-              className="notes-input"
-              value={userNote}
-              onChange={e => {
-                setUserNote(e.target.value)
-                localStorage.setItem(`note-${id}`, e.target.value)
-              }}
-              placeholder="Add your notes about this candidate…"
-              rows={3}
-            />
-          </div>
-        </div>
-      )}
+function Row({ label, children }) {
+  return (
+    <div className="field-row">
+      <span className="field-lbl">{label}</span>
+      <div className="field-val">{children}</div>
     </div>
   )
 }

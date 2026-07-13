@@ -1,49 +1,95 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
-  background: #f9fafb;
-  color: #111827;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
-a {
-  color: inherit;
+/* ── Tokens ───────────────────────────────────────────── */
+:root {
+  --cork:        #9B7340;
+  --cork-dark:   #7A5A2E;
+  --frame:       #1A0D05;
+  --frame-text:  #F0DEB8;
+  --frame-muted: #8A6840;
+  --card-bg:     #FFFCE0;
+  --card-text:   #1A1107;
+  --card-sub:    #4A3518;
+  --card-lbl:    #8B6914;
+  --card-rule:   rgba(0,0,0,0.12);
+  --card-hover:  rgba(0,0,0,0.05);
+  --card-focus:  rgba(255,255,255,0.7);
+  --card-shadow: 0 3px 8px rgba(0,0,0,0.22), 0 1px 2px rgba(0,0,0,0.14);
+  --card-shadow-hover: 0 8px 24px rgba(0,0,0,0.28), 0 2px 4px rgba(0,0,0,0.16);
+  --search-bg:   rgba(255,255,255,0.1);
+  --search-text: #F0DEB8;
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #0f1117;
-    color: #f3f4f6;
-  }
-
-  .candidate-card {
-    background: #1a1d27;
-    border-color: #2e303a;
-  }
-
-  .search {
-    background: #1a1d27;
-    border-color: #2e303a;
-    color: #f3f4f6;
-  }
-
-  .subtitle {
-    color: #9ca3af;
-  }
-
-  .note {
-    color: #9ca3af;
+  :root {
+    --cork:        #3B200F;
+    --cork-dark:   #2A1508;
+    --frame:       #0D0604;
+    --frame-text:  #E8C98A;
+    --frame-muted: #6A4820;
+    --card-bg:     #FFF4C2;
+    --card-text:   #1A1000;
+    --card-sub:    #4A3010;
+    --card-lbl:    #9B7820;
+    --card-rule:   rgba(0,0,0,0.18);
+    --card-hover:  rgba(0,0,0,0.08);
+    --card-focus:  rgba(255,255,255,0.5);
+    --card-shadow: 0 3px 12px rgba(0,0,0,0.5), 0 1px 3px rgba(0,0,0,0.3);
+    --card-shadow-hover: 0 10px 30px rgba(0,0,0,0.6);
+    --search-bg:   rgba(255,255,255,0.07);
+    --search-text: #E8C98A;
   }
 }
+
+:root[data-theme="dark"] {
+  --cork:        #3B200F;
+  --cork-dark:   #2A1508;
+  --frame:       #0D0604;
+  --frame-text:  #E8C98A;
+  --frame-muted: #6A4820;
+  --card-bg:     #FFF4C2;
+  --card-text:   #1A1000;
+  --card-sub:    #4A3010;
+  --card-lbl:    #9B7820;
+  --card-rule:   rgba(0,0,0,0.18);
+  --card-hover:  rgba(0,0,0,0.08);
+  --card-focus:  rgba(255,255,255,0.5);
+  --card-shadow: 0 3px 12px rgba(0,0,0,0.5), 0 1px 3px rgba(0,0,0,0.3);
+  --card-shadow-hover: 0 10px 30px rgba(0,0,0,0.6);
+  --search-bg:   rgba(255,255,255,0.07);
+  --search-text: #E8C98A;
+}
+
+:root[data-theme="light"] {
+  --cork:        #9B7340;
+  --cork-dark:   #7A5A2E;
+  --frame:       #1A0D05;
+  --frame-text:  #F0DEB8;
+  --frame-muted: #8A6840;
+  --card-bg:     #FFFCE0;
+  --card-text:   #1A1107;
+  --card-sub:    #4A3518;
+  --card-lbl:    #8B6914;
+  --card-rule:   rgba(0,0,0,0.12);
+  --card-hover:  rgba(0,0,0,0.05);
+  --card-focus:  rgba(255,255,255,0.7);
+  --card-shadow: 0 3px 8px rgba(0,0,0,0.22), 0 1px 2px rgba(0,0,0,0.14);
+  --card-shadow-hover: 0 8px 24px rgba(0,0,0,0.28), 0 2px 4px rgba(0,0,0,0.16);
+  --search-bg:   rgba(255,255,255,0.1);
+  --search-text: #F0DEB8;
+}
+
+/* ── Reset ───────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--cork);
+  color: var(--card-text);
+  min-height: 100dvh;
+}
+
+h1, h2, p { margin: 0; }
+button { font-family: inherit; }
+input, textarea { font-family: inherit; }
+a { color: inherit; text-decoration: none; }
