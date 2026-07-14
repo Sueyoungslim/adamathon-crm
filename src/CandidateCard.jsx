@@ -25,8 +25,10 @@ const WORK_PREFS = ['Hybrid', 'Remote', 'On-site']
 
 const ROTATIONS = [-0.6, 0.4, -0.3, 0.5, -0.4, 0.3, -0.5, 0.4]
 
+const TIER_COLORS = { 1: '#F59E0B', 2: '#94A3B8', 3: '#B45309' }
+
 export default function CandidateCard({ candidate, savedData = {}, onUpdate, index = 0 }) {
-  const { id, name, role: pontyRole, organization, linkedin, ponty_url, notes } = candidate
+  const { id, name, role: pontyRole, organization, linkedin, ponty_url, notes, tier, tier_reason } = candidate
   const textRef = useRef(null)
 
   const defaultStack = extractTech([...notes, pontyRole ?? ''])
@@ -66,7 +68,18 @@ export default function CandidateCard({ candidate, savedData = {}, onUpdate, ind
     <article className="card" style={{ '--rot': `${rot}deg` }}>
       <div className="pushpin" aria-hidden="true" />
 
-      <p className="card-name">{name}</p>
+      <div className="card-name-row">
+        <p className="card-name">{name}</p>
+        {tier && (
+          <span
+            className="tier-badge"
+            style={{ '--tc': TIER_COLORS[tier] }}
+            title={tier_reason ?? ''}
+          >
+            T{tier}
+          </span>
+        )}
+      </div>
 
       <input
         className="card-role f-input"
