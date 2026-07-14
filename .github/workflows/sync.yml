@@ -20,9 +20,18 @@ jobs:
 
       - name: Fetch candidates from Ponty
         run: node scripts/sync.js
+        continue-on-error: true
         env:
           PONTY_CLIENT_ID: ${{ secrets.PONTY_CLIENT_ID }}
           PONTY_CLIENT_SECRET: ${{ secrets.PONTY_CLIENT_SECRET }}
+
+      - name: Install Anthropic SDK
+        run: npm install @anthropic-ai/sdk
+
+      - name: Tier candidates with AI
+        run: node scripts/tier.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit updated candidates.json
         uses: stefanzweifel/git-auto-commit-action@v5
