@@ -10,12 +10,24 @@ const forceAll = process.argv.includes('--all')
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
-const SYSTEM = `You are a senior recruitment analyst. Given a candidate's profile, classify them into exactly one tier:
-- Tier 1: Senior/lead level, recognisable company, clear tech stack, strong background — immediately placeable
-- Tier 2: Mid-level, decent background, some stack info — worth pursuing
-- Tier 3: Junior, sparse data, unclear stack, or profile needs more information
+const SYSTEM = `You are a senior recruitment analyst. Given a candidate's profile, return ONLY valid JSON with these exact fields:
 
-Respond with ONLY valid JSON in this exact format: {"tier": 1, "reason": "one sentence"}`
+{
+  "tier": 1,
+  "reason": "one sentence justifying the tier",
+  "role": "normalised job title, or null",
+  "stack": "comma-separated technologies extracted from the profile, or null",
+  "experience": "e.g. '8 år' inferred from seniority/notes, or null",
+  "city": "city if mentioned in the profile, or null",
+  "note": "1–2 sentence professional summary of the candidate based on available data"
+}
+
+Tier definitions:
+- 1: Senior/lead level, recognisable company, clear tech stack — immediately placeable
+- 2: Mid-level, decent background, some stack info — worth pursuing
+- 3: Junior, sparse data, unclear stack — needs more information
+
+Write the note and experience in Swedish.`
 
 function extractJSON(text) {
   const match = text.match(/\{[\s\S]*\}/)
@@ -23,23 +35,35 @@ function extractJSON(text) {
   return JSON.parse(match[0])
 }
 
-async function tierCandidate(candidate) {
+async function enrichCandidate(candidate) {
   const profile = [
     `Name: ${candidate.name}`,
     candidate.role ? `Role: ${candidate.role}` : null,
     candidate.organization ? `Company: ${candidate.organization}` : null,
+    candidate.linkedin ? `LinkedIn: ${candidate.linkedin}` : null,
     candidate.notes?.length ? `Notes: ${candidate.notes.join(' ')}` : null,
   ].filter(Boolean).join('\n')
 
   const msg = await client.messages.create({
     model: 'claude-haiku-4-5-20251001',
-    max_tokens: 100,
+    max_tokens: 300,
     system: SYSTEM,
-    messages: [{ role: 'user', content: `Tier this candidate:\n\n${profile}` }],
+    messages: [{ role: 'user', content: `Analyse this candidate:\n\n${profile}` }],
   })
 
   const parsed = extractJSON(msg.content[0].text.trim())
-  return { tier: Number(parsed.tier), tier_reason: String(parsed.reason) }
+
+  return {
+    tier: Number(parsed.tier),
+    tier_reason: String(parsed.reason),
+    ai_suggestions: {
+      role:       parsed.role       ?? null,
+      stack:      parsed.stack      ?? null,
+      experience: parsed.experience ?? null,
+      city:       parsed.city       ?? null,
+      note:       parsed.note       ?? null,
+    },
+  }
 }
 
 function sleep(ms) {
@@ -48,27 +72,27 @@ function sleep(ms) {
 
 async function main() {
   const candidates = JSON.parse(readFileSync(CANDIDATES_PATH, 'utf8'))
-  const toTier = forceAll ? candidates : candidates.filter(c => c.tier == null)
+  const toProcess = forceAll ? candidates : candidates.filter(c => c.tier == null)
 
-  if (toTier.length === 0) {
-    console.log('All candidates already tiered. Use --all to re-tier.')
+  if (toProcess.length === 0) {
+    console.log('All candidates already enriched. Use --all to re-run.')
     return
   }
-  console.log(`Tiering ${toTier.length} candidate(s) (${candidates.length - toTier.length} already tiered)…`)
+  console.log(`Enriching ${toProcess.length} candidate(s) (${candidates.length - toProcess.length} already done)…`)
 
   const BATCH = 5
-  for (let i = 0; i < toTier.length; i += BATCH) {
-    const batch = toTier.slice(i, i + BATCH)
+  for (let i = 0; i < toProcess.length; i += BATCH) {
+    const batch = toProcess.slice(i, i + BATCH)
     await Promise.all(batch.map(async c => {
       try {
-        const result = await tierCandidate(c)
+        const result = await enrichCandidate(c)
         Object.assign(c, result)
         console.log(`  + ${c.name} → T${result.tier}  (${result.tier_reason})`)
       } catch (err) {
         console.error(`  ! ${c.name}: ${err.message}`)
       }
     }))
-    if (i + BATCH < toTier.length) await sleep(500)
+    if (i + BATCH < toProcess.length) await sleep(500)
   }
 
   writeFileSync(CANDIDATES_PATH, JSON.stringify(candidates, null, 2))

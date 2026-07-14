@@ -28,18 +28,19 @@ const ROTATIONS = [-0.6, 0.4, -0.3, 0.5, -0.4, 0.3, -0.5, 0.4]
 const TIER_COLORS = { 1: '#F59E0B', 2: '#94A3B8', 3: '#B45309' }
 
 export default function CandidateCard({ candidate, savedData = {}, onUpdate, index = 0 }) {
-  const { id, name, role: pontyRole, organization, linkedin, ponty_url, notes, tier, tier_reason } = candidate
+  const { id, name, role: pontyRole, organization, linkedin, ponty_url, notes, tier, tier_reason, ai_suggestions } = candidate
   const textRef = useRef(null)
 
-  const defaultStack = extractTech([...notes, pontyRole ?? ''])
+  const ai = ai_suggestions ?? {}
+  const defaultStack = ai.stack ?? extractTech([...notes, pontyRole ?? ''])
   const d = {
     role: pontyRole ?? '',
     stack: defaultStack,
-    city: '',
+    city: ai.city ?? '',
     work_pref: 'Hybrid',
     salary: '',
-    experience: '',
-    note: notes.join(' '),
+    experience: ai.experience ?? '',
+    note: ai.note ?? notes.join(' '),
     stage_idx: 0,
     eu: true,
     ...savedData,
