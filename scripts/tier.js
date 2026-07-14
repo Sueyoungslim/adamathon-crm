@@ -8,6 +8,11 @@ const __dir = dirname(fileURLToPath(import.meta.url))
 const CANDIDATES_PATH = join(__dir, '..', 'public', 'candidates.json')
 const forceAll = process.argv.includes('--all')
 
+if (!process.env.ANTHROPIC_API_KEY) {
+  console.error('Error: ANTHROPIC_API_KEY environment variable is not set.')
+  process.exit(1)
+}
+
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
 const SYSTEM = `You are a senior recruitment analyst. Given a candidate's profile, return ONLY valid JSON with these exact fields:
@@ -95,8 +100,16 @@ async function main() {
     if (i + BATCH < toProcess.length) await sleep(500)
   }
 
+  const succeeded = toProcess.filter(c => c.tier != null).length
+  const failed = toProcess.length - succeeded
+  if (failed > 0) console.error(`  ${failed} candidate(s) failed to enrich.`)
+  if (succeeded === 0) {
+    console.error('No candidates were enriched — check ANTHROPIC_API_KEY and API errors above.')
+    process.exit(1)
+  }
+
   writeFileSync(CANDIDATES_PATH, JSON.stringify(candidates, null, 2))
-  console.log(`\nDone. Written ${candidates.length} candidates to ${CANDIDATES_PATH}`)
+  console.log(`\nDone. Enriched ${succeeded}/${toProcess.length} candidates.`)
 }
 
 main().catch(err => { console.error(err); process.exit(1) })
