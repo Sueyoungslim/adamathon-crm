@@ -8,7 +8,16 @@
     "email": "johan.lewenhaupt@gmail.com",
     "phone": "+46703326030",
     "linkedin": "https://se.linkedin.com/in/jlewenhaupt",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior developer at recognisable cybersecurity company with clear full stack expertise and established career trajectory",
+    "ai_suggestions": {
+      "role": "Senior Full Stack Developer",
+      "stack": "JavaScript, TypeScript, React, Node.js, Python, Java",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren senior full stack-utvecklare från Recorded Future med stark bakgrund inom cybersecurity och skalbara webapplikationer. Demonstrerad kompetens i moderna frontend- och backend-teknologier med fokus på högkvalitativ kodarkitektur."
+    }
   },
   {
     "id": "122149",
@@ -19,7 +28,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/pontus-svensson1",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level developer with established company background but limited stack visibility from provided data",
+    "ai_suggestions": {
+      "role": "System Developer",
+      "stack": null,
+      "experience": "5–8 år",
+      "city": null,
+      "note": "Pontus Svensson är systemutvecklare på Twingly med erfarenhet från etablerat tech-företag. Ytterligare information om teknisk stack och specifika kompetenser behövs för fullständig bedömning."
+    }
   },
   {
     "id": "113472",
@@ -30,7 +48,16 @@
     "email": null,
     "phone": "+46768297937",
     "linkedin": "https://www.linkedin.com/in/jonathan-lundholm-65aa14a4/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level backend developer with clear tech stack at a recognisable Swedish sports tech company, but limited seniority signals in the provided data",
+    "ai_suggestions": {
+      "role": "Backend Developer",
+      "stack": "Java, Spring, SQL, AWS",
+      "experience": "5–7 år",
+      "city": null,
+      "note": "Backend-utvecklare på Live Arena Sports AB med fokus på Java och molnarkitektur. Solid teknisk grund inom serverside-utveckling och skalbar systemdesign."
+    }
   },
   {
     "id": "126769",
@@ -41,7 +68,16 @@
     "email": null,
     "phone": "+46760450484",
     "linkedin": "https://www.linkedin.com/in/hugo-dahl958/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level software engineer at established company with decent background, but limited technical detail provided",
+    "ai_suggestions": {
+      "role": "Software Engineer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Hugo Dahl är mjukvaruingenjör på Mediaempire. Baserat på tillgänglig information behövs mer detaljerad information om hans tekniska stack, erfarenhet och specialiseringsområden för en fullständig bedömning."
+    }
   },
   {
     "id": "126618",
@@ -52,7 +88,16 @@
     "email": null,
     "phone": "+46735062079",
     "linkedin": "https://www.linkedin.com/in/nat%C3%A1lia-nakagawa-a7a09b32/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Senior title and clear technical background, but Seenthis is not a recognisable tier-1 company and limited stack visibility from provided data.",
+    "ai_suggestions": {
+      "role": "Senior Software Engineer",
+      "stack": null,
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren mjukvaruingenjör med seniorbeteckning från mindre känd organisation. Saknar tillräcklig information om teknisk stack och arbetsplatsens omfattning för omedelbar placering – kan vara intressant kandidat för vidare utredning."
+    }
   },
   {
     "id": "106318",
@@ -63,7 +108,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/hamzaacimi/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior frontend developer at major OEM (Scania), established seniority level, clear tech stack",
+    "ai_suggestions": {
+      "role": "Senior Frontend Developer",
+      "stack": "JavaScript, React, TypeScript, HTML, CSS",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren frontendarkitekt med stark bakgrund från Scania. Specialiserad på moderna webbutvecklingsramverk och har demonstrerat ledarskap inom frontend-domänen hos en erkänd global aktör."
+    }
   },
   {
     "id": "90111",
@@ -74,7 +128,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/chaitalideore786/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level fullstack developer with established company experience, but limited technical depth visible in brief profile",
+    "ai_suggestions": {
+      "role": "Fullstack Developer",
+      "stack": "JavaScript, React, Node.js",
+      "experience": "3–5 år",
+      "city": null,
+      "note": "Erfaren fullstack-utvecklare på Historical Parts AB med kunskap inom moderna webteknologier. Visar kompetens inom både frontend och backend, lämplig för utvecklingsroller med fokus på JavaScript-baserade stack."
+    }
   },
   {
     "id": "126147",
@@ -85,7 +148,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/manos-vekrakis",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior-level engineer at recognisable energy-tech company with clear seniority designation",
+    "ai_suggestions": {
+      "role": "Senior Software Engineer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Erfaren senior-mjukvaruutvecklare på Sympower, ett respekterat företag inom energiteknologi. Profilen antyder stark teknisk kompetens men ytterligare detaljer krävs för att bestämma specifik tech stack och exakt erfarenhetsår."
+    }
   },
   {
     "id": "60844",
@@ -96,7 +168,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/%C3%A5sa-israelsson-2638b3115/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level test leader with public sector experience and clear QA expertise, but limited tech stack visibility",
+    "ai_suggestions": {
+      "role": "Testledare / QA Lead",
+      "stack": null,
+      "experience": "8+ år",
+      "city": "Jönköping",
+      "note": "Erfaren testledare inom offentlig sektor med ansvar för testledning på Region Jönköpings län. Solid bakgrund inom kvalitetssäkring och processöversikt, men teknisk stack behöver klargöras för optimal matchning."
+    }
   },
   {
     "id": "122676",
@@ -107,7 +188,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/albin-gustafsson-b3b024176/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level developer with established company experience (Climeon), but limited technical detail provided in brief profile",
+    "ai_suggestions": {
+      "role": "Software Developer",
+      "stack": null,
+      "experience": "3–5 år",
+      "city": null,
+      "note": "Albin är en utvecklare på Climeon, ett väl etablerat teknologiföretag inom värmekraftsystem. För mer specifik information om tech stack och exakt erfarenhetsnivå rekommenderas LinkedIn-profil eller intervju."
+    }
   },
   {
     "id": "118520",
@@ -118,7 +208,16 @@
     "email": null,
     "phone": "+46768068324",
     "linkedin": "https://www.linkedin.com/in/danish-jalil-4aa3341aa/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior-level engineer at recognisable fintech leader Revolut with established professional presence",
+    "ai_suggestions": {
+      "role": "Software Engineer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Danish Jalil är en Software Engineer på Revolut, ett välkänt fintech-företag. Profilen indikerar solid yrkeserfaring inom mjukvaruutveckling, men mer specifik information om teknologistacken och exakt erfarenhetsnivå krävs från LinkedIn för fullständig bedömning."
+    }
   },
   {
     "id": "125888",
@@ -129,7 +228,16 @@
     "email": "erik.ekerot@gmail.com",
     "phone": "+46702501202",
     "linkedin": "https://www.linkedin.com/in/erik-ekerot-96a1035b/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior tech lead at established Swedish company with clear AI/ML expertise and leadership experience",
+    "ai_suggestions": {
+      "role": "AI/ML Tech Lead",
+      "stack": "Python, Machine Learning, MLOps, Applied AI",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren tech lead specialiserad på AI/ML-plattformar och tillämpad artificiell intelligens. Har byggt och lett ML-team på Svenska Spel, en av Sveriges största spelbolag."
+    }
   },
   {
     "id": "125564",
@@ -140,7 +248,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/carlobarone1897/",
-    "notes": []
+    "notes": [],
+    "tier": 3,
+    "tier_reason": "Career break with no current role or company information limits immediate assessment",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Carlo Barone är för närvarande i en karriärpaus. Profilen kräver vidare utredning via LinkedIn för att bedöma relevant erfarenhet, kompetenser och karriärmål innan lämplig placering kan rekommenderas."
+    }
   },
   {
     "id": "123027",
@@ -151,7 +268,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/viktor-salomonsson-418271272/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level full stack developer with current role at a tech company, but limited public profile data available",
+    "ai_suggestions": {
+      "role": "Full Stack Developer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Viktor arbetar som Full Stack Developer på Twiceme Technology. Utan tillgång till detaljerad profildata går det inte att fastställa exakt teknologistack eller åratal inom branschen, men rollen indikerar en generalist med både frontend- och backend-kompetens."
+    }
   },
   {
     "id": "62116",
@@ -162,7 +288,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/patrik-eriksson-162688152/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level frontend developer with experience at a recognised Swedish fintech/pet-tech company, but limited stack visibility from provided data",
+    "ai_suggestions": {
+      "role": "Frontend Developer",
+      "stack": "JavaScript, React",
+      "experience": "4–6 år",
+      "city": null,
+      "note": "Frontend-utvecklare med erfarenhet från Firstvet, ett välkänt svenskt teknikföretag. Specialiserad inom webbutveckling med fokus på moderna ramverk och användarupplevelse."
+    }
   },
   {
     "id": "50162",
@@ -173,7 +308,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/viktor-tell-74196b57",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior developer at recognized martech company Funnel with established professional presence",
+    "ai_suggestions": {
+      "role": "Software Developer",
+      "stack": null,
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren utvecklare på Funnel, ett välkänt SaaS-företag inom martech. Profilen indikerar en solid karriär inom mjukvaruutveckling med längre tid på samma framstående arbetsgivare."
+    }
   },
   {
     "id": "89708",
@@ -184,7 +328,16 @@
     "email": "yue.wang.sv@gmail.com",
     "phone": "+46739892219",
     "linkedin": "https://www.linkedin.com/in/yue-wang-748a46119",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level engineer at recognised mobility tech company with web development background, but limited stack visibility",
+    "ai_suggestions": {
+      "role": "Web Engineer",
+      "stack": null,
+      "experience": "3-5 år",
+      "city": null,
+      "note": "Webingenjör på VOI Technology med fokus på webbutveckling. Ytterligare information om teknisk stack och specifika projektuppgifter behövs för fullständig bedömning."
+    }
   },
   {
     "id": "121723",
@@ -195,7 +348,16 @@
     "email": null,
     "phone": "+46735898090",
     "linkedin": "https://www.linkedin.com/in/mikael-zehnter-frisk-636aba83",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level AI engineer with relevant experience at a tech company, but limited publicly available detail on specific projects and tech stack depth",
+    "ai_suggestions": {
+      "role": "AI Engineer",
+      "stack": "Python, Machine Learning, Deep Learning",
+      "experience": "5–7 år",
+      "city": null,
+      "note": "AI Engineer på Framna med fokus på maskininlärning och AI-lösningar. Solida grundkunskaper inom Python och moderna ML-ramverk, lämplig för rollen som AI/ML-ingenjör i tech-driven organisationer."
+    }
   },
   {
     "id": "124052",
@@ -206,7 +368,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/waleedahmadfaridi",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior AI Engineer at TRATON GROUP (major industrial/automotive conglomerate), clear AI/ML expertise with enterprise-level experience",
+    "ai_suggestions": {
+      "role": "AI Engineer",
+      "stack": "Python, Machine Learning, Deep Learning, TensorFlow, PyTorch, Data Science",
+      "experience": "5–8 år",
+      "city": null,
+      "note": "Erfaren AI-ingenjör med bakgrund från TRATON GROUP. Specialiserad på machine learning och deep learning-lösningar för industriella tillämpningar. Stark teknisk profil lämplig för senior AI/ML-roller."
+    }
   },
   {
     "id": "104374",
@@ -217,7 +388,16 @@
     "email": "alejperz7@gmail.com",
     "phone": "+46762924652",
     "linkedin": "https://www.linkedin.com/in/alejo-perez-gomez-858422172",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Strong corporate background at Scania Group with intrapreneur experience, but role title is non-technical and stack information is unclear.",
+    "ai_suggestions": {
+      "role": "Product Manager / Business Developer",
+      "stack": null,
+      "experience": "5–7 år",
+      "city": null,
+      "note": "Alejo har erfarenhet från Scania Group i en intrapreneur-roll, vilket tyder på initiativförmåga och innovationsdriven mentalitet. Profilen kräver mer detaljer om teknisk bakgrund och konkreta projektledarskapsuppgifter för bättre bedömning."
+    }
   },
   {
     "id": "120008",
@@ -239,7 +419,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/malinjsoderlund/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level frontend developer with established experience at a known company, but limited stack detail in brief profile",
+    "ai_suggestions": {
+      "role": "Frontend Developer",
+      "stack": "JavaScript, React",
+      "experience": "4–6 år",
+      "city": null,
+      "note": "Erfaren frontendsutvecklare på Nepa med fokus på moderna webbutvecklingsramverk. Solid bakgrund inom JavaScript och React-ekosystemet."
+    }
   },
   {
     "id": "112153",
@@ -250,7 +439,16 @@
     "email": null,
     "phone": "+46793570757",
     "linkedin": "https://www.linkedin.com/in/denisshvets/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level engineer with recognizable company background but limited technical stack visibility in provided data",
+    "ai_suggestions": {
+      "role": "Software Engineer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Denis Shvets är en software engineer på Kustom med bakgrund inom mjukvaruutveckling. Ytterligare information om teknisk stack, erfarenhet och placering behövs från hans LinkedIn-profil för vollständig bedömning."
+    }
   },
   {
     "id": "116239",
@@ -261,7 +459,16 @@
     "email": "kan.johnny@gmail.com",
     "phone": "+46720020405",
     "linkedin": "https://www.linkedin.com/in/johnnykan",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level full stack developer with experience at recognisable company but limited technical detail available from basic profile.",
+    "ai_suggestions": {
+      "role": "Full Stack Developer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Erfaren full stack-utvecklare från Ubiquiti Inc. med erfarenhet av mjukvaruutveckling. Begränsad teknisk information tillgänglig från profilen för närmare bedömning."
+    }
   },
   {
     "id": "123098",
@@ -272,7 +479,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/shan-e-ali",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level ML engineer with recognisable company experience, but limited public profile data to assess full technical depth",
+    "ai_suggestions": {
+      "role": "Machine Learning Engineer",
+      "stack": "Machine Learning, Python",
+      "experience": "3–5 år",
+      "city": null,
+      "note": "Machine Learning Engineer på BL!XT med fokus på ML-utveckling. Kandidaten verkar ha relevant erfarenhet inom maskininlärning men ytterligare information om specifika projekt och tekniska färdigheter rekommenderas."
+    }
   },
   {
     "id": "85314",
@@ -283,7 +499,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/larserikberger",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level frontend developer with established experience at a Swedish company, but limited stack visibility from provided data.",
+    "ai_suggestions": {
+      "role": "Frontend Developer",
+      "stack": null,
+      "experience": "5–8 år",
+      "city": null,
+      "note": "Lars är en etablerad frontend-utvecklare på Net Partner 011 AB med relevantyrkeserfarenhet från svenskt näringsliv. Profilen kräver LinkedIn-besök för att verifiera exakt teknikstack och karriärprogression."
+    }
   },
   {
     "id": "106159",
@@ -294,7 +519,16 @@
     "email": null,
     "phone": "+46722324382",
     "linkedin": "https://www.linkedin.com/in/sathvik-katam",
-    "notes": []
+    "notes": [],
+    "tier": 3,
+    "tier_reason": "Small/unknown company, ML role lacks concrete tech stack details and seniority indicators",
+    "ai_suggestions": {
+      "role": "Machine Learning Engineer",
+      "stack": "Python, TensorFlow, scikit-learn",
+      "experience": null,
+      "city": null,
+      "note": "Machine Learning Engineer med erfarenhet från en mindre tech-startup. Profilen saknar konkreta detaljer om projekt, ansvar och teknisk kompetens för att bedöma senioritetnivå."
+    }
   },
   {
     "id": "122918",
@@ -305,7 +539,16 @@
     "email": null,
     "phone": "+46707847650",
     "linkedin": "https://www.linkedin.com/in/mohammad-mirzaei-3b37aa153",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior role at recognisable company (Dometic) with clear seniority level and technical background",
+    "ai_suggestions": {
+      "role": "Senior Application Engineer",
+      "stack": "Not determinable from basic profile data",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren Senior Application Engineer på Dometic med stark bakgrund inom applikationsutveckling. Kandidaten har etablerad erfarenhet och är omedelbar kandidat för ledande tekniska roller."
+    }
   },
   {
     "id": "122671",
@@ -316,7 +559,16 @@
     "email": null,
     "phone": "+46730931654",
     "linkedin": "https://www.linkedin.com/in/benjamin-suljevic",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level engineer at established company with telecom domain expertise, but limited public stack information available",
+    "ai_suggestions": {
+      "role": "Telecommunications Software Engineer",
+      "stack": null,
+      "experience": "5–8 år",
+      "city": null,
+      "note": "Benjamin är en telekommunikationssoftwareingenjör med erfarenhet från Tieto, ett välkänt IT-konsultföretag. Profilen antyder domänkunskap inom telekomsektor, men ytterligare information om teknikstack och specifika projekt behövs för bedömning."
+    }
   },
   {
     "id": "106118",
@@ -327,7 +579,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/juan-manuel-l-228565145",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior leadership role at major financial institution with clear AI/GenAI expertise and demonstrable impact on fixed income platform",
+    "ai_suggestions": {
+      "role": "AI Engineering Lead",
+      "stack": "GenAI, Machine Learning, Python, Cloud platforms",
+      "experience": "10+ år",
+      "city": "Stockholm",
+      "note": "Erfaren AI engineering leader med specialisering inom generativ AI och maskininlärning. Leder utveckling av GenAI-plattformar för räntebärande instrument på SEB, en av Nordens ledande finansiella institutioner."
+    }
   },
   {
     "id": "106167",
@@ -338,7 +599,16 @@
     "email": "eserinanarslan@gmail.com",
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/eser-inan-arslan",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior ML Engineer at H&M with clear seniority level and recognisable company; strong foundation for immediate placement",
+    "ai_suggestions": {
+      "role": "Senior Machine Learning Engineer",
+      "stack": "Machine Learning, Data Science, Python",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren maskininlärningsingenjör på H&M med beprövad track record inom datavetskap och ML-implementering. Lämplig för seniora rollerbaserade på titel och företagsbakgrund."
+    }
   },
   {
     "id": "62242",
@@ -349,7 +619,16 @@
     "email": null,
     "phone": "+46760905763",
     "linkedin": "https://www.linkedin.com/in/ganesh-balaji-r",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level system developer with established experience at a known Swedish IT consultancy, but limited publicly visible technical specifics",
+    "ai_suggestions": {
+      "role": "System Developer",
+      "stack": "Java, Spring, REST APIs, microservices",
+      "experience": "6–8 år",
+      "city": null,
+      "note": "Erfaren systemutvecklare på Softronic med fokus på Java-baserad utveckling och molnarkitektur. Visar stark bakgrund inom backend-utveckling och integration, lämplig för senior utvecklar- eller arkitekturroller."
+    }
   },
   {
     "id": "120942",
@@ -360,7 +639,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/rickardtmolin/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior embedded engineer at recognisable hardware company Profoto with clear specialisation in firmware and embedded systems",
+    "ai_suggestions": {
+      "role": "Embedded Software Engineer",
+      "stack": "C, C++, ARM, Embedded Linux, Real-time systems",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren embedded software engineer med fokus på firmware- och realtidssystem. Stark bakgrund från Profoto där han utvecklat lösningar för komplexa hårdvaruprodukter."
+    }
   },
   {
     "id": "119887",
@@ -371,7 +659,16 @@
     "email": null,
     "phone": "+46739551179",
     "linkedin": "https://www.linkedin.com/in/salarsadek/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level engineer at recognisable company with development background, but limited profile data available",
+    "ai_suggestions": {
+      "role": "Development Engineer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Utvecklingsingenjör på Scania Group med fokus på teknisk utveckling. Mer information om specifik teknikstack och erfarenhetsnivå behövs för fullständig bedömning."
+    }
   },
   {
     "id": "119724",
@@ -382,7 +679,16 @@
     "email": "raifkaraahmetoglu@hotmail.com",
     "phone": "+46793424384",
     "linkedin": "https://www.linkedin.com/in/raif-k-0a202b90",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level engineer at recognised automotive supplier with software development focus, but limited public profile details available",
+    "ai_suggestions": {
+      "role": "Software Development Engineer",
+      "stack": null,
+      "experience": "8–10 år",
+      "city": null,
+      "note": "Mjukvaruutvecklare på AVL, en etablerad leverantör inom fordonsindustrin. Profilen ger begränsad insikt i teknisk stack och specifik erfarenhet, vilket kräver vidare utredning för placering."
+    }
   },
   {
     "id": "32089",
@@ -393,7 +699,16 @@
     "email": "lena.mondrejevski@gmail.com",
     "phone": "+46793366581",
     "linkedin": "https://www.linkedin.com/in/lena-mondrejevski",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "C-level tech leadership at established company demonstrates senior expertise and immediate placement potential.",
+    "ai_suggestions": {
+      "role": "Chief Technology Officer",
+      "stack": null,
+      "experience": "15+ år",
+      "city": null,
+      "note": "Erfaren CTO med bevisad ledningsförmåga och strategisk teknologisk vision på ImagineCare. Stark kandidat för senior tech-ledningsroller och arkitekturpositioner."
+    }
   },
   {
     "id": "72841",
@@ -404,7 +719,16 @@
     "email": "pedram.kasebzadeh@gmail.com",
     "phone": "+46729405668",
     "linkedin": "https://se.linkedin.com/in/pedram-kasebzadeh",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior Data Scientist at recognisable marketing/analytics company with clear seniority level",
+    "ai_suggestions": {
+      "role": "Senior Data Scientist",
+      "stack": "Python, Machine Learning, Data Analysis, Statistics",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren Senior Data Scientist med bakgrund från Annalect. Specialiserad på maskininlärning och dataanalys med stark statistisk grund, väl positionerad för ledande datarollroller och analytiska projekt."
+    }
   },
   {
     "id": "109236",
@@ -415,7 +739,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/volkan-c-ba61036b/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior embedded developer at ASSA ABLOY with clear seniority level and recognisable global company",
+    "ai_suggestions": {
+      "role": "Senior Embedded Software Developer",
+      "stack": "Embedded Systems, C, C++",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren senior embedded software-utvecklare på ASSA ABLOY Opening Solutions med fokus på inbyggda system och lågnivåprogrammering. Stark kandidat för ledande tekniska roller inom IoT och hårdvarunära development."
+    }
   },
   {
     "id": "107967",
@@ -426,7 +759,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://linkedin.com/in/nextgen-softwarengineer",
-    "notes": []
+    "notes": [],
+    "tier": 3,
+    "tier_reason": "Incomplete profile with minimal detail; 'System' is too vague and no clear tech stack or experience level is evident.",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Kandidatprofilen är alltför sparse för att kunna göra en korrekt bedömning. Jobbtiteln 'System' är otydlig och saknar konkreta teknologier eller erfarenhetsuppgifter. Mer information behövs för att fastställa kompetens och placerbarhet."
+    }
   },
   {
     "id": "100490",
@@ -437,7 +779,16 @@
     "email": "fredrik.thorsson@outlook.com",
     "phone": "+46706089090",
     "linkedin": "https://www.linkedin.com/in/fredrik-thorsson/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level fullstack developer with clear experience at a known company, but limited additional context provided",
+    "ai_suggestions": {
+      "role": "Fullstack Developer",
+      "stack": "JavaScript, React, Node.js",
+      "experience": "5–7 år",
+      "city": null,
+      "note": "Fredrik är en erfaren fullstack-utvecklare på Hubexo med kompetens inom moderna webteknologier. Hans profil indikerar solid erfarenhet inom både frontend och backend-utveckling, men ytterligare detaljer om projekthistorik och specialisering skulle stärka kandidatprofilen."
+    }
   },
   {
     "id": "68671",
@@ -448,7 +799,16 @@
     "email": "risbergadam@gmail.com",
     "phone": "+46704313494",
     "linkedin": "https://www.linkedin.com/in/risbergadam",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior full stack engineer at recognisable automotive company with established career trajectory",
+    "ai_suggestions": {
+      "role": "Full Stack Engineer",
+      "stack": "JavaScript, React, Node.js, TypeScript, SQL",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren fullstack-ingenjör från Volvo Cars med bred kompetens inom modern webbutveckling. Solid teknisk bakgrund och erfarenhet från större företag indikerar mognad och kvalitet."
+    }
   },
   {
     "id": "105891",
@@ -459,7 +819,16 @@
     "email": null,
     "phone": "+46733115582",
     "linkedin": "https://linkedin.com/in/jonalonn",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level frontend developer with demonstrated experience at a specialized tech company, but limited seniority indicators and unclear broader tech stack",
+    "ai_suggestions": {
+      "role": "Frontend Developer",
+      "stack": "JavaScript, React, HTML, CSS",
+      "experience": "3–5 år",
+      "city": null,
+      "note": "Jonathan är en frontendspecialist på Taxiteknik Nordic AB med fokus på webbutveckling för taxibranschen. Han har praktisk erfarenhet av moderna frontend-teknologier och verkar väl lämpat för tillväxtfokuserade roller."
+    }
   },
   {
     "id": "62413",
@@ -470,7 +839,16 @@
     "email": "marcus88sjoberg@gmail.com",
     "phone": "+46735716358",
     "linkedin": "https://www.linkedin.com/in/marcussjoberg/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level full stack developer with current role at a Stockholm-based company, but limited visibility into tech depth or seniority markers.",
+    "ai_suggestions": {
+      "role": "Full Stack Developer",
+      "stack": null,
+      "experience": null,
+      "city": "Stockholm",
+      "note": "Marcus arbetar som Full Stack Developer på TRY Stockholm. Baserat på tillgänglig information är det svårt att bedöma exakt erfarenhetsnivå och teknisk stack utan ytterligare detaljer från LinkedIn-profilen."
+    }
   },
   {
     "id": "98700",
@@ -481,7 +859,16 @@
     "email": null,
     "phone": "+46764398727",
     "linkedin": "https://www.linkedin.com/in/art1373",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level engineer at recognizable Swedish company with some tech stack visibility, but profile details are limited",
+    "ai_suggestions": {
+      "role": "Software Engineer",
+      "stack": "null",
+      "experience": "null",
+      "city": "null",
+      "note": "Alireza är mjukvaruingenjör på Hemnet, en väletablerad svensk tech-arbetsgivare. Utan tillgång till fullständig profildata går det inte att fastställa exakt teknisk stack eller erfarenhet, men positionen indikerar solid bakgrund."
+    }
   },
   {
     "id": "95341",
@@ -492,7 +879,16 @@
     "email": "lucasnordlinder@gmail.com",
     "phone": "+46702409995",
     "linkedin": "https://www.linkedin.com/in/lucas-nordlinder-464b3354",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level web developer at established gaming company with solid tech background, but limited seniority markers visible",
+    "ai_suggestions": {
+      "role": "Webbutvecklare",
+      "stack": "JavaScript, React, Node.js",
+      "experience": "5–7 år",
+      "city": null,
+      "note": "Webbutvecklare på Betsson Group med erfarenhet av moderna webbaserade systemutveckling. Visar kompetens inom frontend och backend-teknologier, lämplig för mittennivå-positioner inom webb- och apputveckling."
+    }
   },
   {
     "id": "89055",
@@ -503,7 +899,16 @@
     "email": "mkorlinge@gmail.com",
     "phone": "+46737308074",
     "linkedin": "https://www.linkedin.com/in/maxk%C3%B6rlinge/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior leadership role at biotech company with clear backend engineering expertise and demonstrated team management capability.",
+    "ai_suggestions": {
+      "role": "Head of Backend Engineering",
+      "stack": "Java, Python, AWS, Docker, Kubernetes, PostgreSQL",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren ledare för backend-infrastruktur med proven track record från Alex Therapeutics. Stark fokus på skalbar systemarkitektur och team-building inom life sciences-sektorn."
+    }
   },
   {
     "id": "46583",
@@ -514,7 +919,16 @@
     "email": "fuyuhime@hotmail.com",
     "phone": "+46769250625",
     "linkedin": "https://www.linkedin.com/in/malin-augustsson-b8b976137/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level data engineer at established public sector organisation with relevant experience, but limited publicly visible technical depth in summary.",
+    "ai_suggestions": {
+      "role": "Data Engineer",
+      "stack": "null",
+      "experience": "3–5 år",
+      "city": null,
+      "note": "Malin är datatekniker på Arbetsförmedlingen med fokus på dataengineering. Kandidaten har relevant erfarenhet från en större organisation men ytterligare information om specifika teknologier och projekt skulle behövas för att bedöma placeringsmöjligheter."
+    }
   },
   {
     "id": "74663",
@@ -525,7 +939,16 @@
     "email": "anders.eriksson@gmail.com",
     "phone": "+46706629454",
     "linkedin": "https://www.linkedin.com/in/anderseriksson/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior role at recognisable fintech company with clear data engineering expertise and established track record.",
+    "ai_suggestions": {
+      "role": "Senior Data Engineer",
+      "stack": "Python, SQL, Spark, Data Warehousing, ETL",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren Senior Data Engineer från Avanza Bank med stark bakgrund inom datakonstruktion och analytics. Välkvalificerad för ledande dataroller inom fintech och större organisationer."
+    }
   },
   {
     "id": "60180",
@@ -536,7 +959,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/hiva-soofieh/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level test engineer with relevant experience at a specialised company, but limited technical stack visibility",
+    "ai_suggestions": {
+      "role": "Test Engineer",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Hiva är testingenjör med erfarenhet från ArtiCap, en specialiserad resursleverantör. Profilen antyder praktisk testningsexpertis men kräver mer information om specifika tekniker och senioritetsgrad för optimal placering."
+    }
   },
   {
     "id": "57668",
@@ -547,6 +979,15 @@
     "email": "jernsten@gmail.com",
     "phone": "+46768971651",
     "linkedin": "https://www.linkedin.com/in/kemaldemirtas/",
-    "notes": []
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level frontend developer with clear specialisation but limited company recognition details",
+    "ai_suggestions": {
+      "role": "Frontendutvecklare",
+      "stack": "JavaScript, React, HTML, CSS",
+      "experience": "4–6 år",
+      "city": null,
+      "note": "Frontendutvecklare med fokus på React och moderna webbteknikier. Arbetar/arbetade på Futur och har solid erfarenhet av JavaScript-baserad utveckling."
+    }
   }
 ]
