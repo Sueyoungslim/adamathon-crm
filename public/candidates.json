@@ -408,7 +408,16 @@
     "email": null,
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/marius-ziegenbein-241b27238",
-    "notes": []
+    "notes": [],
+    "tier": 3,
+    "tier_reason": "Junior profile with limited public information and unclear seniority level",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Kandidaten har en LinkedIn-profil men begränsad offentlig information tillgänglig för bedömning. Mer detaljerad information om erfarenhet, teknikkunskaper och arbetshistorik behövs för en fullständig utvärdering."
+    }
   },
   {
     "id": "123792",
