@@ -32,6 +32,8 @@ jobs:
         run: node scripts/tier.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PONTY_EMAIL: ${{ secrets.PONTY_EMAIL }}
+          PONTY_PASSWORD: ${{ secrets.PONTY_PASSWORD }}
 
       - name: Commit updated candidates.json
         uses: stefanzweifel/git-auto-commit-action@v5
