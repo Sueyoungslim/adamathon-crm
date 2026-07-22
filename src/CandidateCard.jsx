@@ -27,7 +27,7 @@ const ROTATIONS = [-0.6, 0.4, -0.3, 0.5, -0.4, 0.3, -0.5, 0.4]
 
 const TIER_COLORS = { 1: '#F59E0B', 2: '#94A3B8', 3: '#B45309' }
 
-export default function CandidateCard({ candidate, savedData = {}, onUpdate, index = 0 }) {
+export default function CandidateCard({ candidate, savedData = {}, onUpdate, onExpand, index = 0 }) {
   const { id, name, role: pontyRole, organization, linkedin, ponty_url, notes, tier, tier_reason, ai_suggestions } = candidate
   const textRef = useRef(null)
 
@@ -77,6 +77,9 @@ export default function CandidateCard({ candidate, savedData = {}, onUpdate, ind
   return (
     <article className="card" style={{ '--rot': `${rot}deg` }}>
       <div className="pushpin" aria-hidden="true" />
+      {onExpand && (
+        <button className="card-expand" onClick={onExpand} title="Se mer">&#8599;</button>
+      )}
 
       <div className="card-name-row">
         <p className="card-name">{name}</p>

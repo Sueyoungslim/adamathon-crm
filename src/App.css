@@ -551,6 +551,204 @@
   color: #fff;
 }
 
+/* ── Card expand button ──────────────────────────────── */
+.card-expand {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: rgba(0,0,0,0.07);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--card-lbl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.12s;
+  z-index: 2;
+}
+
+.card:hover .card-expand { opacity: 1; }
+.card-expand:hover { background: rgba(0,0,0,0.14); }
+
+/* ── Modal ───────────────────────────────────────────── */
+@keyframes modal-backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes modal-panel-in    { from { opacity: 0; transform: scale(0.96) translateY(12px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(3px);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  animation: modal-backdrop-in 0.15s ease;
+}
+
+.modal-panel {
+  background: var(--card-bg);
+  color: var(--card-text);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 580px;
+  max-height: 88vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.3);
+  animation: modal-panel-in 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.4rem 1.4rem 1rem;
+  border-bottom: 1.5px dashed var(--card-rule);
+}
+
+.modal-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.modal-name {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--card-text);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.modal-tier {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.5rem;
+}
+
+.modal-close {
+  background: rgba(0,0,0,0.07);
+  border: none;
+  border-radius: 5px;
+  width: 28px;
+  height: 28px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--card-sub);
+  flex-shrink: 0;
+  transition: background 0.12s;
+}
+
+.modal-close:hover { background: rgba(0,0,0,0.14); }
+
+.modal-body {
+  padding: 1.1rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.modal-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.modal-role-input {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--card-sub);
+  width: 100%;
+}
+
+.modal-org {
+  font-size: 0.78rem;
+  color: var(--card-lbl);
+}
+
+.modal-tier-reason {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--card-sub);
+  background: rgba(0,0,0,0.04);
+  border-left: 3px solid var(--card-rule);
+  padding: 0.4rem 0.65rem;
+  border-radius: 0 4px 4px 0;
+  margin: 0;
+}
+
+.modal-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.modal-section-lbl {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--card-lbl);
+}
+
+.modal-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.modal-field {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 1.8rem;
+}
+
+.modal-field-input {
+  font-size: 0.85rem;
+  color: var(--card-text);
+  width: 100%;
+}
+
+.modal-plats {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.modal-note {
+  width: 100%;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--card-sub);
+  line-height: 1.6;
+  resize: vertical;
+  min-height: 5rem;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.9rem 1.4rem;
+  border-top: 1.5px dashed var(--card-rule);
+  flex-wrap: wrap;
+}
+
 /* ── Responsive ──────────────────────────────────────── */
 @media (max-width: 600px) {
   .corkboard {

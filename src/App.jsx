@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import CandidateCard from './CandidateCard'
+import CandidateModal from './CandidateModal'
 import './App.css'
 
 const STAGE_LABELS = ['Ny kandidat', 'Intresserad', 'Intervju #1', 'Intervju #2', 'Erbjudande']
@@ -56,6 +57,7 @@ export default function App() {
   const [techFilters, setTechFilters] = useState(new Set())
   const [cityFilter, setCityFilter] = useState(null)
   const [expFilter, setExpFilter]   = useState(null)
+  const [selectedId, setSelectedId] = useState(null)
 
   useEffect(() => {
     fetch('/candidates.json')
@@ -243,10 +245,23 @@ export default function App() {
             candidate={c}
             savedData={cardData[c.id] ?? {}}
             onUpdate={updateCard}
+            onExpand={() => setSelectedId(c.id)}
             index={i}
           />
         ))}
       </main>
+
+      {selectedId && (() => {
+        const c = candidates.find(x => x.id === selectedId)
+        return c ? (
+          <CandidateModal
+            candidate={c}
+            savedData={cardData[c.id] ?? {}}
+            onUpdate={updateCard}
+            onClose={() => setSelectedId(null)}
+          />
+        ) : null
+      })()}
     </div>
   )
 }
