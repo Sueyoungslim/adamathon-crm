@@ -32,18 +32,27 @@ export default function CandidateCard({ candidate, savedData = {}, onUpdate, ind
   const textRef = useRef(null)
 
   const ai = ai_suggestions ?? {}
-  const defaultStack = ai.stack ?? extractTech([...notes, pontyRole ?? ''])
+
+  // AI-enriched fields: savedData only wins if the user typed something non-empty.
+  // Non-AI fields (stage, salary, eu, work_pref): savedData always wins.
+  const AI_FIELDS = new Set(['role', 'stack', 'city', 'experience', 'note'])
   const d = {
-    role: pontyRole ?? '',
-    stack: defaultStack,
-    city: ai.city ?? '',
-    work_pref: 'Hybrid',
-    salary: '',
+    role:       pontyRole ?? '',
+    stack:      ai.stack ?? extractTech([...notes, pontyRole ?? '']),
+    city:       ai.city ?? '',
+    work_pref:  'Hybrid',
+    salary:     '',
     experience: ai.experience ?? '',
-    note: ai.note ?? notes.join(' '),
-    stage_idx: 0,
-    eu: true,
-    ...savedData,
+    note:       ai.note ?? notes.join(' '),
+    stage_idx:  0,
+    eu:         true,
+  }
+  for (const [key, val] of Object.entries(savedData)) {
+    if (AI_FIELDS.has(key)) {
+      if (val !== '' && val != null) d[key] = val
+    } else {
+      d[key] = val
+    }
   }
 
   const set = (key, val) => onUpdate(id, { [key]: val })
