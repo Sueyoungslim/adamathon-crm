@@ -116,6 +116,76 @@
   background: rgba(0,0,0,0.25);
 }
 
+/* ── Filter bar ─────────────────────────────────────────── */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  padding-bottom: 0.75rem;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.filter-lbl {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--frame-muted);
+  white-space: nowrap;
+  padding-right: 0.15rem;
+}
+
+.filter-chip {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.22rem 0.6rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.45);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.12s, background 0.12s, border-color 0.12s;
+}
+
+.filter-chip:hover {
+  color: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.filter-chip--tech.filter-chip--on { background: rgba(20,184,166,0.25); border-color: #14B8A6; color: #5EEAD4; }
+.filter-chip--city.filter-chip--on { background: rgba(139,92,246,0.25); border-color: #8B5CF6; color: #C4B5FD; }
+.filter-chip--exp.filter-chip--on  { background: rgba(245,158,11,0.25); border-color: #F59E0B; color: #FCD34D; }
+
+.filter-clear {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba(220,38,38,0.4);
+  background: rgba(220,38,38,0.08);
+  color: #FCA5A5;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s, border-color 0.12s;
+  margin-left: 0.25rem;
+}
+
+.filter-clear:hover { background: rgba(220,38,38,0.18); border-color: rgba(220,38,38,0.6); }
+
 /* ── Cork board ──────────────────────────────────────── */
 .corkboard {
   flex: 1;
