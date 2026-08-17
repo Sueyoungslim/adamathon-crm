@@ -112,77 +112,33 @@ async function authenticate() {
 
 const MAX_CANDIDATES = 50
 
-async function tryFetch(url, token) {
+async function fetchAssignmentCandidates(token) {
+  const q = encodeURIComponent(JSON.stringify({
+    include_connected_files: 1,
+    include_latest_action: 1,
+    include_tags: 1,
+    notes: true,
+    sortby: 'added_at',
+    step: String(PROSPECT_STEP),
+    per_page: MAX_CANDIDATES,
+  }))
+  const url = `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/candidate?q=${q}`
+  console.log(`Fetching from: ${url}`)
   const res = await pontyFetch(url, {
     headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
   })
-  if (!res.ok) { await res.body?.cancel(); return { status: res.status, data: null } }
+  if (!res.ok) throw new Error(`Candidate list failed: HTTP ${res.status}`)
   const data = await res.json()
-  return { status: res.status, data }
-}
-
-async function fetchAssignmentCandidates(token) {
-  const qCandidates = encodeURIComponent(JSON.stringify({
-    assignment_id: ASSIGNMENT_ID, step: PROSPECT_STEP,
-    notes: true, details: true, tags: true, organization: true,
-    sortby: 'added_at', page: 0, size: MAX_CANDIDATES,
-  }))
-  const qAssignment = encodeURIComponent(JSON.stringify({
-    candidates: true, step: PROSPECT_STEP,
-    notes: true, details: true, tags: true, organization: true,
-    sortby: 'added_at', page: 0, size: MAX_CANDIDATES,
-  }))
-
-  const attempts = [
-    // Mirror tier.js pattern — /api/candidate/{id} works, so try /api/candidate and /api/candidates
-    `${PONTY_INT_BASE}/api/candidate?q=${qCandidates}`,
-    `${PONTY_INT_BASE}/api/candidates?q=${qCandidates}`,
-    // Assignment with candidates:true flag (like notes:true works for assignment detail)
-    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}?q=${qAssignment}`,
-    // Pipeline / process / application patterns
-    `${PONTY_INT_BASE}/api/pipeline?assignment_id=${ASSIGNMENT_ID}&step=${PROSPECT_STEP}&sortby=added_at&size=${MAX_CANDIDATES}&page=0`,
-    `${PONTY_INT_BASE}/api/application?assignment_id=${ASSIGNMENT_ID}&step=${PROSPECT_STEP}&sortby=added_at&size=${MAX_CANDIDATES}&page=0`,
-    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/application?step=${PROSPECT_STEP}&sortby=added_at&size=${MAX_CANDIDATES}&page=0`,
-  ]
-
-  console.log('Probing larenius internal API…')
-  for (const url of attempts) {
-    try {
-      const { status, data } = await tryFetch(url, token)
-      if (!data) { console.log(`  ${status} ${url}`); continue }
-      const keys = Object.keys(data)
-      // Try every top-level key for an array of objects with an id field
-      const found = keys.find(k => Array.isArray(data[k]) && data[k].length > 0 && data[k][0]?.id)
-      if (found) {
-        const results = data[found]
-        console.log(`✓ ${status} ${url}`)
-        console.log(`  → candidates in key "${found}": ${results.length}`)
-        return results.slice(0, MAX_CANDIDATES)
-      }
-      // Maybe the response itself is an array
-      if (Array.isArray(data) && data.length > 0 && data[0]?.id) {
-        console.log(`✓ ${status} ${url} → array of ${data.length}`)
-        return data.slice(0, MAX_CANDIDATES)
-      }
-      const msg = data.message ? ` message="${data.message}"` : ''
-      console.log(`  ${status} ${url}${msg} — keys: ${keys.join(', ')}`)
-    } catch (err) {
-      console.log(`  error ${url}: ${err.message}`)
-    }
-  }
-
-  throw new Error(
-    'Could not fetch candidates from assignment 573.\n' +
-    'None of the internal API patterns worked. ' +
-    'Open browser DevTools on the Ponty assignment page and check the Network tab ' +
-    'to find the actual API endpoint being called.'
-  )
+  const results = Array.isArray(data) ? data : (data.candidates ?? data.result ?? data.data ?? [])
+  console.log(`Got ${results.length} candidates from assignment ${ASSIGNMENT_ID} step ${PROSPECT_STEP}`)
+  return results.slice(0, MAX_CANDIDATES)
 }
 
 function mapCandidate(c) {
+  // larenius API returns notes as [{note_text, ...}], public API as strings
   const notes = (c.notes ?? [])
     .map(n => (typeof n === 'string' ? n : n.note_text ?? n.text ?? n.body ?? ''))
-    .filter(Boolean)
+    .filter(n => n.trim())
   return {
     id:           String(c.id),
     name:         [c.firstname, c.lastname].filter(Boolean).join(' ') || '(No name)',
