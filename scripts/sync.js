@@ -112,47 +112,70 @@ async function authenticate() {
 
 const MAX_CANDIDATES = 50
 
-// Try the larenius internal API first — it supports step (bucket) filtering.
-// Falls back to the public API (no step filter) if the internal endpoint fails.
+async function tryFetch(url, token) {
+  const res = await pontyFetch(url, {
+    headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
+  })
+  console.log(`  ${res.status} ${url}`)
+  if (!res.ok) { await res.body?.cancel(); return null }
+  return res.json()
+}
+
 async function fetchAssignmentCandidates(token) {
-  // Internal API attempt
-  try {
-    const q = JSON.stringify({
-      step: PROSPECT_STEP, sortby: 'added_at',
-      notes: true, details: true, tags: true, organization: true,
-      page: 0, size: MAX_CANDIDATES,
-    })
-    const url = new URL(`${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/candidates`)
-    url.searchParams.set('q', q)
-    const res = await pontyFetch(url, { headers: { Authorization: `Bearer ${token}` } })
-    if (res.ok) {
-      const data = await res.json()
-      const results = Array.isArray(data) ? data : (data.result ?? data.candidates ?? [])
-      if (results.length > 0) {
-        console.log(`Internal API: ${results.length} candidates from assignment ${ASSIGNMENT_ID} step ${PROSPECT_STEP}`)
+  const h = { Authorization: `Bearer ${token}`, Accept: 'application/json' }
+
+  // Try larenius internal API patterns — the web app uses this host with user tokens
+  const qBase = { notes: true, details: true, tags: true, organization: true,
+                  sortby: 'added_at', page: 0, size: MAX_CANDIDATES }
+  const qWithStep = encodeURIComponent(JSON.stringify({ ...qBase, step: PROSPECT_STEP }))
+  const qNoStep   = encodeURIComponent(JSON.stringify(qBase))
+
+  const internalUrls = [
+    // Most likely patterns based on the web URL /assignment/573/show?step=1
+    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}?q=${qWithStep}`,
+    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/candidates?q=${qWithStep}`,
+    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/candidates?step=${PROSPECT_STEP}&sortby=added_at&include_notes=true&size=${MAX_CANDIDATES}&page=0`,
+    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/show?step=${PROSPECT_STEP}&sortby=added_at&include_notes=true&size=${MAX_CANDIDATES}&page=0`,
+    `${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}?step=${PROSPECT_STEP}&sortby=added_at&include_notes=true&size=${MAX_CANDIDATES}&page=0`,
+  ]
+
+  console.log('Trying larenius internal API endpoints…')
+  for (const url of internalUrls) {
+    try {
+      const data = await tryFetch(url, token)
+      if (!data) continue
+      const results = Array.isArray(data) ? data
+        : (data.candidates ?? data.result ?? data.data ?? [])
+      if (results.length > 0 && results[0]?.id) {
+        console.log(`✓ Got ${results.length} candidates from: ${url}`)
         return results.slice(0, MAX_CANDIDATES)
       }
-    } else {
-      console.log(`Internal API returned ${res.status}, falling back to public API`)
-      await res.body?.cancel()
+      console.log(`  (returned data but no candidates array — keys: ${Object.keys(data).join(', ')})`)
+    } catch (err) {
+      console.log(`  error: ${err.message}`)
     }
-  } catch (err) {
-    console.log(`Internal API error: ${err.message}, falling back to public API`)
   }
 
-  // Public API fallback — construct URL manually so brackets aren't percent-encoded
-  console.log(`Fetching from public API: assignment ${ASSIGNMENT_ID}, first ${MAX_CANDIDATES} candidates`)
-  const publicUrl = `${PONTY_API_BASE}/v1/candidates?assignment_id[]=${ASSIGNMENT_ID}&include_notes=true&size=${MAX_CANDIDATES}&page=0&sort_by=created_at_asc`
-  console.log(`URL: ${publicUrl}`)
-  const res = await pontyFetch(publicUrl, { headers: { Authorization: `Bearer ${token}` } })
-  if (!res.ok) {
-    const text = await res.text()
-    throw new Error(`Candidates fetch failed (${res.status}): ${text}`)
+  // Public API fallback — try multiple assignment_id formats
+  const publicAttempts = [
+    `${PONTY_API_BASE}/v1/candidates?assignment_id[]=${ASSIGNMENT_ID}&include_notes=true&size=${MAX_CANDIDATES}&page=0&sort_by=created_at_asc`,
+    `${PONTY_API_BASE}/v1/candidates?assignment_id=${ASSIGNMENT_ID}&include_notes=true&size=${MAX_CANDIDATES}&page=0&sort_by=created_at_asc`,
+  ]
+
+  console.log('Trying public API…')
+  for (const url of publicAttempts) {
+    try {
+      const data = await tryFetch(url, token)
+      if (!data) continue
+      const results = data.result ?? []
+      console.log(`✓ Public API: ${results.length} candidates (total: ${data.total ?? '?'})`)
+      if (results.length > 0) return results
+    } catch (err) {
+      console.log(`  error: ${err.message}`)
+    }
   }
-  const data = await res.json()
-  const results = data.result ?? []
-  console.log(`Public API: ${results.length} candidates (total in assignment: ${data.total ?? '?'})`)
-  return results
+
+  throw new Error('All candidate fetch attempts failed — check logs above')
 }
 
 function mapCandidate(c) {
