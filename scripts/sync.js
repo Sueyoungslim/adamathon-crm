@@ -140,22 +140,18 @@ async function fetchAssignmentCandidates(token) {
     console.log(`Internal API error: ${err.message}, falling back to public API`)
   }
 
-  // Public API fallback (no step filter)
+  // Public API fallback — construct URL manually so brackets aren't percent-encoded
   console.log(`Fetching from public API: assignment ${ASSIGNMENT_ID}, first ${MAX_CANDIDATES} candidates`)
-  const url = new URL(`${PONTY_API_BASE}/v1/candidates`)
-  url.searchParams.set('assignment_id[]', ASSIGNMENT_ID)
-  url.searchParams.set('include_notes', 'true')
-  url.searchParams.set('size', MAX_CANDIDATES)
-  url.searchParams.set('page', 0)
-  url.searchParams.set('sort_by', 'created_at_asc')
-  const res = await pontyFetch(url, { headers: { Authorization: `Bearer ${token}` } })
+  const publicUrl = `${PONTY_API_BASE}/v1/candidates?assignment_id[]=${ASSIGNMENT_ID}&include_notes=true&size=${MAX_CANDIDATES}&page=0&sort_by=created_at_asc`
+  console.log(`URL: ${publicUrl}`)
+  const res = await pontyFetch(publicUrl, { headers: { Authorization: `Bearer ${token}` } })
   if (!res.ok) {
     const text = await res.text()
     throw new Error(`Candidates fetch failed (${res.status}): ${text}`)
   }
   const data = await res.json()
   const results = data.result ?? []
-  console.log(`Public API: ${results.length} candidates`)
+  console.log(`Public API: ${results.length} candidates (total in assignment: ${data.total ?? '?'})`)
   return results
 }
 
