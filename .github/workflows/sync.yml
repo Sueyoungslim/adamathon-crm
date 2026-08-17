@@ -20,16 +20,15 @@ jobs:
 
       - name: Fetch candidates from Ponty
         run: node scripts/sync.js
-        continue-on-error: true
         env:
-          PONTY_CLIENT_ID: ${{ secrets.PONTY_CLIENT_ID }}
-          PONTY_CLIENT_SECRET: ${{ secrets.PONTY_CLIENT_SECRET }}
+          PONTY_EMAIL: ${{ secrets.PONTY_EMAIL }}
+          PONTY_PASSWORD: ${{ secrets.PONTY_PASSWORD }}
 
       - name: Install Anthropic SDK
         run: npm install @anthropic-ai/sdk
 
       - name: Tier candidates with AI
-        run: node scripts/tier.js --all
+        run: node scripts/tier.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PONTY_EMAIL: ${{ secrets.PONTY_EMAIL }}
