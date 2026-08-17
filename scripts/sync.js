@@ -106,12 +106,14 @@ async function authenticate() {
 
 // ── Fetch all candidates ──────────────────────────────────────────────────────
 
+const MAX_CANDIDATES = 50
+
 async function fetchAllCandidates(token) {
   const all = []
   let page = 0
-  const size = 250
+  const size = Math.min(MAX_CANDIDATES, 250)
 
-  while (true) {
+  while (all.length < MAX_CANDIDATES) {
     const url = new URL(`${PONTY_API_BASE}/v1/candidates`)
     url.searchParams.set('include_notes', 'true')
     url.searchParams.set('size', size)
@@ -128,12 +130,12 @@ async function fetchAllCandidates(token) {
     const data = await res.json()
     const results = data.result ?? []
     all.push(...results)
-    console.log(`Page ${page}: ${results.length} candidates (total: ${all.length}/${data.total})`)
-    if (all.length >= data.total || results.length < size) break
+    console.log(`Page ${page}: ${results.length} candidates (total so far: ${all.length})`)
+    if (results.length < size) break
     page++
   }
 
-  return all
+  return all.slice(0, MAX_CANDIDATES)
 }
 
 const PONTY_BASE = 'https://larenius.ponty-system.se'
