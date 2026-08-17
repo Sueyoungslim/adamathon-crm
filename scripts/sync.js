@@ -4,12 +4,16 @@ import { fileURLToPath } from 'url'
 import { join, dirname } from 'path'
 import { createHash, randomBytes } from 'node:crypto'
 
-const PONTY_AUTH_BASE = 'https://ponty-system.se'
-const PONTY_API_BASE  = 'https://openapi.ponty-system.se'
-const PONTY_CLIENT_ID = 'ponty-frontend'
-const PONTY_REDIRECT  = 'https://larenius.ponty-system.se/login/callback'
-const PONTY_SCOPE     = 'backend offline_access profile email'
-const TIMEOUT_MS      = 15_000
+const PONTY_AUTH_BASE  = 'https://ponty-system.se'
+const PONTY_API_BASE   = 'https://openapi.ponty-system.se'
+const PONTY_INT_BASE   = 'https://larenius.ponty-system.se'
+const PONTY_CLIENT_ID  = 'ponty-frontend'
+const PONTY_REDIRECT   = 'https://larenius.ponty-system.se/login/callback'
+const PONTY_SCOPE      = 'backend offline_access profile email'
+const TIMEOUT_MS       = 15_000
+
+const ASSIGNMENT_ID    = 573   // "IT Aktiva kandidater Stockholm"
+const PROSPECT_STEP    = 1     // "Prospect" bucket
 
 const email    = process.env.PONTY_EMAIL
 const password = process.env.PONTY_PASSWORD
@@ -108,51 +112,66 @@ async function authenticate() {
 
 const MAX_CANDIDATES = 50
 
-async function fetchAllCandidates(token) {
-  const all = []
-  let page = 0
-  const size = Math.min(MAX_CANDIDATES, 250)
-
-  while (all.length < MAX_CANDIDATES) {
-    const url = new URL(`${PONTY_API_BASE}/v1/candidates`)
-    url.searchParams.set('include_notes', 'true')
-    url.searchParams.set('size', size)
-    url.searchParams.set('page', page)
-    url.searchParams.set('sort_by', 'created_at_desc')
-
-    const res = await pontyFetch(url, {
-      headers: { Authorization: `Bearer ${token}` },
+// Try the larenius internal API first — it supports step (bucket) filtering.
+// Falls back to the public API (no step filter) if the internal endpoint fails.
+async function fetchAssignmentCandidates(token) {
+  // Internal API attempt
+  try {
+    const q = JSON.stringify({
+      step: PROSPECT_STEP, sortby: 'added_at',
+      notes: true, details: true, tags: true, organization: true,
+      page: 0, size: MAX_CANDIDATES,
     })
-    if (!res.ok) {
-      const text = await res.text()
-      throw new Error(`Candidates fetch failed (${res.status}): ${text}`)
+    const url = new URL(`${PONTY_INT_BASE}/api/assignment/${ASSIGNMENT_ID}/candidates`)
+    url.searchParams.set('q', q)
+    const res = await pontyFetch(url, { headers: { Authorization: `Bearer ${token}` } })
+    if (res.ok) {
+      const data = await res.json()
+      const results = Array.isArray(data) ? data : (data.result ?? data.candidates ?? [])
+      if (results.length > 0) {
+        console.log(`Internal API: ${results.length} candidates from assignment ${ASSIGNMENT_ID} step ${PROSPECT_STEP}`)
+        return results.slice(0, MAX_CANDIDATES)
+      }
+    } else {
+      console.log(`Internal API returned ${res.status}, falling back to public API`)
+      await res.body?.cancel()
     }
-    const data = await res.json()
-    const results = data.result ?? []
-    all.push(...results)
-    console.log(`Page ${page}: ${results.length} candidates (total so far: ${all.length})`)
-    if (results.length < size) break
-    page++
+  } catch (err) {
+    console.log(`Internal API error: ${err.message}, falling back to public API`)
   }
 
-  return all.slice(0, MAX_CANDIDATES)
+  // Public API fallback (no step filter)
+  console.log(`Fetching from public API: assignment ${ASSIGNMENT_ID}, first ${MAX_CANDIDATES} candidates`)
+  const url = new URL(`${PONTY_API_BASE}/v1/candidates`)
+  url.searchParams.set('assignment_id[]', ASSIGNMENT_ID)
+  url.searchParams.set('include_notes', 'true')
+  url.searchParams.set('size', MAX_CANDIDATES)
+  url.searchParams.set('page', 0)
+  url.searchParams.set('sort_by', 'created_at_asc')
+  const res = await pontyFetch(url, { headers: { Authorization: `Bearer ${token}` } })
+  if (!res.ok) {
+    const text = await res.text()
+    throw new Error(`Candidates fetch failed (${res.status}): ${text}`)
+  }
+  const data = await res.json()
+  const results = data.result ?? []
+  console.log(`Public API: ${results.length} candidates`)
+  return results
 }
-
-const PONTY_BASE = 'https://larenius.ponty-system.se'
 
 function mapCandidate(c) {
   const notes = (c.notes ?? [])
-    .map(n => (typeof n === 'string' ? n : n.text ?? n.note_text ?? ''))
+    .map(n => (typeof n === 'string' ? n : n.note_text ?? n.text ?? n.body ?? ''))
     .filter(Boolean)
   return {
     id:           String(c.id),
     name:         [c.firstname, c.lastname].filter(Boolean).join(' ') || '(No name)',
-    ponty_url:    `${PONTY_BASE}/candidate/${c.id}/show`,
-    role:         c.role ?? null,
-    organization: c.organization_name ?? null,
+    ponty_url:    `${PONTY_INT_BASE}/candidate/${c.id}/show`,
+    role:         c.role ?? c.title ?? null,
+    organization: c.organization_name ?? c.organization?.name ?? null,
     email:        c.email ?? null,
     phone:        c.phone ?? null,
-    linkedin:     c.url ?? null,
+    linkedin:     c.url ?? c.linkedin_url ?? null,
     notes,
   }
 }
@@ -161,7 +180,7 @@ async function main() {
   console.log('Authenticating with Ponty…')
   const token = await authenticate()
   console.log('Authenticated. Fetching candidates…')
-  const raw = await fetchAllCandidates(token)
+  const raw = await fetchAssignmentCandidates(token)
   const candidates = raw.map(mapCandidate)
   console.log(`Mapped ${candidates.length} candidates`)
 
