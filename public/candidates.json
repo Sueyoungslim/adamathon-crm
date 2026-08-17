@@ -1,1002 +1,1354 @@
 [
   {
-    "id": "57113",
-    "name": "Johan Lewenhaupt",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/57113/show",
-    "role": "Senior Full Stack Developer",
-    "organization": "Recorded Future",
-    "email": "johan.lewenhaupt@gmail.com",
-    "phone": "+46703326030",
-    "linkedin": "https://se.linkedin.com/in/jlewenhaupt",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior full stack developer at recognisable company (Recorded Future) with 5+ years tenure, strong tech stack, AI expertise, and KTH education — immediately placeable.",
-    "ai_suggestions": {
-      "role": "Senior Full Stack Developer",
-      "stack": "Deno, TypeScript, React, Scala, AWS",
-      "experience": "5+ år",
-      "city": null,
-      "note": "Johan är en erfaren fullstackutvecklare med bred bakgrund inom produktutveckling, systemarkitektur och AI-integration. Han har ledande erfarenhet från Recorded Future, tidigare konsultuppdrag hos Omegapoint och ABB, samt KTH-utbildning inom Systems, Control and Robotics. Söker närvarande arbetsmiljö med stark företagskultur och tekniska utmaningar inom produktutveckling och AI."
-    }
-  },
-  {
-    "id": "122149",
-    "name": "Pontus Svensson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/122149/show",
-    "role": "System Developer",
-    "organization": "Twingly",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/pontus-svensson1",
-    "notes": [],
+    "id": "12544",
+    "name": "Rickard Beglert",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12544/show",
+    "role": "Bygg/Projektledare",
+    "organization": "Grundia",
+    "email": "rickard@prp.nu",
+    "phone": "+46722400212",
+    "linkedin": "https://www.linkedin.com/in/rickard-beglert-8150a0123/",
+    "notes": [
+      "Prospekt",
+      "Slå en signal i eftermiddag istället ",
+      "Imorgon efter 9 passar bra satt dumt till ",
+      "Jag svarar som jag alltid så beror det ju på vad för roll det är och bolag osv. \n\nGör: \n- Nu har jag varit projektledare i 3 år och byggt hus, kommersiella\n- Projektens storlek är runt 500 miljoner bland annat selma spa byggde jag \n- Gillar dem större projekten och vill fortsätta med dem \n- \n\nVill: \n- Vill gå mer mot projektledning och släppa produktionen.\n- Är lite trött på entreprenörer som inte har någon yrkesstolthet \n- Jag trivs bra på konsultsidan och vill fortsätta där \n- Vill upp ett steg ytterligare och utvecklas\n- Gillar att jobba i team och att ha folk att diskutera med, får ut mer av det\n- Bor i Landvetter men jobbar i Göteborg idag och vill jobba med projekt i Göteborg. Inga problem med pendlingen \n\n\nInom en 5-6 års period ska han nog flytta upp till Stockholm (projektpunkten ska flytta med) igen när barnen ska börja skolan frun är därifrån och vi har bott där tidigare. \n\nSka skicka CV och sedan bolla bolag med han. \nAlfred??? \n\nrickard@prp.nu \n",
+      "påmint om CV",
+      "Påmint om CV på mail ",
+      "Bytte jobb i januari. ej aktuellt!\n\nGrundia, projektledning. Entrenadsidan. "
+    ],
     "tier": 2,
-    "tier_reason": "Mid-level developer with solid backend expertise, proven project leadership on AI systems, and genuine full-stack aspirations—good growth potential but needs clearer seniority confirmation.",
+    "tier_reason": "Mid-level project manager with 3+ years of experience on large construction projects (€500M+), seeking progression to pure project management consulting, but profile is dated and engagement status unclear.",
     "ai_suggestions": {
-      "role": "Backend/Full Stack Developer",
-      "stack": "Ruby, Python, React, Vue, JavaScript, Claude AI",
-      "experience": "4–6 år",
-      "city": "Stockholm",
-      "note": "Pontus är en driven systemutvecklare med stark bakgrund inom backend- och API-utveckling i Ruby. Han har visat projektledande förmåga genom att driva utvecklingen av ett AI-baserat nyhetsinsamlingssystem från arkitektur till lansering, och är nu intresserad av att utvecklas mot full stack med större fokus på frontend. Söker hybridarbete i en snabbrörlig produktmiljö där han kan collaborera tätt med sitt team."
-    }
-  },
-  {
-    "id": "113472",
-    "name": "Jonathan Lundholm",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/113472/show",
-    "role": "IT LAS Backend",
-    "organization": "Live Arena Sports AB",
-    "email": null,
-    "phone": "+46768297937",
-    "linkedin": "https://www.linkedin.com/in/jonathan-lundholm-65aa14a4/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior backend engineer with 10+ years of proven experience at scale (Zalando, SmartBear, Infor), strong modern tech stack, and clear architectural expertise in distributed systems.",
-    "ai_suggestions": {
-      "role": "Senior Backend Engineer",
-      "stack": "Kotlin, Java, Spring, PostgreSQL, Kafka, AWS, Docker, Kubernetes, MongoDB, SPARQL, Python, TypeScript, React",
-      "experience": "10+ år",
-      "city": "Stockholm (Lidingö-närhet)",
-      "note": "Erfaren backend-specialist med fokus på distribuerade system, mikrotjänster och eventdriven arkitektur. Senast på Zalando där han utvecklade storskalig artikel-onboarding för miljontals produkter med Kafka, Kubernetes och AWS. Söker långsiktig produktroll nära Stockholm efter att Zalando stängt sitt stockholmskontor."
-    }
-  },
-  {
-    "id": "126769",
-    "name": "Hugo Dahl",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/126769/show",
-    "role": "Software Engineer",
-    "organization": "Mediaempire",
-    "email": null,
-    "phone": "+46760450484",
-    "linkedin": "https://www.linkedin.com/in/hugo-dahl958/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level fullstack engineer with solid commercial experience, clear tech stack, and well-defined career goals — good fit for backend-focused product roles but lacks senior-level depth or recognisable scale.",
-    "ai_suggestions": {
-      "role": "Backend Engineer / Fullstack Engineer",
-      "stack": "TypeScript, JavaScript, Next.js, React, PHP, Laravel, AWS, Serverless",
-      "experience": "5–6 år",
-      "city": "Linköping (söker Stockholm)",
-      "note": "Hugo är en erfaren fullstackutvecklare som aktivt söker övergång från konsultroll till långsiktig produktroll. Han har stark backend-orientation med AWS/serverless-erfarenhet från senaste 1,5 åren och uppskattar komplexa tekniska problem framför affärsdomäner. Han föredrar stabila scaleups, är flexibel med arbetsform, och ledig för nya uppdrag efter semestern i mitten av augusti."
-    }
-  },
-  {
-    "id": "126618",
-    "name": "Natália Nakagawa",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/126618/show",
-    "role": "Senior Software Engineer",
-    "organization": "Seenthis",
-    "email": null,
-    "phone": "+46735062079",
-    "linkedin": "https://www.linkedin.com/in/nat%C3%A1lia-nakagawa-a7a09b32/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior engineer with 8+ years at established company, proven leadership and mentoring experience, strong frontend/backend stack, and clear career trajectory.",
-    "ai_suggestions": {
-      "role": "Senior Software Engineer / Tech Lead",
-      "stack": "Vue.js, JavaScript, Node.js, REST APIs, AI tools (Cursor, Codex, Claude)",
-      "experience": "8+ år",
-      "city": null,
-      "note": "Erfaren senior frontend/full-stack utvecklare från Seenthis med stark ledarskapskapacitet. Har växt från utvecklare till tech lead med mentoringsansvar, built-in CMS-kunskaper och nyligen övergått till code review och AI-assisterad utveckling. Intresserad av UX research och söker produktbolag med bättre work-life balance."
-    }
-  },
-  {
-    "id": "106318",
-    "name": "Hamza ELAASEMY",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/106318/show",
-    "role": "Senior Frontend Developer",
-    "organization": "Scania Sverige",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/hamzaacimi/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior frontend engineer with 8+ years at recognisable companies (Scania, Renault, Chanel), proven leadership track record, and comprehensive modern tech stack.",
-    "ai_suggestions": {
-      "role": "Senior Frontend Developer",
-      "stack": "React, TypeScript, Next.js, Angular, Redux, Node.js, GraphQL, Sass, Jest, Cypress, Supabase, OpenAI, Claude API",
-      "experience": "8+ år",
-      "city": "Stockholm",
-      "note": "Erfaren Senior Frontend Engineer från Scania med stark bakgrund från Renault och Chanel. Har framgångsrikt lett frontendmigrationer (AngularJS → React) med 40% förbättrad leveranstakt och byggt produktionsapplikationer i komplexa miljöer. Söker ledarroll med fokus på AI-integration och långsiktig produktutveckling i tekniskt starka team."
-    }
-  },
-  {
-    "id": "90111",
-    "name": "Chaitali Deore",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/90111/show",
-    "role": "Fullstack Developer",
-    "organization": "Historical Parts AB",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/chaitalideore786/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level fullstack developer with relevant experience at established company, actively seeking new opportunities",
-    "ai_suggestions": {
-      "role": "Fullstack Developer",
+      "role": "Projektledare",
       "stack": null,
-      "experience": "3–5 år",
-      "city": null,
-      "note": "Fullstack-utvecklare med bakgrund från Historical Parts AB som visar initiativ genom att söka nya roller. Öppen för möjligheter och potentiellt tillgänglig för rätt position."
-    }
-  },
-  {
-    "id": "126147",
-    "name": "Manos Vekrakis",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/126147/show",
-    "role": "Senior Software Engineer",
-    "organization": "Sympower",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/manos-vekrakis",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior engineer at established energy-tech company with clear leadership track record, strong backend expertise in modern cloud-native stack, and proven ability to execute complex integrations.",
-    "ai_suggestions": {
-      "role": "Senior Software Engineer / Backend Engineer",
-      "stack": "Kotlin, AWS, Kubernetes, TypeScript, React, PostgreSQL, Grafana",
-      "experience": "7–9 år",
-      "city": null,
-      "note": "Erfaren senior backend-ingenjör specialiserad på mikrotjänster, systemarkitektur och integrationslösningar inom energisektorn. Leder tekniska implementeringar och tvärfunktionellt samarbete, med stark förmåga att modernisera och migrera komplexa system från monoliter till distribuerade arkitekturer."
-    }
-  },
-  {
-    "id": "60844",
-    "name": "Åsa Israelsson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/60844/show",
-    "role": "Testledare",
-    "organization": "Region Jönköpings län",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/%C3%A5sa-israelsson-2638b3115/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Established test lead with public sector experience and demonstrable QA background, but limited tech stack clarity limits immediate placement potential.",
-    "ai_suggestions": {
-      "role": "Testledare",
-      "stack": null,
-      "experience": "8+ år",
-      "city": "Jönköping",
-      "note": "Erfaren testledare på Region Jönköpings län med dokumenterad bakgrund inom testning och kvalitetssäkring. Tidigare erfarenhet från Mindroad indikerar teknikfokus, men specifik tech stack är inte explicit dokumenterad i profilen."
-    }
-  },
-  {
-    "id": "122676",
-    "name": "Albin Gustafsson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/122676/show",
-    "role": "Full-time",
-    "organization": "Climeon",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/albin-gustafsson-b3b024176/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior-level engineer from recognisable company (Climeon) with proven track record in industrial software, full-stack development, and quantifiable impact; strong technical foundation from KTH with diverse, relevant tech stack.",
-    "ai_suggestions": {
-      "role": "Software Engineer, Backend/Systems",
-      "stack": "Python, C++, C#, .NET, Vue.js, JavaScript, Structured Text, REST APIs, Git, CI/CD, Azure DevOps, SQL",
-      "experience": "3,5 år",
-      "city": null,
-      "note": "Erfaren mjukvaruingenjör med specialisering inom industriell automation och fullstackutveckling. Driven av tekniska utmaningar och fokuserad på att utveckla mjukvara för fysiska system; starkt intresse för systemarkitektur och C++ demonsrerat genom egen spelmotor med ECS-design."
-    }
-  },
-  {
-    "id": "118520",
-    "name": "Danish Jalil",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/118520/show",
-    "role": "Software Engineer",
-    "organization": "Revolut",
-    "email": null,
-    "phone": "+46768068324",
-    "linkedin": "https://www.linkedin.com/in/danish-jalil-4aa3341aa/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior backend engineer with proven track record at recognisable companies (Revolut, Spotify, Kry), strong Java expertise, and clear product-oriented mindset.",
-    "ai_suggestions": {
-      "role": "Backend Engineer",
-      "stack": "Java, Kotlin, Node.js, Angular, API development",
-      "experience": "8+ år",
-      "city": "Sverige (nyligen återflyttad från Dubai)",
-      "note": "Erfaren backendutvecklare med stark Java-kompetens från produktbolag av världsklass (Spotify, Revolut, Kry). Specialiserad på skalbara system, API-integration och affärskritiska lösningar i snabbrörliga produktmiljöer. Söker produktorienterad startup-miljö med korta releascykler och tvärfunktionella team."
-    }
-  },
-  {
-    "id": "125888",
-    "name": "Erik Ekerot",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/125888/show",
-    "role": "AI/ML Tech Lead (ML Platform & Applied AI)",
-    "organization": "Svenska Spel",
-    "email": "erik.ekerot@gmail.com",
-    "phone": "+46702501202",
-    "linkedin": "https://www.linkedin.com/in/erik-ekerot-96a1035b/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Strong AI/ML technical foundation with enterprise experience and hands-on coding skills, but recruiter feedback indicates insufficient depth in production AI application development for immediate placement.",
-    "ai_suggestions": {
-      "role": "AI/ML Engineer",
-      "stack": "LangChain, React, TypeScript, Google AI, Python, ML/LLM systems, Data Engineering",
-      "experience": "8–10 år",
-      "city": "Norrtälje",
-      "note": "Erik är en AI/ML-arkitekt med bred erfarenhet från Svenska Spel, H&M och Swedbank inom rekommendationssystem, multiagent-lösningar och LLM-applikationer. Han söker aktivt startuproller med hands-on utveckling och långsiktigt ägande, men tidigare feedback antyder att praktisk erfarenhet av produktionsdeployer kan behöva fördjupas."
-    }
-  },
-  {
-    "id": "125564",
-    "name": "Carlo Barone",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/125564/show",
-    "role": "Uppsägning/borttagen tjänst",
-    "organization": "Paus i karriären",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/carlobarone1897/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level frontend developer with solid React/TypeScript experience and some backend exposure, but currently between roles and seeking to pivot toward fullstack/backend development.",
-    "ai_suggestions": {
-      "role": "Frontend Engineer / Fullstack Developer",
-      "stack": "React, TypeScript, Lit, Angular, Node.js, C#, HTML, Redux, REST APIs, Figma",
       "experience": "3 år",
-      "city": null,
-      "note": "Carlo är en frontendutvecklare med tre års erfarenhet från Neovici där han arbetade med komplexa komponentmigreringar och moderna arkitekturer. Han är för närvarande arbetssökande och strävande att utvecklas inom backend och fullstackutveckling, med intresse för konsult- eller startup-roller där han kan få större påverkan."
+      "city": "Göteborg",
+      "note": "Rickard är projektledare med fokus på större byggprojekt och kommersiella utvecklingar. Han söker utveckling inom projektledning på konsultsidan och vill fokusera mer på styrning än produktion. Observera: CV-påminnelser från 2020 utan bekräftelse, och notering från april 2021 att han bytte jobb i januari och ej var aktuell."
     }
   },
   {
-    "id": "123027",
-    "name": "Viktor Salomonsson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/123027/show",
-    "role": "Full Stack Developer",
-    "organization": "Twiceme Technology",
+    "id": "12545",
+    "name": "Rickard Angelroth",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12545/show",
+    "role": "Mätingenjör",
+    "organization": "WSP Sverige AB",
     "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/viktor-salomonsson-418271272/",
-    "notes": [],
+    "phone": "+4651515729",
+    "linkedin": "https://www.linkedin.com/in/angelroth",
+    "notes": [
+      "Prospekt"
+    ],
     "tier": 2,
-    "tier_reason": "Mid-level full stack developer with product/PM ambitions, but limited seniority indicators and sparse technical stack details.",
+    "tier_reason": "Mid-level measurement engineer at established consultancy WSP, but limited technical stack visibility and dated recruiter notes",
     "ai_suggestions": {
-      "role": "Full Stack Developer",
+      "role": "Mätingenjör",
       "stack": null,
-      "experience": "3–5 år",
+      "experience": "10+ år",
       "city": null,
-      "note": "Viktor är en full stack-utvecklare på Twiceme Technology som visar intresse för att övergå mot product management och strategi. Han är öppen för nya möjligheter som kombinerar utveckling med produkttankar."
+      "note": "Mätingenjör på WSP Sverige AB med erfarenhet från större konsultföretag. Profilen är sparsmakad och kräver ytterligare information om specifika tekniker och nuvarande status för att bedöma placeringsmöjligheter."
     }
   },
   {
-    "id": "62116",
-    "name": "Patrik Eriksson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/62116/show",
-    "role": "Frontend Developer",
-    "organization": "Firstvet",
+    "id": "12546",
+    "name": "René Frattini",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12546/show",
+    "role": "Projektledare",
+    "organization": "Aeolus AB",
     "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/patrik-eriksson-162688152/",
-    "notes": [],
+    "phone": "+46709321018",
+    "linkedin": "https://se.linkedin.com/in/ren%C3%A9-frattini-6b293b57",
+    "notes": [
+      "Prospekt",
+      "Inte benägen att flytta på mig. \n\nDelägare idag. Har eget idag. "
+    ],
     "tier": 2,
-    "tier_reason": "Mid-level frontend developer with established company experience, but remote/flexible work requirements and part-time interest may limit immediate placement options",
+    "tier_reason": "Mid-level project manager with ownership stake in established company, but limited tech stack visibility and stated immobility reduce immediate placement potential",
     "ai_suggestions": {
-      "role": "Frontend Developer",
-      "stack": "JavaScript, React",
-      "experience": "3–4 år",
-      "city": null,
-      "note": "Frontend-utvecklare från Firstvet med fokus på webbutveckling. Söker flexibelt arbete (inte nödvändigtvis heltid) med möjlighet till remote-arbete för att kombinera med sitt musikengagemang."
-    }
-  },
-  {
-    "id": "50162",
-    "name": "Viktor Tell",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/50162/show",
-    "role": "Developer",
-    "organization": "Funnel",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/viktor-tell-74196b57",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level developer at recognisable company (Funnel) with demonstrated interest in tech solutions, but currently content in role and not actively seeking",
-    "ai_suggestions": {
-      "role": "Developer",
+      "role": "Projektledare",
       "stack": null,
-      "experience": "5–8 år",
-      "city": null,
-      "note": "Utvecklare på Funnel med erfarenhet från byggtech-sektorn. Visar intresse för digitalisering och nya produktmöjligheter, men är för närvarande nöjd i sin nuvarande roll och söker inte aktivt."
-    }
-  },
-  {
-    "id": "89708",
-    "name": "Yue Wang",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/89708/show",
-    "role": "Web Engineer",
-    "organization": "VOI Technology",
-    "email": "yue.wang.sv@gmail.com",
-    "phone": "+46739892219",
-    "linkedin": "https://www.linkedin.com/in/yue-wang-748a46119",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior frontend engineer with 10+ years at recognisable companies (VOI, Qred, Betsson), strong React/TypeScript stack, expanding fullstack capabilities, and clear product orientation.",
-    "ai_suggestions": {
-      "role": "Senior Frontend Engineer / Fullstack Developer",
-      "stack": "React, TypeScript, Next.js, Node.js, AWS (Lambda, DynamoDB), Jest, Cypress, Redux, React Query, Figma, Mapbox GL",
       "experience": "10+ år",
       "city": null,
-      "note": "Erfaren frontendutvecklare med stark bakgrund inom fintech och mobility, specialiserad på React och TypeScript. Aktivt utvidgar kompetenser inom fullstack-utveckling med Node.js och AWS, söker stabil miljö med tydligt ledarskap och möjlighet till tech-growth. OBS: Vägrar arbeta med Angular."
+      "note": "René är projektledare och delägare på Aeolus AB med substantiell erfarenhet inom projektledning. Han är inte benägen att flytta och är för närvarande bunden till sitt eget företag, vilket gör honom mindre tillgänglig för extern rekrytering."
     }
   },
   {
-    "id": "121723",
-    "name": "Mikael Zehnter Frisk",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/121723/show",
-    "role": "AI Engineer",
-    "organization": "Framna",
+    "id": "12547",
+    "name": "Renato Lazzari",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12547/show",
+    "role": "Installationsledare",
+    "organization": "NCC Building, Avdelning Hus Väst",
     "email": null,
-    "phone": "+46735898090",
-    "linkedin": "https://www.linkedin.com/in/mikael-zehnter-frisk-636aba83",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior full-stack engineer with proven AI/ML expertise, strong track record across automotive and legal tech, clear architectural ownership, and recognisable company background.",
-    "ai_suggestions": {
-      "role": "AI Engineer / Full-Stack Engineer",
-      "stack": "Node.js, React, Python, Computer Vision, ML, LLM, iOS, Embedded Systems",
-      "experience": "10+ år",
-      "city": null,
-      "note": "Erfaren AI-engineer med bred teknisk bas från automotive (Autoliv, Veoneer, Arriver) och nuvarande roll på Framna. Specialiserad i computer vision, ML-algoritmer och end-to-end systemutveckling. Söker utmanande AI-relaterade roller i mindre bolag/scale-ups med högt kompetensutbyte – dock notera att han nyligen avböjde startup-miljöer."
-    }
-  },
-  {
-    "id": "124052",
-    "name": "Waleed Ahmad Faridi",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/124052/show",
-    "role": "AI Engineer",
-    "organization": "TRATON GROUP",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/waleedahmadfaridi",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior AI engineer at TRATON GROUP with proven GenAI expertise, strong full-stack foundation, and demonstrable impact on enterprise AI solutions — immediately placeable for AI/ML roles",
-    "ai_suggestions": {
-      "role": "AI Engineer / Machine Learning Engineer",
-      "stack": "TypeScript, Node.js, Python, .NET, Angular, React, OpenAI, LangChain, AWS Bedrock, RAG, MLOps",
-      "experience": "7–8 år",
-      "city": "Södertälje",
-      "note": "Erfaren AI-ingenjör specialiserad på GenAI-lösningar och agentbaserad automation i storföretag. Söker mer teknikintensivt arbete med modellträning, ML och datarelaterade problem snarare än processautomation. Är aktiv på arbetsmarknaden och kan erbjuda höger kontorsnärvaro (3–4 dagar)."
-    }
-  },
-  {
-    "id": "104374",
-    "name": "Alejo Perez Gomez",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/104374/show",
-    "role": "Intrapreneur",
-    "organization": "Scania Group",
-    "email": "alejperz7@gmail.com",
-    "phone": "+46762924652",
-    "linkedin": "https://www.linkedin.com/in/alejo-perez-gomez-858422172",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior ML engineer with 5+ years production experience, strong tech stack (Python, TypeScript, MLOps, AWS/Azure), recognisable companies (Scania, Uniplay), and clear expertise in AI systems and infrastructure.",
-    "ai_suggestions": {
-      "role": "ML Engineer / AI Systems Engineer",
-      "stack": "Python, TypeScript, Node.js, MLOps, AWS, Azure, Kubernetes, Docker, Terraform, Kafka, Neo4j, Snowflake, Spark, PostgreSQL, RAG, LLM, QLoRA, LiveKit, CI/CD",
-      "experience": "5+ år",
-      "city": null,
-      "note": "Erfaren ML-ingenjör med stark bakgrund från Scania och Uniplay, specialiserad på produktionssatta AI-lösningar, LLM-system och molninfrastruktur. Söker växande miljö med fokus på ingenjörskvalitet och långsiktigt hållbar utveckling snarare än högt tempo, attraherad av scaleup-miljöer."
-    }
-  },
-  {
-    "id": "120008",
-    "name": "Marius Ziegenbein",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/120008/show",
-    "role": null,
-    "organization": null,
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/marius-ziegenbein-241b27238",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior backend developer with 3.5+ years Python experience, proven full-stack capability, strong infrastructure/architecture skills, active in AI engineering, clear career trajectory and well-defined tech preferences.",
-    "ai_suggestions": {
-      "role": "Backend Developer / Senior Backend Engineer",
-      "stack": "Python, C#, .NET, Java, Docker, API development, Next.js, Claude, generative AI",
-      "experience": "3,5 år",
-      "city": null,
-      "note": "Erfaren backend- och fullstack-utvecklare med fokus på infrastruktur, integrationslösningar och systemarkitektur. Starkt intresse för AI engineering och meningsfull teknik, särskilt inom greentech. Söker tekniskt utmanande roller med större ansvar, värdesätter lärande och teamkultur högt."
-    }
-  },
-  {
-    "id": "123792",
-    "name": "Malin Söderlund",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/123792/show",
-    "role": "Frontend Developer",
-    "organization": "Nepa",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/malinjsoderlund/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level frontend developer with solid Vue/TypeScript experience, proven ownership of projects, and strong fundamentals, but limited seniority and currently on parental leave.",
-    "ai_suggestions": {
-      "role": "Frontend Developer",
-      "stack": "Vue, TypeScript, Python, Java, Claude AI",
-      "experience": "3–4 år",
-      "city": null,
-      "note": "Malin har utvecklat sig snabbt från junior till självständig frontendutvecklare på Nepa, där hon tog över och drev hela frontenddelen av en MMM-dashboard från koncept till lansering. Hon kombinerar frontend-expertis (Vue, TypeScript) med backend-kunskap (Python, API-integrationer) och värdesätter samarbetskulturer med nära teamsamverkan. Återkommer från mammaledighet och är öppen för frontend- eller fullstackroller."
-    }
-  },
-  {
-    "id": "112153",
-    "name": "Denis Shvets",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/112153/show",
-    "role": "Software Engineer",
-    "organization": "Kustom",
-    "email": null,
-    "phone": "+46793570757",
-    "linkedin": "https://www.linkedin.com/in/denisshvets/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior frontend engineer from recognisable company (Kustom/Klarna) with proven leadership, strong modern stack, and track record of delivering complex systems independently.",
-    "ai_suggestions": {
-      "role": "Senior Frontend Engineer / Product Engineer",
-      "stack": "React, TypeScript, Next.js, Tailwind, AI/Generative UI",
-      "experience": "~5–7 år",
-      "city": "Barkarby",
-      "note": "Erfaren frontendutvecklare med fokus på produktarkitektur och skalerbara system. Grundare av Kustom Portal som uppnådde feature parity med många års utveckling på 10 månader; ledde frontend-teamtillväxt från 1 till 5 ingenjörer och skapade delad UI-bibliotek. Aktivt experimenterar med AI-drivna användarupplevelser och söker produktnära roller med tekniskt ägarskap i startuplik miljö. Kan börja permanent nästa år pga workvisa."
-    }
-  },
-  {
-    "id": "116239",
-    "name": "Johnny Kan",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/116239/show",
-    "role": "Full Stack Developer",
-    "organization": "Ubiquiti Inc.",
-    "email": "kan.johnny@gmail.com",
-    "phone": "+46720020405",
-    "linkedin": "https://www.linkedin.com/in/johnnykan",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level fullstack developer with 5 years experience at recognisable company (Ubiquiti), solid technical foundation, but recruiter note signals he needs significant support which raises concerns about independence.",
-    "ai_suggestions": {
-      "role": "Backend Developer",
-      "stack": "React, TypeScript, Node.js, NestJS, REST APIs, SQL, AWS, Docker, Python",
-      "experience": "5 år",
-      "city": "Solna",
-      "note": "Fullstackutvecklare från Ubiquiti med stark analytisk grund från maskinteknikutbildning och tidigare ingenjörskarriär. Söker övergång mot backend och systemarkitektur; motiverad av kompetent miljö och långsiktig värdeskapande, helst inom fintech."
-    }
-  },
-  {
-    "id": "123098",
-    "name": "Shan Ali",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/123098/show",
-    "role": "Machine Learning Engineer",
-    "organization": "BL!XT",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/shan-e-ali",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level ML engineer with solid production experience in data streaming and deep learning, but limited LLM/RAG expertise and no formal leadership background.",
-    "ai_suggestions": {
-      "role": "Machine Learning Engineer",
-      "stack": "Python, TensorFlow, Docker, Deep Learning, Signal Processing, Streaming Data, Claude",
-      "experience": "4–5 år",
-      "city": null,
-      "note": "Erfaren Machine Learning Engineer från startup-miljö med stark kompetens inom signalbehandling, streamingdata och modellträning. Har arbetat praktiskt med ML-pipelines i produktionsmiljöer och visar intresse för LLM:er och computer vision, men behöver utvecklaRAG- och vektordatabaskunskaper."
-    }
-  },
-  {
-    "id": "85314",
-    "name": "Lars Berger",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/85314/show",
-    "role": "Frontend Developer",
-    "organization": "Net Partner 011 AB",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/larserikberger",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior frontend lead with 9+ years experience, strong React/React Native stack, proven product ownership, and clear technical decision-making ability in complex environments.",
-    "ai_suggestions": {
-      "role": "Frontend Lead / Senior Frontend Developer",
-      "stack": "React, React Native, JavaScript, UI/UX Design, Claude, ChatGPT",
-      "experience": "9 år",
-      "city": null,
-      "note": "Erfaren frontend lead med stark UX/UI-bakgrund från grafisk design. Driver frontend-utveckling självständigt inom React och React Native, med erfarenhet från e-handel och streaming-tjänster. Söker en mer strukturerad miljö för att utvecklas mot fullstack och balansera arbetsbelastningen."
-    }
-  },
-  {
-    "id": "106159",
-    "name": "Sathvik Katam",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/106159/show",
-    "role": "Machine Learning Engineer",
-    "organization": "SK Good tech",
-    "email": null,
-    "phone": "+46722324382",
-    "linkedin": "https://www.linkedin.com/in/sathvik-katam",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior ML engineer with proven track record at Apple, Tink, and Tele2; deep expertise in LLMs, ranking models, and production systems; immediately placeable for backend/ML roles.",
-    "ai_suggestions": {
-      "role": "Machine Learning Engineer",
-      "stack": "Python, Scala, C++, Java, Go, AWS, GCP, LLMs, ranking models, datapipelines",
-      "experience": "6–8 år",
-      "city": "Stockholm/Göteborg",
-      "note": "Erfaren ML-ingenjör med stark fokus på produktnära ML-utveckling, LLM:er och systemkritiska problem. Föredrar backend- och data/ML-arbete, motiveras av fintech och startupmiljöer med ansvar; öppen för både frilans och rätt anställning."
-    }
-  },
-  {
-    "id": "122918",
-    "name": "Mohammad Mirzaei",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/122918/show",
-    "role": "Senior Application Engineer",
-    "organization": "Dometic",
-    "email": null,
-    "phone": "+46707847650",
-    "linkedin": "https://www.linkedin.com/in/mohammad-mirzaei-3b37aa153",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior engineer at recognisable company with clear tech lead trajectory, deep mobile/firmware/IoT expertise, and strong architectural ownership across full stack.",
-    "ai_suggestions": {
-      "role": "Senior Mobile Engineer / Tech Lead",
-      "stack": "Swift, Kotlin, Rust, GraphQL, Bluetooth, WiFi, Firebase, GitHub Copilot",
-      "experience": "8+ år",
-      "city": "Täby",
-      "note": "Erfaren mobilutvecklare med tech lead-nivå kompetens och bred fullstack-erfarenhet från Dometic, Anyfin och Qwist. Specialiserad på end-to-end mobilapparkitektur med hårdvara-integrering, Bluetooth/WiFi-kommunikation, firmwareutveckling i Rust och IoT/M2M-lösningar. Söker tekniskt avancerad miljö med stort ansvar, autonomi och möjlighet att påverka på strategisk nivå."
-    }
-  },
-  {
-    "id": "122671",
-    "name": "Benjamin Suljević",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/122671/show",
-    "role": "Telecommunications Software Engineer",
-    "organization": "Tieto",
-    "email": null,
-    "phone": "+46730931654",
-    "linkedin": "https://www.linkedin.com/in/benjamin-suljevic",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior telecommunications engineer with master's degree, leadership experience, and strong expertise in 4G/5G development at Tieto—immediately placeable in Stockholm market.",
-    "ai_suggestions": {
-      "role": "Telecommunications Software Engineer / Embedded Systems Developer",
-      "stack": "C, Python, C++, Java, Go, 4G/5G systems, UI simulators, AI workflows",
-      "experience": "8+ år",
-      "city": "Stockholm",
-      "note": "Erfaren systemutvecklare med masterexamen i elektroteknik som specialiserar sig på telekomsystem och embedded-utveckling. Han har ledande erfarenhet från Tieto, stark kompetens i C och Python, och söker nu en långsiktig roll inom embedded eller telekom i Stockholm."
-    }
-  },
-  {
-    "id": "106118",
-    "name": "Juan Manuel Laneri",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/106118/show",
-    "role": "AI Engineering Lead, Fixed Income GenAI Platform",
-    "organization": "SEB",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/juan-manuel-l-228565145",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior AI engineering leadership role at major financial institution with clear GenAI specialization and demonstrated platform ownership.",
-    "ai_suggestions": {
-      "role": "AI Engineering Lead",
-      "stack": "GenAI, Machine Learning, Fixed Income, Python",
-      "experience": "8+ år",
-      "city": null,
-      "note": "Erfaren AI-ledare med fokus på generativ AI och maskininlärning inom fintech. Har byggt och lett GenAI-plattformar för räntebärande instrument på SEB, en av Nordens största finansinstitutioner."
-    }
-  },
-  {
-    "id": "106167",
-    "name": "Eser Arslan",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/106167/show",
-    "role": "Senior Machine Learning Engineer / Senior Data Scientist",
-    "organization": "H&M",
-    "email": "eserinanarslan@gmail.com",
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/eser-inan-arslan",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior ML Engineer at H&M with 10+ years experience, strong cloud/ML stack, and proven retail AI expertise—immediately placeable.",
-    "ai_suggestions": {
-      "role": "Senior Machine Learning Engineer",
-      "stack": "Python, R, SQL, TensorFlow, PyTorch, Scikit-Learn, Keras, Google Cloud, BigQuery, Databricks, Azure, AWS, Kubernetes, Docker, Apache Airflow, MLflow",
-      "experience": "10+ år",
-      "city": null,
-      "note": "Erfaren Senior Machine Learning Engineer på H&M med Master's degree i Computer Engineering och specialisering på ML. Har djup expertis inom end-to-end ML-utveckling, cloud computing, och retail-optimering med fokus på demand forecasting, personalisering och supply chain-löningar."
-    }
-  },
-  {
-    "id": "62242",
-    "name": "Ganesh Balaji Radhakrishnan",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/62242/show",
-    "role": "System Developer",
-    "organization": "Softronic",
-    "email": null,
-    "phone": "+46760905763",
-    "linkedin": "https://www.linkedin.com/in/ganesh-balaji-r",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level with strong AI/cloud specialization at recognized company, clear architectural ambitions, but limited senior-level track record yet",
-    "ai_suggestions": {
-      "role": "AI Systems Architect / Cloud Solutions Developer",
-      "stack": "Python, JavaScript, React, Angular, Django, Azure, Azure AI Services, JSON",
-      "experience": "6–7 år",
-      "city": null,
-      "note": "Systemutvecklare på Softronic med fokus på conversational AI och Azure-baserade lösningar. Utbildad civilingenjör från KTH inom medicinteknik med bred fullstack-bakgrund (React, Angular, Django), men söker nu att övergå till arkitektur- och cloud-fokuserad roll med större systemansvar. Drivs av tekniska utmaningar och föredrar hybrid-miljö i mindre organisation."
-    }
-  },
-  {
-    "id": "120942",
-    "name": "Rickard Molin",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/120942/show",
-    "role": "Embedded Software Engineer",
-    "organization": "Profoto",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/rickardtmolin/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior embedded engineer at recognisable company (Profoto) with deep C/C++ expertise, Linux kernel experience, and proven ability to drive critical system components independently.",
-    "ai_suggestions": {
-      "role": "Embedded Software Engineer",
-      "stack": "C++, C, Python, Linux, Qt, ST-Link, Buildtools",
-      "experience": "10+ år",
-      "city": null,
-      "note": "Erfaren embedded software engineer med stark kompetens i systemnära C/C++-utveckling, Linux-kernelmoduler och prestandakritiska system. Söker mer samarbetsorienterad miljö med stark teamkänsla efter period med mycket ensamarbete på Profoto."
-    }
-  },
-  {
-    "id": "119887",
-    "name": "Salar Sadek",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/119887/show",
-    "role": "Development Engineer",
-    "organization": "Scania Group",
-    "email": null,
-    "phone": "+46739551179",
-    "linkedin": "https://www.linkedin.com/in/salarsadek/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior engineer at Scania with 10 years R&D experience, strong technical foundation, now upskilling in AI/ML—immediately placeable for senior technical or AI-hybrid roles",
-    "ai_suggestions": {
-      "role": "Senior Data Scientist / AI Engineer / Technical Lead",
-      "stack": "Python, R, MATLAB, Git/GitLab, Jupyter, Linux, HPC, scikit-learn, TensorFlow/PyTorch (inferred), Abaqus, ANSYS, HyperMesh",
-      "experience": "10 år inom ingenjörsanalys och simulering; nu vidareutbildning i AI och dataanalys (pågår till juni 2026)",
-      "city": "Stockholm",
-      "note": "Erfaren civilingenjör från Scania med djup kompetens inom strukturanalys, simulering och osäkerhetsbedömning som nu kombinerar klassisk ingenjörsmetodik med modern data science och AI. Motiverad av teknisk utmaning framför företagsstorlek; öppen för roller där analys, teknik och artificiell intelligens möts."
-    }
-  },
-  {
-    "id": "119724",
-    "name": "Raif K",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/119724/show",
-    "role": "Software Development Engineer",
-    "organization": "AVL",
-    "email": "raifkaraahmetoglu@hotmail.com",
-    "phone": "+46793424384",
-    "linkedin": "https://www.linkedin.com/in/raif-k-0a202b90",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Solid mid-level developer with recognisable company (AVL) and clear tech stack in simulation/embedded, but lacks Swedish language and customer-facing experience limits immediate placement.",
-    "ai_suggestions": {
-      "role": "Software Development Engineer",
-      "stack": "MATLAB, Simulink, Python, C, C++, JavaScript, React, HTML, CSS",
-      "experience": "flera år",
-      "city": null,
-      "note": "Erfaren mjukvaruutvecklare med fokus på fordonssimuleringar och datanalysfram­verk. Söker Python- eller C/C++-roller inom simulering eller inbyggda system, men är inte svensktalande och saknar kundorienterad erfarenhet."
-    }
-  },
-  {
-    "id": "32089",
-    "name": "Lena Mondrejevski",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/32089/show",
-    "role": "Chief Technology Officer",
-    "organization": "ImagineCare",
-    "email": "lena.mondrejevski@gmail.com",
-    "phone": "+46793366581",
-    "linkedin": "https://www.linkedin.com/in/lena-mondrejevski",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior technical leader with CTO-level experience, PhD candidate in ML, proven end-to-end system architecture and ML pipeline expertise, immediately valuable for tech-forward organizations.",
-    "ai_suggestions": {
-      "role": "Lead Machine Learning Engineer / Tech Lead / CTO",
-      "stack": "Python, TypeScript, PostgreSQL, MLflow, CI/CD, machine learning pipelines, LLMs, scikit-learn",
-      "experience": "10+ år",
-      "city": null,
-      "note": "Högkvalificerad teknisk ledare med djup ML-expertise från concept to production, kombinerad med systemarkitektur och organisationsutveckling. Genomför PhD i ML-interpretability parallellt, söker deltidsroll (70%) inom health tech eller startup med meningsfull påverkan; tillgänglig på heltid hösten 2027."
-    }
-  },
-  {
-    "id": "72841",
-    "name": "Pedram Kasebzadeh",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/72841/show",
-    "role": "Senior Data Scientist",
-    "organization": "Annalect",
-    "email": "pedram.kasebzadeh@gmail.com",
-    "phone": "+46729405668",
-    "linkedin": "https://se.linkedin.com/in/pedram-kasebzadeh",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior data scientist at established company (Omnicom) with 4+ years track record, strong multi-cloud expertise, and clear technical leadership capabilities.",
-    "ai_suggestions": {
-      "role": "Senior Data Scientist",
-      "stack": "Python, R, SQL, C++, MATLAB, AWS (Athena, S3), GCP, Azure, Airflow, Shiny, Power BI, TensorFlow, Git, CI/CD",
-      "experience": "4+ år",
-      "city": "Stockholm",
-      "note": "Erfaren Senior Data Scientist med mastergrad i statistik och maskininlärning. Har implementerat avancerade marknadsmodeller (MMM, MTA) för större kunder, byggt datainfrastruktur på AWS och GCP, och visat tydligt ledarskap genom mentorering och processoptimering. Motiverad att växa inom nya domäner med fokus på affärseffekt och helhetliga datasystem."
-    }
-  },
-  {
-    "id": "109236",
-    "name": "Volkan C.",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/109236/show",
-    "role": "Senior Embedded Software Developer",
-    "organization": "ASSA ABLOY Opening Solutions",
-    "email": null,
-    "phone": null,
-    "linkedin": "https://www.linkedin.com/in/volkan-c-ba61036b/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior embedded developer at recognisable company (ASSA ABLOY) with clear seniority level and stable career trajectory.",
-    "ai_suggestions": {
-      "role": "Senior Embedded Software Developer",
-      "stack": "Embedded systems, C/C++",
-      "experience": "15+ år",
-      "city": "Stockholm (södra sidan)",
-      "note": "Erfaren senior embedded software developer från ASSA ABLOY med fokus på långsiktiga engagemang. Personligheten är speciell men kandidaten är kompetent inom sitt område och söker stabilitet efter nyligen flyttat."
-    }
-  },
-  {
-    "id": "107967",
-    "name": "Milos Tanaskovic",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/107967/show",
-    "role": "System",
-    "organization": null,
-    "email": null,
-    "phone": null,
-    "linkedin": "https://linkedin.com/in/nextgen-softwarengineer",
-    "notes": [],
+    "phone": "+46700887417",
+    "linkedin": "https://www.linkedin.com/in/renato-lazzari-5a27bb48/",
+    "notes": [
+      "Prospekt",
+      "Har väldigt mycket just nu, men när det kommer till rekrytering så är jag inte aktuell. \n\nTack ändå för att du ringde! ",
+      "ja jag kan säga att i dagsläget är det inget som är aktuellt utan jag håller på och färdigställer ett stort projekt i göteborg som jag vill göra klart, 2 år kvar på det \n\nSen efter det vet man aldrig\n\ninte intresserad av projektering och dom bitarna på konsultsidan\n\nakuro jobbar jag med och känner till, så hade nog frågat dom direkt faktiskt om jag ville något där"
+    ],
     "tier": 3,
-    "tier_reason": "Insufficient technical data — role title unclear, no verifiable stack or company information provided, and limited professional context.",
+    "tier_reason": "Not currently active in recruitment; focused on completing a large project through 2026 with unclear future intentions.",
+    "ai_suggestions": {
+      "role": "Installationsledare",
+      "stack": null,
+      "experience": "15+ år",
+      "city": "Göteborg",
+      "note": "Erfaren installationsledare på NCC Building som för närvarande är helt fokuserad på att färdigställa ett större projekt i Göteborg med 2 års återstående tid. Kandidaten är inte aktiv på arbetsmarknaden och har uttryckt ointresse för projekterings- och konsultuppdrag. Framtida tillgänglighet är osäker."
+    }
+  },
+  {
+    "id": "12548",
+    "name": "Rebecka Ryting",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12548/show",
+    "role": "Medgrundare",
+    "organization": "Garden Inspiration Sweden AB",
+    "email": "ohlssonrebecka@gmail.com",
+    "phone": "+46793394489",
+    "linkedin": "https://www.linkedin.com/in/rebecka-ryting-0ba93692/",
+    "notes": [
+      "Prospekt",
+      "IK ",
+      "IK ",
+      "Ik numret verkar ej fungera testar linkedin",
+      "ej svar på Linkedin",
+      "IK ",
+      "IK ",
+      "\"Hej Sofie, jag trivs i min situation just nu, kanske att jag i framtiden vill jobba i Alingsås då vi planerar att flytta dit om ett par år. Vi kan höras :)\"",
+      "Trivs riktigt bra på sitt jobb, bäst företag &amp; arbetsplats MEN vill byta tillbaka till konsult. Ska skicka CV så kan vi hålla ögonen öppna åt henne!\n\nGör: \n- arbetsledare på tuvebygg - ansvarig för slutskedet (förbesiktning + överlämning till kund) \n- mycket samordning med underentreprenörer \n- har varit VVS konsult tidigare, ville se hur produktionen är sökte till arbetsledare\n- tycker att hon är på världens bästa företag + arbetsplats\n\nVill:\n- vill bli konsult igen, lite mer behagligt för arbetsbelastningen.\n- projektledare, KA (kontrollansvarig) eller besiktningsman. \n- Tycker att hennes nuvarande ansvar - slutskedet - \n- lite av en dröm att bli egen konsult så smånging om \n- typ av bolag: gärna en firma som ser ut som den. Inte fler än 100 anställda, mycket utvecklingsmöjligthet. Närhet till chefer - mycket feedback. Högt i tak. Vill kunna ställa mycket frågor. \n\nexempel på företag: Jan Håkansson Byggplanering \n\nSka skicka CV\nohlssonrebecka@gmail.com\n",
+      "Skulle vara sugen på några konsult-möjligtheter i alingsås då de funderar på att flytta dit så småningom. Men det är ändå så nära gbg så ingen fara om det inte finns något där.  ",
+      "har påmint. hon har ej glömt, det ligger på hennes to-do lista.",
+      "CV inkommit",
+      "Akuro: Det du beskriver låter intressant och som ett fint sätt att jobba, just det här med att bygga ett bra gäng och balansen mellan jobb &amp; fritid. \nAbsolut den typ av tjänst som jag tänker mig framöver. \n\nMen kanske vill vara ren projektledare, inte biträdande. Vill kunna ha ett eget ansvarområde, möjlighet till att påverka. \n\nProjekt: uggleberget, bygger hyresrätter. Jobbar i slutskede, besiktningar, kontrollansvarig. Kan även vara kul att arbeta mer med besiktning. \n\nVIKTIGT: \n-Det du pratade om att de inte förespråkar att jobba över tycker jag är hälsosamt! \n-Jag själv förespråkar verkligen att ha en balans i livet, jag tycker att det är skitkul att jobba men det även viktigt att få tid till träning m.m. \n-Peter låter som en bra chef, om det nu är han man har som chef. Men jag behöver en chef som ger mycket feedback, det är otroligt viktigt. Tål feedback, jag vill kunna utvecklas! \n\nROLIGT I JOBBET:  Att ha ett eget ansvarsområde där jag kan påverka resultat av arbetet, har öga för detaljer samtidigt som jag vill framåt. Kan låta klyschigt men gillar att ha många bollar i luften, det ger mig energi. Sitta vid datorn en hel dag passar inte mig. AL är rätt slitsamt. PL/besiktningsman är en bra kompromiss. \n\nMåste hända mycket, massa små-projekt till exempel.\n\nTIMING: Ska till mycket för att jag ska röra på mig, men alltid kul med kontakter - även om det inte är just nu så tror jag absolut att jag kommer arbeta som PL framöver. \n\nOm allt känns rätt, spännande och klaffar så är det ju inte omöjligt. Men viktigt att Peter i så fall vet förutsättningarna, men är han öppen ses jag gärna! ",
+      "Bokar upp Rebecka för träff med Peter\nhela 18/6\n13-17 20/6\nPrel 13-17 26-27/6\n13-17 28/6",
+      "18/6 - 11:00 \n\n",
+      "Allt lugnt inför träffen! Ska sätta sig ikv och se över och skriva ner om hon har några frågor/funderingar. \n\nFöljer upp imorgon alternativt onsdag! ",
+      "Mycket bra samtal, väldigt trevlig intervju. \n\nMycket goda tankar, mycket goda resonemang. Försökt vara tydliga med hur rollen ser ut - Peter träffar gärna igen. Nästa träff prata mer uppgifter konkret, lära känna varandra mer. \n\nAvslut kring Anna/Rebecka? Två väldigt olika individer. Mycket mer försiktig Anna jämfört med Rebecka. Personlighetsmässigt Rebecka kunskapsmässigt Anna i detta skedet. ",
+      "Bröllop nästa lördag! \n\nUPPFÖLJNING TRÄFF:\n\nJättebra och avslappnat -  väldigt trevligt!  Han sa det att han visste om att jag inte var redo, men att jag kunde ringa när jag var redo för ett byte. frågade då om han menade på att jag kan passa in i deras gäng, och det trodde han - kul! \n\nPeter - han var bra, noggrann med att man ska trivas på jobbet. Man är inte på jobbet för att få chefen att tjäna pengar,  man ska ha kul med kollegor, vara trygg med sig själv. Vi höll med varandra om trivsel. \n\nFrågade om bonussystem, och det hade dom inte. Han sa nej vi tror inte på sånt, för mycket fokus och stress kring det. Lät rimligt! Vi var öppna &amp; överens, kunde ställa vilka frågor jag ville. \n\nHan berättade att jag skulle gå in som bit. PL och det är för att inte kastas in i något när man inte kan simma, och så fort jag är redo bli PL - lät ändå bra! \n\nAVSLUT: Han sa att ni skulle ringa upp och stämma av. Och att jag får återkomma om jag vill röra på mig - Bollen ligger hos mig. \n\nTIMING: Känner mig jättetrygg i rollen nu, är på helt rätt ställe. Ser inte fotsättningen som AL efter projektet dock (slut 2020). Efter det är det inte alls omöjligt att jag går till Akuro, inom snar framtiden alternativ om något år. \n\nHar väl hösten 2020 som sikte. Men kommer ett bra erbjudande så finns chans att röra på sig. Vet ej vad han har att erbjuda sig, fick inga praktiska siffror. Kunna få utkast av erbjudande, pension/semester osv? \n\nMan kan låta det smälta efter semestern om han inte tycker det är för lång tid? Eller snart igen. För mig din skadar aldrig att ses, vill inte slösa hans tid dock. Träffar mer än gärna igen - var skittevligt. \n\n\n\n",
+      "Återkoppla att vi tar ny kontakt efter semestern. ",
+      "Sagt att vi hörs efter semestern/hösten ",
+      "Status förmedlad till Peter L (Akuro)",
+      "Egentligen inte, samma status. inte ute efter jobb nu, tanken är fortfarande att avsluta projektet jag är i. Sen kan jag alltid träffa bolag/få förslag. \n\nMen kan ändras en dag till en annan, om det t.ex. är stressigt på jobbet, projektet kommer in i dålig period, saker funkar bara inte. Vill inte tappa bort kontakten ifall att jag ändrar mig, så ring gärna på nytt snart igen. \n\nSka höras i dec! \n\nvill han ses och har mer frågor. ",
+      "Vet inte. Lite roligt att du ringer, min chef kom in till mig för 10 min sen och sa att de ska varsla 10 tjänstemän. Vet inte själv om jag riskerar att varslat. Borde ha mer besked inom en månad. \n\nKan kännas otryggt ändå, även om inte jag ryker. Fortsatt lite nyfiken på Akuro, gillade Peter väldigt mycket! Och promenaden som vi tog på intervjun! Gillar dem väldigt mycket. \n\nLite sugen på projektledarrollen också. Inte helt fel i tiden. Vill helst fortsätta i projektet som är färdigt i nov. Men skulle kunna byta innan dess också. Men just nu vill jag avvakta och se vad som händer här. \n\nRebecka ringer gärna upp om mig om hon känner sig otrygg eller t.om. blir varslad. Hon vill även att vi kikar med Akuro kring hur dem ser på framtiden och om de har behov just nu. \n\nJag kollar upp det och mailar henne isåfall, hon hör av sig kring hur läget är hos henne så hörs vi av. Om det inte blir aktuellt nu så hörs vi efter semestern när hennes projekt börjar gå mot sitt slut. ",
+      "Rebecka ringde upp mig. undrade om vi hört något kring hur Akuro tänker nu. \n\nFick reda för 10 min sen att jag kommer få gå. 2 mån kvar.\n\nOch det första jag kände och kom att tänka på var Akuro. Minns att när vi gick på promenaden så kändes allt så oerhört bra. Tänkte \"gud vad kul\" men var inte läge då. Jag känner inte att jag vill gå vidare till annat byggföretag och jobba som AL. Nu är det rätt timing att byta. Kanske behöver en spark i röven för att göra en förändring. ",
+      "Peter - jäkligt god uppfattning, högintressant längre fram men pga rådande situation kan han ej ta in... \n\n",
+      "Återkopplat gällande Akuro. \n\nVill:\nVäldigt brett. Projektledare, kanske inte AL - gjort i 2,5 år. \nPL primärt, det folk sagt att jag ska jobba som så får lyssna på kollegor och nära och kära. \n",
+      "Bytt jobb nu i aug. ",
+      "föräldraledig enligt Jan Håkanssons hemsida. ",
+      "testar att maila rebecka och kollar läget! ",
+      "0793394489  hennes privata nummer. Fick ett jättelångt mail, blir för långt att klistra in. Men summa summarum: \nFöräldraledig, planerar att vara det till årsskiftet åtminstone. \n\n\" Fick jobb hos en drömarbetsgivare enligt mig. Dock så var tjänsten inte riktigt vad jag trodde. Min titel är bygg- och projektledare, men jag har för det mesta bara utfört besiktningsjobb. I övrigt har företaget för det mesta KA-uppdrag, utredningar och besiktningar. Inte så mkt byggledarprojekt som jag kanske hade önskat då jag kommer ifrån produktionen och var tydlig med att jag gillar o vara där ”det händer”. Så det kanske var svar på din fråga med hur jag trivs. Det känns inte klockrent och jag har även flyttat till Alingsås så då vill jag att min tjänst ska vara tillfredsställande om det ska vara värt att pendla till Göteborg\"\n\n2 månaders bebis hemma men öppen för förslag! ",
+      "är nu rödmarkerad i uppdraget. Svarar på hennes mail men nämner inget om Akuro. ",
+      "vill :\n\n\"Hej! \n\nJa men kika gärna, plus om det är i Alingsås :-) \n\nJa men precis. Platschef eller arbetsledare är också intressant. Arbetsledare kan vara knepigt då det är långa arbetsdagar och tidiga morgnar. Kan vara svårt med småbarn och förskola. Men hos rätt företag kan man säkert hitta en lösning på det också. \n\nTill hösten hade vi kunnat börja kika på annat. \"",
+      "Rebecka har bytt till PC på Ryders Bygg för några veckor sedan... Inte aktuellt just nu. ",
+      "mejlat",
+      "hon är föräldrar ledig i 1 år, ungen i bakgrunden som gråtér. Men visst, följ upp efter sommaren och se om situationen ändrats elr så, man vet ju aldrig. Har inte tänkt mycket jobb sedan hon blev föräldrarledig, fokus på annat.",
+      "skjutit upp på föräldrarledigheten, hon är borta 1 år till. \n\nMen kan vara nyfiken på att höra mer om Peab när hon kommer tillbaka. Jag får till och med ringa innan, ring mig i mars.24",
+      "hemma och vabbar, ring gärna upp nästa vecka",
+      "Jobbar inte som PC längre har ju en egen firma så rekrytering av den typen av tjänst är inte aktuellt tyvärr och inte rekrytering heller"
+    ],
+    "tier": 3,
+    "tier_reason": "Currently on parental leave with own consulting firm; last active recruitment contact was 2025-06-09 indicating no longer seeking placement roles.",
+    "ai_suggestions": {
+      "role": null,
+      "stack": "VVS-konsult, projektledare, arbetsledare, besiktningsman, kontrollansvarig",
+      "experience": "8+ år",
+      "city": "Alingsås",
+      "note": "Rebecka är en erfaren byggkonsult som startade egen firma och är för närvarande föräldraledig. Hon har bakgrund som VVS-konsult och arbetsledare med fokus på slutskede, besiktningar och kontrollansvarig-uppdrag. Intresserad av projektledarbollen och mindre konsultföretag med närhet till ledning, men aktiv rekrytering är inte aktuell för närvarande."
+    }
+  },
+  {
+    "id": "12550",
+    "name": "Rasmus Hansson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12550/show",
+    "role": "Affärsutvecklare ",
+    "organization": "T-Byggen Sverige AB",
+    "email": "rasmus.hansson@t-byggen.se",
+    "phone": "+46703772758",
+    "linkedin": "https://www.linkedin.com/in/rasmus-hansson-6219a891/",
+    "notes": [
+      "Prospekt",
+      "Pratar med Rasmus på Linkedin\nJust nu så har jag fullt upp på Tommy Byggare och har inga planer för tillfället att flytta på mig.\n\nMen vi kan väl ta en avstämning till våren och se hur det ser ut då?",
+      "- Projektchef i dagsläget, trivs bra i tjänsten och bolaget. \n- Produktion, men även diverse stödfunktioner kan vara intressant. \n- Enbart nyproduktion av bostäder hittills, 134 lägenheter och två lokaler just nu. \n\n- Han har träffat PEAB för tre år, men kändes för likt NCC då. Mindre företag nu, med kortare beslutsväg. Men ändå öppen för PEAB idag. \n\nFörsta november är han färdig med nuvarande projektet, och lite efterjobb osv. Han ville fundera lite men hörs gärna runt årskiftet! ",
+      "Inte påväg någonstans men vi kan ha varandra på linkedin ifall det skulle ändras. \n\nGör: \n- tommy byggare\n- vill köra det lite längre \n- projekchef\n- bostad, nyproduktion. \n\nVill: \n- en liknande roll, på ett liknande företag framöver\n- eller en specialist-grej. \n- kanske inköpschef. \n",
+      "Trivs riktigt bra i sin roll just nu. \nPEAB? Njaa inte just nu, lämnade ju NCC delvis för att komma bort från de här stora bolagen. \n\nTips? Tyvärr ingen som han vill släppa och gamla kollegor har rört sig bort från produktionstjänster. \n\nHörs gärna längre fram. ",
+      "Marcus RO: \nFick tips från sidan om honom; Lite osäker på. EI, prC. Johanna ringer och stämmer av och känner på honom \n\n(Sjung inte ut L&amp;P och inte RO först och främst)Hör läget först. ",
+      "satt i teamsmöte, kan testa slå en signal vid lunch. Strax innan 12",
+      "Han började med att fråga var jag ringde från så fick säga L&amp;P. Det kände han igen. \n\nNuläge: \n-Entreprenadingenjör, affärsstöd.\n-Varit här i 8 år. Trygg i roll, ska eventuellt få en ny roll. Affärsutevcklingshålllet.\n-Handlar mer om att få en titel och rollbeskrivning, kommer inte skilja sig så mycket från det jag gör nu. \n-Jobbar uteslutande i tidiga skeden och med nya kunder och anbud. \n\nTidigare varit EI sen prC. Men ville ha mer fokus på tidiga skeden och nya affärer.\n\nProjekt:\n-Blandat men mest nyproduktion bostad. Partnering, samverkan. \n-Utveckling, digital utveckling, marknadsbevakning. \n\nvill:\nvet inte. Får ett gäng sånna här samtal då och då. Brukar vända på det och fråga vad kunderna söker.\n\nRoligt:\n-Affärer, tidiga skeden, sälj och nya kunder. utveckling anbudsprocess. Även jobbat med inköp men är inte så intresserad på att fokusera där. \n\nLedarskap: Som Prc innefattade rollen ledarskap och hade personal. Det funkar också men beror på. Jag är färdig med att vara ute i projekten och styra dom. Vill mer tidiga skeden, sälj, nya kunder. \n\nTiming: Inte på väg någonstans men alltid intressant att lyssna!\n\nBor i Kungsbacka, så GBG / kungsbacka bäst\n\nJag pitchade ingenting nu utan hade approachen att jag ville höra vad han ville så att jag sen kunde se om vi har något som går i linje med det. \n\n\n",
+      "Gör: \n- Affärsutvecklare- är en bred roll. \nSitter i ledningsgruppen ansvarig för marknadsfrågor, tidiga kundskeden. Anbud. träffa nya kunder, jobba med varumärke och stötta VD och Arbetschefer. \n- Mycket fokus har varit på nya kunder. \n- Projekt nu- bostäder, större renoveringar. Husbyggnader. LSS boende 15 miljoner, flerbostadshus 100-200 miljoner.\n- Affärsdelen är det jag tycker är roligast- är extrovert. Har lätt att ta och människor och är relationsbyggande person. Sälja. \n- Bor i Göteborg\n\nVill: \n- Jobba med affärer och vara med och utveckla den delen på bolag. \n\nSpännande utveckling. \nRollen som affärsområdeschef hos Flodéns Byggnads AB känns väldigt intressant och ligger nära både min erfarenhet och det ansvar jag har i min nuvarande roll, så jag ser fram emot att fortsätta dialogen.\n\nSkicka CV, \nrasmus.hansson@t-byggen.se \n",
+      "Jag är fortsatt nyfiken på rollen. Samtidigt är jag med i ett par andra dialoger just nu, så det vore värdefullt att förstå hur er tidsplan ser ut framåt.\n\nJag är i dialog med ett par bolag och har haft inledande samtal samt några möten inbokade, men inget som gått till slutskede ännu. Jag följer därför processerna parallellt och är fortsatt intresserad av att höra mer om Flodéns efter ert möte.",
+      "Måndag är bästa 2/3 annars kan jag v.11 närsom. \nÅker skidor onsdag till fredag ",
+      "v.11 10/3 kl.15 eller 11/3 på fm",
+      "Intervju 1 Tisdag 10/3 kl.15:00 ",
+      "Anna- Nu har vi träffat Rasmus. Vi upplevde honom som bra. Han sa dock att han var långt gången i en annan process, så om det behövs får vi försöka skynda på processen. ",
+      "Flodens- jag tyckte att det kändes väldigt bra. Känns som vi hade en samsyns kring mycket och dem känns som ett väldigt bra bolag. \nDäremot så sa jag att jag har kommit så pass mycket längre i den andra processen. \nHar fått ett erbjudande från dem och jag har valt att gå vidare där. \n\nJag berättade det för Anna och Susanne också, jag kommer att bli marknadschef på Hedin, är gamla vänner till mig på NCC tiden som tagit över. Så därmed har processen gått fort, dem känner mig sedan innan. \nJag ville inte ställa in med Flodens för jag var genuint nyfiken på dem som bolag och hade detta inte dykt upp så hade jag gärna gått vidare med dem. Ville inte heller ställa in så tätt inpå. \n\nDet blev bara dumt tajming mässigt och sen är det mitt fel också att jag var på skidsemester där också. \nMen när dem berättade om processen så insåg jag att det kommer ta tid som jag inte har just nu. \n\nTips! \nHar en person som kan passa för dem, Tobias Faxe han är på T byggen också, han är redo för en sådan typ av roll. Hade passat bra in hos Flodens. \n070 377 27 45. "
+    ],
+    "tier": 3,
+    "tier_reason": "Candidate has accepted offer elsewhere (Hedin as marknadschef) and is no longer available for recruitment; profile shows experience but is now placed.",
+    "ai_suggestions": {
+      "role": "Marknadschef / Affärsområdeschef",
+      "stack": null,
+      "experience": "8+ år",
+      "city": "Göteborg",
+      "note": "Erfaren affärsutvecklare med stark fokus på tidiga skeden, nya kunders och säljutveckling inom byggindustrin. Har nyligen accepterat erbjudande som marknadschef på Hedin och är därmed inte tillgänglig för rekrytering."
+    }
+  },
+  {
+    "id": "12551",
+    "name": "Rami Haasén",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12551/show",
+    "role": "VD",
+    "organization": "Speakat Fastighetstjänster",
+    "email": null,
+    "phone": "+46760484159",
+    "linkedin": "https://www.linkedin.com/in/rami-haas%C3%A9n-4400a273/",
+    "notes": [
+      "Prospekt",
+      "VD inte intresserad av att röra på sig. Trevlig men inte läge!"
+    ],
+    "tier": 3,
+    "tier_reason": "Executive role but limited technical stack information and explicitly uninterested in opportunities.",
     "ai_suggestions": {
       "role": null,
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "Milos visar intresse för AI-drivna initiativ och greenfield-projekt med möjlighet att påverka teknisk riktning. Begränsad information tillgänglig — kräver vidare dialog för att bedöma teknisk bakgrund och erfarenhet."
+      "note": "VD för Speakat Fastighetstjänster. Kandidaten är inte intresserad av att byta position enligt rekryterarnoteringar från 2018. Profilen saknar tillräcklig teknisk bakgrundsinformation för att bedöma relevans för tech-positioner."
     }
   },
   {
-    "id": "100490",
-    "name": "Fredrik Thorsson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/100490/show",
-    "role": "IT Hubexo Fullstack",
-    "organization": "Hubexo",
-    "email": "fredrik.thorsson@outlook.com",
-    "phone": "+46706089090",
-    "linkedin": "https://www.linkedin.com/in/fredrik-thorsson/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Solid mid-level fullstack developer with proven experience in e-commerce and product platforms, but lacks senior-level indicators or clear tech leadership.",
-    "ai_suggestions": {
-      "role": "Fullstack Developer",
-      "stack": "React.js, Next.js, TypeScript, Node.js, Azure, Tailwind CSS, Git, CI/CD",
-      "experience": "5–7 år",
-      "city": null,
-      "note": "Fredrik är en erfaren fullstack-utvecklare med bakgrund från större produktprojekt på Scandic Hotels och Åhléns, där han arbetat med moderna webbplattformar och e-handel. Han söker aktivt en produktroll på ett mindre bolag för längre engagement och är öppen för kontorsarbete, men kräver tydligare projektinformation innan beslut."
-    }
-  },
-  {
-    "id": "68671",
-    "name": "Adam Risberg",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/68671/show",
-    "role": "Full Stack Engineer",
-    "organization": "Volvo Cars",
-    "email": "risbergadam@gmail.com",
-    "phone": "+46704313494",
-    "linkedin": "https://www.linkedin.com/in/risbergadam",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior full stack engineer from recognisable companies (Volvo, Klarna, Swace) with 8 years experience, strong modern tech stack, and proven ability to take ownership in small teams.",
-    "ai_suggestions": {
-      "role": "Full Stack Engineer",
-      "stack": "JavaScript, TypeScript, React, React Native, Node.js, AWS, GraphQL, WebGL, C#/.NET",
-      "experience": "8 år",
-      "city": "Stockholm",
-      "note": "Erfaren full stack-utvecklare med stark bakgrund från Klarna och Volvo Cars. Han söker huvudsakligen fullstack-roller med fokus på API-utveckling, skalbarhet och meningsfull problemlösning i större organisationer. Högvärdesatt kollegor som bryr sig om sitt arbete."
-    }
-  },
-  {
-    "id": "105891",
-    "name": "Jonathan Karnig",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/105891/show",
-    "role": "IT Vitec Taxiteknik Frontend",
-    "organization": "Taxiteknik Nordic AB",
+    "id": "12552",
+    "name": "Pär-Anders Emanuelsson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12552/show",
+    "role": "VA-konsult",
+    "organization": "Sweco",
     "email": null,
-    "phone": "+46733115582",
-    "linkedin": "https://linkedin.com/in/jonalonn",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior full-stack developer with 13 years experience, strong frontend expertise (React, TypeScript), proven leadership (CTO), recognisable companies, clear modern tech stack, and active AI integration experience.",
-    "ai_suggestions": {
-      "role": "Senior Full-Stack Developer / Frontend Architect",
-      "stack": "React, TypeScript, Node.js, AWS, Kotlin, HTML5, CSS3, Docker, CI/CD, REST APIs, Next.js",
-      "experience": "13 år",
-      "city": null,
-      "note": "Erfaren fullstackutvecklare med stark spets inom frontend och moderna teknologier. Har ledarerfarenhet (CTO) och har arbetat på både produktbolag och konsultuppdrag för stora organisationer. Aktivt engagerad i AI-integration och söker en roll med tydlig produktriktning i agil miljö med högt ansvar och moderna tekniker."
-    }
-  },
-  {
-    "id": "62413",
-    "name": "Marcus Sjöberg",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/62413/show",
-    "role": "Full Stack Developer",
-    "organization": "TRY Stockholm",
-    "email": "marcus88sjoberg@gmail.com",
-    "phone": "+46735716358",
-    "linkedin": "https://www.linkedin.com/in/marcussjoberg/",
-    "notes": [],
+    "phone": "+46707172445",
+    "linkedin": "https://www.linkedin.com/in/p%C3%A4r-anders-emanuelsson-622838398/",
+    "notes": [
+      "Prospekt",
+      "Väg/gata på Sweco nu efter en avstickare på Göteborgs hamn. Inte varit på Sweco ens ett år än, och vill ge det mer tid. Välkomna att höra av oss efter 2019.",
+      "Prospekt",
+      "Jag är faktiskt inte så sugen på något annat just nu. Jag trivs jättebra! Sen är det en del annat som händer, håller på att flytta, småbarn m.m. Men handlar framförallt om att jag trivs väldigt bra! \n\nHar gjort mest väg/gata. Nu är jag dock mer inne på VA. Lite allmänt, mark och anläggningsprojektering. \n\nMan vet aldrig vad som händer, testa längre fram! \n\n\n\n\n\n",
+      "Nej men det är jag inte det för tillfället. \n\nGör: \n- Trivs bra i rollen, man vet aldrig vad som händer. Har inget driv att byta arbetsplats nu. \n- Jobbar med både stora och små projekt. Stora väg projekt och lite mindre exploateringsprojekt samt dagvatten dammar. \n- Kul med en variation på projekten \n- Konsult- trivs jag bra på. Var en snabb sväng på beställare men kom ganska snabbt tillbaka till konsult. \n\nVill: \n- Man vet aldrig vad som händer, kan vara andra som slutar som man funkar bra med som jag gör att man vill byta\n- Bor i Göteborg\n- Vill fortsätta på konsult \n\nKan höras längre fram, går bra",
+      "Samma läge ändå. Trivs bra! \n\nHar inga planer på att byta och har svårt att se sig själv göra det det närmsta året. Men man vet aldrig vad som händer, blir det någon drastisk förändring på bolaget av något slag så är det inte omöjligt.\n\nHöras om lite mer än ett halvår! \n\n",
+      "Gör:\n- VA -ledningshållet: \n- Tar fram förfrågningsunderlag, mycket texter, tekniska beskrivningar, kostandskalkyler etc. \n- Ledningsanläggningar av olika slag mest åt kommuner men även privat.\n- Tycker det är kul med en mix av projekt.\n- Tidigare jobbade han inom väg och gata mot Trafikverket. \n- Ritar inte så mycket längre.\n\nVill:\n- fortsätta inom VA. \n\nBerättar kort om tyrens, inte intressant i dagsläget men kan bli framöver! Vet inte riktigt när men är inte redo att röra sig idag.\n\nVi får gärna ringa om ett halvår!\n\n\n",
+      "GÖR:\n- Är ungefär samma\n- har inte funderat aktivt. \n- Jobbar bara med projektering. Lite speciell roll. Ritar inte så mycket länge. Ansvar för textdokument i förfrågningsunderlag. \n- granskning och anbud. \n- Projekteringsledare. Håller ihop olika teknikområden. \n\nVILL:\n- Vill sitta åt projekteringsledarehållet. \n- Kul att sitta med tekniska beskrivningar. \n- Bra AMA - styr hur saker ska mätas och mängdas. \n\nFår se om 1 år när lågkonjunkturen. \nLite närmare att tänka sig något sånt än han var för ett år sedan. \n\nHar bundna räntor till i maj nästa år - så vi hörs av då! ;) ",
+      "skrivit på linkedin ",
+      "ERFARENHETER\n- Arbetar som projekteringsledare med ansvar för textdokument i förfrågningsunderlag och granskning.\n- Har erfarenhet av VA-ledningsprojekt och tidigare arbetat med väg och gata mot Trafikverket.\n- Hanterar både stora vägprojekt och mindre exploateringsprojekt samt dagvattendammar.\n\nKOMPETENSER\n- Projekteringsledning inom VA och väg/gata.\n- Erfarenhet av att skapa tekniska beskrivningar och kostnadskalkyler.\n- Konsultarbete med fokus på kommunala och privata ledningsanläggningar.\n\nFRAMTIDA MÅL OCH FÖRVÄNTNINGAR\n- Vill fortsätta inom VA och projekteringsledning.\n- Öppen för framtida möjligheter men trivs bra i nuvarande roll.\n\nHYBRID/REMOTE\n- Ingen specifik information tillgänglig.\n\nÖVRIGT\n- Trivs bra i nuvarande roll och har inga planer på att byta arbetsplats inom det närmaste året.\n- Bor i Göteborg och föredrar att fortsätta som konsult.\n\nLÖN\n- Ingen specifik information tillgänglig."
+    ],
     "tier": 2,
-    "tier_reason": "Mid-level fullstack developer with solid experience across fintech and e-commerce, modern tech stack, but currently at smaller agencies rather than tier-1 tech companies.",
+    "tier_reason": "Mid-level specialist with 6+ years in infrastructure consulting at Sweco, strong technical expertise in VA/infrastructure projects, but currently passive and unlikely to move within 12 months.",
     "ai_suggestions": {
-      "role": "Full Stack Developer",
-      "stack": "JavaScript, TypeScript, Node.js, React, PHP, Python, Next.js, NestJS, Vue.js, GCP, Docker, MongoDB, MySQL, Redis",
-      "experience": "4-5 år",
-      "city": "Stockholm (Nacka)",
-      "note": "Marcus är en erfaren fullstack-utvecklare med stark fokus på webbutveckling, API-integrationer och automatisering. Han söker långsiktiga projektengagemang där han kan arbeta hands-on med kollegor, särskilt gärna med system-integrationer och API-utveckling."
+      "role": "Projekteringsledare VA",
+      "stack": "VA-ledningsprojekt, väg/gata, tekniska beskrivningar, kostnadskalkyler, AMA, anbudshantering",
+      "experience": "6+ år",
+      "city": "Göteborg",
+      "note": "Erfaren projekteringsledare specialiserad på VA-ledningsanläggningar och infrastrukturprojektering med Trafikverket-bakgrund. Trivs väl i nuvarande konsultrollen på Sweco och har ingen aktiv sökintentor för närvarande, men kan bli intressant för framtida möjligheter."
     }
   },
   {
-    "id": "98700",
-    "name": "Alireza Tavakol",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/98700/show",
-    "role": "Software Engineer",
-    "organization": "Hemnet",
-    "email": null,
-    "phone": "+46764398727",
-    "linkedin": "https://www.linkedin.com/in/art1373",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior fullstack engineer at tier-1 company (Hemnet) with 6 years' experience, proven impact on revenue, comprehensive modern tech stack, and clear lead-track trajectory.",
+    "id": "12553",
+    "name": "Pär Witzell",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12553/show",
+    "role": "Projektledare",
+    "organization": "Karlanders",
+    "email": "parwitzell@gmail.com",
+    "phone": "+46733619555",
+    "linkedin": "https://www.linkedin.com/in/witzell-p%C3%A4r-b136651b",
+    "notes": [
+      "Prospekt",
+      "Inte så intresserad av att byta arbetsgivare just nu. Lite tidigt just nu.\n\nPrövas att höras om ca 1 år. ",
+      "Gör: \n- Jag är konsult idag och är utlånad till trafikverket i ett år till\n- Har kommit in bra i det och vill slutföra detta\n- Jobbar med ett projekt nu inom anläggning Varbergs tunnel \n\nVill: \n- Vill fortsätta som projektledare inom anläggning. det är det jag kan och trivs bra med \n- Trivs bra på konsultsidan och vill fortsätta några år till där \n- Bor i Sävedalen\n\nHöras i framtiden och se om det ser annorlunda ut ",
+      "Lite lunchdags, men prova senare i eftermiddag",
+      "Satt dumt till, men prova i eftermiddag ",
+      "Ja helt ointresserad är jag inte. \n\nGör:\n- Är nere på Varbergs tunneln. \n- Trivs bra i rollen som projektledare \n- Jobbar åt trafikverket så ska övervaka projekteringen inom VA. \n- Har jobbat med mark innan så brett inom anläggning\n- Varit projektledare i 3 år. \n\nVill: \n- Är inte så intresserad av att gå tillbaka till entreprenadsidan. \n- Trivs bra på konsultsidan \n- Trivs bra som projektledare samt projekteringsledning. \n- Vill fortsätta inom anläggning det jag kan. \n- Jag är inte den som funderar så mycket utan fr ta ställning till konkreta förslag\n- Jag har inga visioner om att nå högre. \n\nJag konsultsidan, produktion. Anläggning\n\nSka skicka CV så återkommer vi. \nparwitzell@gmail.com \n",
+      "Påmint om CV",
+      "Påmint om CV",
+      "Nej nu sitter han i möte så det går inte bra, får återkomma nästa vecka ",
+      "Sitter i ett möte, testa ring imorgon! ",
+      "-Han kan nog säga att han inte är så jätteöppen eller intresserad av annat. \n-Jobbar nu på Varbergstunneln i dagsläget. Sitter där ett halvår till som det ser ut just nu. Sen får han se hur det blir, kan bli förlängning också. \n\nGår bättre att ringa när projektet närmar sig slutet! ",
+      "Varbersgtunneln: Är egenskap av konsult, det är så att jag ska avsluta där nere.\nJag har fått ett annat bra projekt 3km hemifrån. \nPL - Mark och fastighetsombyggnad på Östra sjukhuset. \nKommer hålla på i 2 års tid nu. \n\nMen vi kan höras igen. "
+    ],
+    "tier": 2,
+    "tier_reason": "Established project manager with 3+ years experience in infrastructure consulting, but currently low recruitment priority and preference for consultant roles limits immediate placement.",
     "ai_suggestions": {
-      "role": "Lead Frontend Engineer / Fullstack Engineer",
-      "stack": "JavaScript, TypeScript, React, Next.js, Nest.js, Node.js, React Native, PostgreSQL, MongoDB, Prisma, GraphQL, Playwright, GitHub Actions, AWS",
-      "experience": "6 år",
-      "city": null,
-      "note": "Alireza är en erfaren fullstack-ingenjör med sex års bakgrund från betalningsplattformar och e-handelssystem. Han har levererat betydande affärsresultat (60 % ökning i premiumförsäljning på Hemnet) och är skicklig inom modern JavaScript/TypeScript-stacken, molninfrastruktur och testning. Aktivt intresserad av AI-integration och söker ledarroller med teknisk påverkan på väletablerade eller väl finansierade företag."
+      "role": "Projektledare",
+      "stack": "Anläggning, mark, VA-projektering, infrastruktur",
+      "experience": "3+ år",
+      "city": "Sävedalen",
+      "note": "Erfaren projektledare specialiserad på anläggningsprojekt inom infrastruktur (tunnlar, VA, fastighetsombyggnad). Trivs väl på konsultsidan och söker ej befattningar på entreprenadsidan. Låg rekryteringsberedskap – föredrar att avslutas pågående projekt innan karriärväxling övervägs."
     }
   },
   {
-    "id": "95341",
-    "name": "Lucas Nordlinder",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/95341/show",
-    "role": "Webbutvecklare",
-    "organization": "Betsson Group",
-    "email": "lucasnordlinder@gmail.com",
-    "phone": "+46702409995",
-    "linkedin": "https://www.linkedin.com/in/lucas-nordlinder-464b3354",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior frontend engineer with 13+ years experience, proven leadership at scale (Betsson), strong modern stack (TypeScript, Angular, React, Stencil), currently architecting microfrontend systems.",
-    "ai_suggestions": {
-      "role": "Senior Frontend Developer",
-      "stack": "TypeScript, Angular, React, Stencil, Storybook, Figma",
-      "experience": "13+ år",
-      "city": null,
-      "note": "Erfaren senior frontend-utvecklare från Betsson med tio år hos samma arbetsgivare och bakgrund från IF Insurance. Specialiserad på frontend- och designsystem med fokus på TypeScript/Angular/React och mikrofrontend-arkitektur. Motiverad av ny utmaning inom spelutveckling och produkter han kan stå bakom, intresserad av React och gamedev (Unity)."
-    }
-  },
-  {
-    "id": "89055",
-    "name": "Max Körlinge",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/89055/show",
-    "role": "Head of Backend Engineering",
-    "organization": "Alex Therapeutics",
-    "email": "mkorlinge@gmail.com",
-    "phone": "+46737308074",
-    "linkedin": "https://www.linkedin.com/in/maxk%C3%B6rlinge/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior CTO at well-established healthtech company with 7+ years tenure, proven leadership, strong polyglot backend stack (Java, Go, Python, AWS), and medical device regulatory experience—highly placeable.",
-    "ai_suggestions": {
-      "role": "CTO / Head of Backend Engineering",
-      "stack": "Java, Spring Boot, Go, Python, AWS, React Native, DevOps",
-      "experience": "7+ år",
-      "city": null,
-      "note": "Max är en erfaren backend-ledare och nuvarande CTO på Alex Therapeutics. Han har byggit och skalat system från startup till etablerad organisation, med djup expertis inom molninfrastruktur, medicintekniska produkter och systemarkitektur. Aktivt sökande efter nästa utmaning med fokus på Go och högnivå-systemdesign i mindre organisation."
-    }
-  },
-  {
-    "id": "46583",
-    "name": "Malin Augustsson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/46583/show",
-    "role": "Data Engineer",
-    "organization": "Arbetsförmedlingen",
-    "email": "fuyuhime@hotmail.com",
-    "phone": "+46769250625",
-    "linkedin": "https://www.linkedin.com/in/malin-augustsson-b8b976137/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior data engineer with proven leadership in gen AI/RAG projects, strong tech stack (Python, GCP, LLMs, Langchain), and architectural responsibility at established company.",
-    "ai_suggestions": {
-      "role": "Data Engineer / AI Backend Lead",
-      "stack": "Python, PyTorch, GCP, OpenAI, Langchain, LlamaIndex, LLM, NLP, SQL, ETL, RAG",
-      "experience": "6 år",
-      "city": null,
-      "note": "Erfaren datatekniker med fokus på generativ AI och RAG-arkitektur. Har lett backend och arkitektur för en production gen AI-applikation med text-to-SQL-funktioner, mentorerat junior kollegor och ansvarit för compliance och data governance. Söker nu en produktfokuserad roll efter konsultarbete, intresserad av data science och genAI-utmaningar."
-    }
-  },
-  {
-    "id": "74663",
-    "name": "Anders Eriksson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/74663/show",
-    "role": "Senior Data Engineer",
-    "organization": "Avanza Bank",
-    "email": "anders.eriksson@gmail.com",
-    "phone": "+46706629454",
-    "linkedin": "https://www.linkedin.com/in/anderseriksson/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior Data Engineer at tier-1 fintech (Avanza Bank) with deep expertise in building data infrastructure, Kafka, and datamesh — immediately placeable",
-    "ai_suggestions": {
-      "role": "Senior Data Engineer",
-      "stack": "Java, Kafka, BigQuery, dbt, SQL, Beam",
-      "experience": "10+ år",
-      "city": "Stockholm",
-      "note": "Erfaren datakonstruktör med passion för open-source och datainfrastruktur. Byggde Kafkakluster och datamesh på BigQuery på Avanza efter karriär på Klarna, söker tydligare karriärsteg och meningsfull påverkan inom hälsa/life sciences."
-    }
-  },
-  {
-    "id": "60180",
-    "name": "Hiva Soofieh",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/60180/show",
-    "role": "Test Engineer",
-    "organization": "ArtiCap - A specialised resource provider",
+    "id": "12555",
+    "name": "Pär Nordhall Falk",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12555/show",
+    "role": "Kontraktsingenjör",
+    "organization": "NCC",
     "email": null,
     "phone": null,
-    "linkedin": "https://www.linkedin.com/in/hiva-soofieh/",
-    "notes": [],
+    "linkedin": "https://www.linkedin.com/in/p%C3%A4r-nordhall-falk-b4768346/",
+    "notes": [
+      "Prospekt"
+    ],
     "tier": 2,
-    "tier_reason": "Mid-level test engineer with established background at a specialized company, but limited tech stack visibility from provided data.",
+    "tier_reason": "Mid-level engineer at established company NCC with contract role background, but limited profile data available for full assessment.",
     "ai_suggestions": {
-      "role": "Test Engineer",
-      "stack": "Quality Assurance, Test Automation",
-      "experience": "5-7 år",
+      "role": "Kontraktsingenjör",
+      "stack": null,
+      "experience": "8–10 år",
       "city": null,
-      "note": "Erfaren testingenjör med fokus på kvalitetssäkring och testautomation. Har arbetat på specialiserade företag och demonstrerar professionell kompetens inom QA-området."
+      "note": "Kontraktsingenjör med erfarenhet från NCC, en av Nordens ledande byggföretag. Profilen kräver ytterligare information om teknisk stack och specifika projektuppgifter för fullständig bedömning."
     }
   },
   {
-    "id": "57668",
-    "name": "Kemal Demirtas",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/57668/show",
-    "role": "Frontendutvecklare",
-    "organization": "Futur",
-    "email": "jernsten@gmail.com",
-    "phone": "+46768971651",
-    "linkedin": "https://www.linkedin.com/in/kemaldemirtas/",
-    "notes": [],
+    "id": "12556",
+    "name": "Pär Dryselius",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12556/show",
+    "role": "Projektchef",
+    "organization": "Implenia Sverige AB",
+    "email": null,
+    "phone": "+46709758974",
+    "linkedin": "https://www.linkedin.com/in/p%C3%A4r-dryselius-bb067064/",
+    "notes": [
+      "Prospekt",
+      "IK ",
+      "IK ",
+      "Nej från Svevia, lämnade dem rätt nyligen."
+    ],
     "tier": 2,
-    "tier_reason": "Mid-level frontend specialist with 8 years total experience, strong Angular/React background, and clear UX focus—solid candidate seeking ownership and growth.",
+    "tier_reason": "Mid-level project management background at established construction/infrastructure firms, but lacks clear technical stack relevant to tech recruitment.",
     "ai_suggestions": {
-      "role": "Frontendutvecklare",
-      "stack": "Angular, React, TypeScript, Azure, Claude, OpenAI Codex, testing frameworks",
-      "experience": "8 år",
+      "role": "Projektchef",
+      "stack": null,
+      "experience": "10+ år",
       "city": null,
-      "note": "Erfaren frontendutvecklare med tre år på Futur Pension och fem år tidigare konsultarbete. Stark fokus på användarupplevelse och gränslandet mellan utveckling och design. Söker större ägandeskap, tekniskt drivna team och möjlighet att driva större initiativ framåt inom en långsiktig roll."
+      "note": "Projektchef med erfarenhet från större svenska infrastruktur- och byggföretag (Implenia Sverige, Svevia). Fokus på projektledning snarare än teknisk utveckling. Rekryteringsintresse från 2018–2019, men avsaknad av teknisk stack gör matchningen osäker för IT-positioner."
+    }
+  },
+  {
+    "id": "12557",
+    "name": "Poorya Ghassemi",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12557/show",
+    "role": "Project Planner",
+    "organization": "ÅF",
+    "email": "Poorya.ghassemi@gmail.com",
+    "phone": "+46102115157",
+    "linkedin": "https://se.linkedin.com/in/pooryaghassemi",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Project Planner role lacks clear technical stack; insufficient data to assess engineering capability.",
+    "ai_suggestions": {
+      "role": "Projektledare",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Projektledare på ÅF med fokus på projektplanering. Begränsad information tillgänglig för att bedöma teknisk kompetens eller specifik erfarenhet."
+    }
+  },
+  {
+    "id": "12558",
+    "name": "Pontus Lauri",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12558/show",
+    "role": "Project Manager",
+    "organization": "Göteborg Energi AB",
+    "email": null,
+    "phone": "+46767867638",
+    "linkedin": null,
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Project Manager role without clear technical stack or seniority indicators makes placement uncertain",
+    "ai_suggestions": {
+      "role": "Project Manager",
+      "stack": null,
+      "experience": null,
+      "city": "Göteborg",
+      "note": "Pontus Lauri arbetar som projektledare på Göteborg Energi AB. Profilen saknar information om teknisk bakgrund, erfarenhet och karriärnivå, vilket gör det svårt att bedöma lämpliga tjänster."
+    }
+  },
+  {
+    "id": "12559",
+    "name": "Pontus Hjort",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12559/show",
+    "role": "Enhetschef",
+    "organization": "Fortifikationsverket",
+    "email": "hjortarna@icloud.com",
+    "phone": "+46771921921",
+    "linkedin": "https://www.linkedin.com/in/pontus-hjort-b0894512/",
+    "notes": [
+      "Prospekt",
+      "Projektledare inom? ",
+      "Gör \n- Projektledare inom infrastruktur. \n- Just nu jobbar med Trollhättan kanalen, samtliga slussar ska byggas om och bytas. \n- Infrastruktur inom väg och järnväg. \n- Trivs bra, har varit på beställarsidan i 12 år nu. 15 år som konsult. \n\nVill: \n- Sammantaget, nyttan komplexitet. \n- Kan tänka mig mig alla sidor, rollen som är viktigt och projektet. \n- PL är ett brett grepp, viktigt för mig är mandatet. I vilken mån man kan påverka sitt arbete och sin vardag. \n- Min bredd går till tiding utredning. \n- Bor i Göteborg \n\nJobbade på Tyrens innan jag blev beställare. På projektledning \nOm man tittar på konsultsidan, så vill jag gå upp några steg om jag ska jobba där. \nJobbar med miljard projekt. 5-7 miljarder behöver något mer då än gruppchefs roll. \nAffärsområdeschef kan vara intressant. \n\nSka skicka CV, lämnar inte ut något men ska återkomma om vi har något. ",
+      "Gör: \n- Projektledare och Trollhättan. \n- Vi har personalansvar i dem projekten man är. Kan vara allt från 10 upp 40 personer. Strl relaterat i vilken skeden man är. \n- Just nu är 40 personer, byggskedet. Sitter med slussarna fortsatt. \n- Brinner för produkten, kärnverksamheten. Huvudansvaret är ju affären, det är det centrala för uppdraget. Hade man inte haft ett intresse för det så hade man inte trivts i rollen. \n\n\nRamboll: Läser gärna mer om rollen så kan vi ta ett till samtal.\n\n\nSka skicka rollbeskrivning, kan titta på hjortarna@icloud.com",
+      "mailat om svar",
+      "Jag har tittat på materialet, jag tycker det är något oprecist\nSå skriver ungefär alla företag som jobbar i branschen. \nJag vill ha något mer precist för rollen och företaget. \n",
+      "Telefonintervju 17/5 kl.15:30",
+      "missade intervjun"
+    ],
+    "tier": 1,
+    "tier_reason": "Senior infrastructure project leader with 27 years combined experience (12 years client-side, 15 years consulting), managing multi-billion SEK projects with significant team responsibility.",
+    "ai_suggestions": {
+      "role": "Projektledare/Affärsområdeschef",
+      "stack": "Infrastruktur, väg och järnväg, projektstyrning, miljöutredning",
+      "experience": "27 år (12 år beställare, 15 år konsult)",
+      "city": "Göteborg",
+      "note": "Erfaren projektledare specialiserad på infrastrukturprojekt av högsta komplexitet, för närvarande ledande Trollhättan-kanalen renoveringsprojekt med 40-personsorganisation. Söker utmanande rollen med verklig påverkan och mandat; intresserad av ledningsposition på affärsområdesnivå för miljardprojekt."
+    }
+  },
+  {
+    "id": "12560",
+    "name": "Pontus Gjeiervall",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12560/show",
+    "role": "Affärsområdeschef",
+    "organization": "Skeppsviken AB",
+    "email": null,
+    "phone": "+46104984227",
+    "linkedin": null,
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Business unit manager role with unclear technical background and limited stack information provided.",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Pontus Gjeiervall arbetar som affärsområdeschef på Skeppsviken AB. Begränsad information tillgänglig för bedömning av teknisk kompetens eller erfarenhet."
+    }
+  },
+  {
+    "id": "12561",
+    "name": "Poneh Elfström",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12561/show",
+    "role": "Kvalificerad Inköpare",
+    "organization": "Trafikverket",
+    "email": "pia.elf2@gmail.com",
+    "phone": null,
+    "linkedin": "https://se.linkedin.com/in/poneh-elfström-28b57730",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Procurement specialist with limited technical background; unclear fit for tech roles without further clarification",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": "10+ år",
+      "city": null,
+      "note": "Qualified procurement manager at Trafikverket (Swedish Transport Administration) with extensive experience in purchasing and supplier management. Profile lacks technical stack information, requiring clarification on any IT/engineering competencies before placement consideration."
+    }
+  },
+  {
+    "id": "12562",
+    "name": "Petteri Lindö",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12562/show",
+    "role": "Försäljning",
+    "organization": "Norsecraft Geo",
+    "email": "petteri.lindo@telia.com",
+    "phone": "+46703457012",
+    "linkedin": "https://www.linkedin.com/in/petteri-lind%C3%B6-814b656b/",
+    "notes": [
+      "Prospekt",
+      "Ej mättekniker. Numera säljare på Norsecraft Geo",
+      "Halvt som halvt intresserad.\n\nVill fundera en vecka och vi ska höras på måndag.",
+      "Hans son har fått diabetes och han vågar inte äventyra med jobb tills den situationen har planat ut. \n\n"
+    ],
+    "tier": 3,
+    "tier_reason": "Sales background with no technical stack, limited seniority markers, and personal circumstances affecting availability.",
+    "ai_suggestions": {
+      "role": "Försäljning",
+      "stack": null,
+      "experience": "Okänd",
+      "city": null,
+      "note": "Petteri är försäljare på Norsecraft Geo med bakgrund inom geo/mätteknik. Han är endast halvintresserad av en övergång och har personliga omständigheter (sonens hälsa) som gör honom försiktig med jobbbyten för närvarande."
+    }
+  },
+  {
+    "id": "12563",
+    "name": "Petra Vejvancicky",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12563/show",
+    "role": "Portföljplanering",
+    "organization": "Älvstranden Utveckling AB",
+    "email": "pvgot@hotmail.com",
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/petravejvancicky/",
+    "notes": [
+      "Prospekt",
+      "Prioriterar mer juniora först"
+    ],
+    "tier": 3,
+    "tier_reason": "Portfolio planning role with limited technical stack visibility and unclear development career path.",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Petra arbetar med portföljplanering på Älvstranden Utveckling AB. Enligt rekryteringsnoteringar prioriterar hon junior-positioner, vilket antyder intresse för mentoring eller utvecklingsroller snarare än senior teknisk placering."
+    }
+  },
+  {
+    "id": "12564",
+    "name": "Petra Ahlström",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12564/show",
+    "role": "Affärschef",
+    "organization": "NCC Construction Sverige AB",
+    "email": null,
+    "phone": "+46706191252",
+    "linkedin": "https://www.linkedin.com/in/petra-ahlstr%C3%B6m-34b44270/",
+    "notes": [
+      "Prospekt",
+      "Konstruktion är Petra nog klar med. \n\nTrivs med personalansvar och inte. \n\nHade jag fått välja hade jag valt att inte ha det om jag var tvungen att välja bort. \n\nFortfarande aktiv i projekt och bostäder är det som är roligast. \n\nVi arbetar med VDC integrerat i funktionen projekteringsledning, vi har dock specialister. Dem sitter mer och validerar osv. \n\nProjekteringsledning vi tar fram modellen. \n\nKan tänka sig att ta klivet tillbaka till konsultsidan om det är rätt roll. \n\nPetra är lite missnöjd med Peters roll jämtemot NCC i lite projekteringsledningsärenden. \n\n",
+      "PEAB ligger långt efter NCC när det gäller projekteringsledare.",
+      "Inte tänkt det. \n\nVill:\nUngefär det gör jag. Ledande funktion\nledande funktion. \n\nProjektledning. Även operativ i egna projekt. \n\nnämnde ej akuro som bolag utan bara om rollen. Hon är inte intresserad av någon sån typ av roll. Chefsroll av något slag som nu. \n\nUppfattade henne som lite knepig att prata med. ",
+      "Gör: \nHar det ganska bra \nJobbade som konstruktör i 17 år \nKänner att jag vill vara i ett stort bolag \nJobbar med projektleding idag \n\nVill: \nFortsätta i entreprenadsidan eller i beställarsidan \nJobbar tätt ihop med huvudstaden just nu\n"
+    ],
+    "tier": 2,
+    "tier_reason": "Mid-level candidate with 17+ years construction experience and project management expertise at a major firm, but sparse technical stack data and somewhat unclear current trajectory limit immediate placement.",
+    "ai_suggestions": {
+      "role": "Projektledare / Projekteringsledare",
+      "stack": "VDC",
+      "experience": "17+ år",
+      "city": "Stockholm",
+      "note": "Petra är en erfaren konstruktör och projekteringsledare på NCC med stark bakgrund inom bostadsprojekt. Hon söker ledande roll inom entreprenad eller beställarside, föredrar att arbeta operativt i projekt och är intresserad av större företag, men har visats något reserverad under kontakter."
+    }
+  },
+  {
+    "id": "12565",
+    "name": "Peter Stüven",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12565/show",
+    "role": "Chef Tekniskt Centra",
+    "organization": "Wästbygg",
+    "email": null,
+    "phone": "+46701902820",
+    "linkedin": "https://www.linkedin.com/in/peter-st%C3%BCven-4606ab80/",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 2,
+    "tier_reason": "Teknisk ledning på etablerat byggföretag med relevant erfarenhet, men begränsad synlighet av konkret tech stack",
+    "ai_suggestions": {
+      "role": "Teknisk Chef / Teknisk Direktör",
+      "stack": null,
+      "experience": "10+ år",
+      "city": null,
+      "note": "Peter Stüven är Chef för Tekniskt Centra på Wästbygg, en större byggnadsföretag. Han har ledande teknisk erfarenhet från byggbranschen och demonstrerar operativ kompetens, men ytterligare information krävs om specifika tekniska kompetenser och IT-stack för att bedöma placering inom tech-sektorn."
+    }
+  },
+  {
+    "id": "12566",
+    "name": "Peter Sipari",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12566/show",
+    "role": "Projektledare",
+    "organization": "Mölndals stad",
+    "email": null,
+    "phone": "+46313151000",
+    "linkedin": "https://se.linkedin.com/in/peter-sipari-a0889953",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Project manager role at public sector organization with minimal technical stack information and sparse profile data",
+    "ai_suggestions": {
+      "role": "Projektledare",
+      "stack": null,
+      "experience": null,
+      "city": "Mölndal",
+      "note": "Projektledare på Mölndals stad med fokus på projektledning. Limiterad information tillgänglig om teknisk bakgrund och specifika kompetenser krävs ytterligare utredning."
+    }
+  },
+  {
+    "id": "12568",
+    "name": "Peter Nyberg ",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12568/show",
+    "role": "Platschef",
+    "organization": "Tuve Bygg",
+    "email": null,
+    "phone": "+46708858246",
+    "linkedin": "https://www.linkedin.com/in/peter-nyberg-platschef-a74446108/",
+    "notes": [
+      "Prospekt",
+      "Numret vart till en Mikael på Tuve bygg 070 185 16 07\n",
+      "Lagt till på linkedin ",
+      "provar 0708-858246"
+    ],
+    "tier": 3,
+    "tier_reason": "Construction site manager with no clear tech stack or technical background; limited recruitment relevance for tech roles.",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Peter Nyberg är platschef på Tuve Bygg med fokus på byggledning. Profilen saknar teknisk stack och är primärt relevant för byggbransch, inte för tekniska rekryteringar."
+    }
+  },
+  {
+    "id": "12569",
+    "name": "Peter Muzinic",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12569/show",
+    "role": "Platschef",
+    "organization": "PEAB",
+    "email": "peter.muzinic@outlook.com",
+    "phone": "+46768632032",
+    "linkedin": "https://se.linkedin.com/in/peter-muzinic-22361769",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Construction site management role with limited technical stack information available for IT placement",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Platschef (site manager) på PEAB med fokus på byggledning. Saknar tydlig IT-kompetens eller teknisk stack i tillgänglig data, vilket gör honom mindre relevant för teknikpositioner."
+    }
+  },
+  {
+    "id": "12570",
+    "name": "Peter Lycke",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12570/show",
+    "role": "projektör",
+    "organization": "Landskapsgruppen",
+    "email": null,
+    "phone": "+46317496040",
+    "linkedin": "https://www.linkedin.com/in/peter-lycke-2b84bb40/",
+    "notes": [
+      "Prospekt",
+      "Landskapsingenjör"
+    ],
+    "tier": 3,
+    "tier_reason": "Limited technical stack information available; role is landscape-focused rather than tech-oriented, making placement unclear",
+    "ai_suggestions": {
+      "role": "Landskapsingenjör",
+      "stack": null,
+      "experience": "6+ år",
+      "city": null,
+      "note": "Landskapsingenjör med erfarenhet från Landskapsgruppen. Rollen fokuserar på landskapsdesign och -planering snarare än mjukvaruteknik, vilket begränsar placeringsmöjligheter inom IT-rekrytering."
+    }
+  },
+  {
+    "id": "12571",
+    "name": "Peter Johansson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12571/show",
+    "role": "Surveyor",
+    "organization": "Geoiden Mätteknik i Varberg",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/peter-johansson-77641816",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Surveyor role with no clear software development background or tech stack identified",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": "Varberg",
+      "note": "Peter Johansson är lantmätare på Geoiden Mätteknik i Varberg. Profilen saknar information om programvaruteknik eller IT-kompetenser relevanta för tech-rekrytering."
+    }
+  },
+  {
+    "id": "12572",
+    "name": "Peter Hargeus",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12572/show",
+    "role": "Uppdragsledare",
+    "organization": "Sweco AB",
+    "email": null,
+    "phone": "+46734122770",
+    "linkedin": null,
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 2,
+    "tier_reason": "Mid-level project leader at established consultancy with unclear technical stack and limited profile data",
+    "ai_suggestions": {
+      "role": "Projektledare",
+      "stack": null,
+      "experience": "6–8 år",
+      "city": null,
+      "note": "Uppdragsledare på Sweco AB med fokus på projektledning. Profilen saknar tekniska detaljer och specifika kompetensområden som krävs för mer precis placering."
+    }
+  },
+  {
+    "id": "12573",
+    "name": "Peter Hansson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12573/show",
+    "role": "Project manager",
+    "organization": "Karlanders",
+    "email": null,
+    "phone": "+46733255470",
+    "linkedin": "https://www.linkedin.com/in/peter-hansson-b9b52b80/",
+    "notes": [
+      "Prospekt",
+      "Trivs väldigt bra där han är. Insyltad i mycket skit så inte intresserad i nuläget. ",
+      "Var upptagen, får ringa tillbaka senare ",
+      "Inte intresserad. ",
+      "Inte intresserad! ",
+      "Inte intresserad\n\nJobbar huvudsak som PL åt beställare. I huvudsak i anläggningsprojekt. \nTrivdes bra på entreprenad det jag har jobbat hos innan. \n\nInte läge just nu men kan höras igen. "
+    ],
+    "tier": 3,
+    "tier_reason": "Project manager in construction with no clear tech stack and consistently uninterested over multiple years.",
+    "ai_suggestions": {
+      "role": "Projektledare",
+      "stack": null,
+      "experience": "5+ år",
+      "city": null,
+      "note": "Peter arbetar som projektledare åt beställare inom anläggningsprojekt och entreprenad. Han har visat konsekvent brist på intresse för rekrytering över flera år (2018–2022) och trivs väl på sin nuvarande position."
+    }
+  },
+  {
+    "id": "12574",
+    "name": "Peter Gunnarsson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12574/show",
+    "role": "Lead Engineer Test & Verification",
+    "organization": "NEVS",
+    "email": "petergson75@gmail.com",
+    "phone": "+46702117042",
+    "linkedin": "https://www.linkedin.com/in/peter-gunnarsson-03663377",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 1,
+    "tier_reason": "Senior lead position at established automotive company with clear test & verification expertise and recognisable track record",
+    "ai_suggestions": {
+      "role": "Lead Engineer Test & Verification",
+      "stack": "test automation, verification systems, automotive software",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren testledare med bevisad erfarenhet från ledande roll inom test- och verifieringsområdet. Stark bakgrund inom systemkvalitet och automationstestning från automotive-industrin."
+    }
+  },
+  {
+    "id": "12575",
+    "name": "Peter Engström",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12575/show",
+    "role": "Projektledare",
+    "organization": "Infra Action",
+    "email": null,
+    "phone": "+46706214185",
+    "linkedin": "https://www.linkedin.com/in/peter-engstr%C3%B6m-1017655/",
+    "notes": [
+      "Prospekt",
+      "Forsen numera.",
+      "Anläggning",
+      "Känner sig för ny på Forsen, inte läge att byta bort det idag. Kunde tänkas vara öppen om något år eller två, osäker på vart nästa steg är dock. Öppen för att höra om alternativ då, lät det som. \nAnläggning, infra, VA framförallt.",
+      "skrivit på linkedin",
+      "Jag trivs bra i rollen som jag har idag \n- Jobbar med byggledning och projektledning inom markarbeten och VA\n- Konsultsidan trivs bra där, beror mycket på vilka projekt man har och arbetsgivaren \n- Har jobbat som projektledare sedan 2007 \nGillar att jobba i projekt och leda projekt \n\nVill: \n- Visste inte exakt roll som kan vara intressant \n- Men kanske Beställare hellre än entreprenad \n- Trivs att jobba i projekt. \n\nNämnde Svevia kort, hade jobbat där innan, var längesen 2007 slutade han där. \n\nMen vi kunde höras i höst och stämma av",
+      "Vår kund!! Jobbar i gruppen vi arbetar med i Göteborg/ Forsen. Kontakta ej!",
+      "- Nej jag trivs bra, inte öppen för nytt om det inte är något extraordinärt. \n- Jag har jobbat med Rambolls konkurrenter och vet hur dom jobbar, det är inte för mig. "
+    ],
+    "tier": 2,
+    "tier_reason": "Experienced project manager (17+ years) in infrastructure/utilities with solid track record, but currently satisfied in role and not actively seeking—requires strategic approach.",
+    "ai_suggestions": {
+      "role": "Projektledare",
+      "stack": "Markarbeten, VA, Anläggning, Infrastruktur",
+      "experience": "17 år",
+      "city": "Göteborg",
+      "note": "Peter är en erfaren projektledare specialiserad på byggledning och markarbeten inom VA och infrastruktur. Han är för närvarande nöjd på Forsen men kan potentiellt vara öppen för ett extraordinärt alternativ, helst på beställarsidan snarare än entreprenadsidan."
+    }
+  },
+  {
+    "id": "12577",
+    "name": "Peter Damgaard",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12577/show",
+    "role": "Geotekniker, Civilingenjör Väg-och vatten",
+    "organization": "Tyréns AB",
+    "email": null,
+    "phone": "+46734122549",
+    "linkedin": "https://www.linkedin.com/in/peter-damgaard-81495b105/",
+    "notes": [
+      "Prospekt",
+      "Är nöjd med sin roll på Sweco vill ej byta till annan konsult. Kan tänka sig entreprenör och beställare in framtiden. Kan höras inom ett år för att kolla läget då.",
+      "Han har lite mycket nu, kan testa någon annan dag!",
+      "Jag testar någon annan dag istället, satt i möte!",
+      "Han satt dumt till, kan testa en annan dag istället",
+      "Har skrivit till på LinkedIn!",
+      "Gör:\n- Han har inte gått i några tankar. Han trivs väldigt bra idag, med bolaget och de projekten han jobbar med. \n- Roll: Han är teknikansvarig, UL inom geoteknik. \n\nVill: \n- Som han ser det nu är det specialisttrappan som han ser framför sig, snarare än chefstrappan. Det är det han ser som inriktning. Det kan ju alltid ändras. Han är inte färdig med tekniken nu iaf!\n\nDet går bra att vi hörs av längre fram igen! ",
+      "Inte helt omöjligt men just nu ska han gå på pappaledighet till sen höst och vi får gärna ringa efter sommaren. ",
+      "nr ringer ej",
+      "Det passade inte bra att prata just nu. Föräldraledig till efter sommaren, han kan vara lite svår att nå men vi kan testa! ",
+      "Miriam Bearbetar själv.\n\nHade ringt Tove på egenhand. ",
+      "inte aktuellt ",
+      "Har kontaktat Miriam på Tyrens själv. Avvaktar med att kontakta Peter för Tyrens räkning",
+      "Står på en voi påväg till ett möte så hör inte så bra, testa annat tillfälle",
+      "sitter så bra här idag, känner mig ny fortsatt. Var länge på sweco och bytte till tyrens för 3 år sedan.\n\nHörs gärna i framiden. "
+    ],
+    "tier": 2,
+    "tier_reason": "Established geotechnical specialist with 10+ years experience at tier-1 consulting firms, currently satisfied in role but open to future opportunities in specialist track",
+    "ai_suggestions": {
+      "role": "Teknikansvarig geoteknik / Geotekniker",
+      "stack": "Geoteknik, markförstärkning, grundläggning",
+      "experience": "10+ år",
+      "city": null,
+      "note": "Erfaren geotekniker och civilingenjör som är väl etablerad på Tyréns AB efter långt arbete på Sweco. Han är fokuserad på specialistspåret snarare än ledarskap och trivs mycket bra med sina nuvarande projekt, men är öppen för framtida möjligheter inom entreprenöri eller beställarsidan senare."
+    }
+  },
+  {
+    "id": "12578",
+    "name": "Peter Claesson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12578/show",
+    "role": "Geotekniker, Tekn doktor",
+    "organization": "Skanska Sverige AB, Teknik",
+    "email": null,
+    "phone": "+46104484064",
+    "linkedin": "https://www.linkedin.com/in/peter-claesson-0a8560235/",
+    "notes": [
+      "Prospekt",
+      "Jag har en roll på Skanska Teknik som jag trivs bra med. Intressanta projekt. Har precis passerat jämnt - 60. Trivs bättre än nånsin! Är nog svårt att locka mig faktiskt. \nKänner en del geoteknikerna är. Har det alldeles för bra för att byta dit nu. Vi har en fantastisk grupp, den bästa i Sverige skulle ja tro. \n\nJobbar med geoteknik, varit GC o specialist. Jobbar mest mot Skanska. Vi har inte haft behov av att ta in andra entreprenörer. Vi klarar oss ganska bra inom geo, vi har jobb mot både hus, trafikverket, stora projekt - inte trafikverket längre. Det handlar om hur dessa hanteras, det är andra aktörer också som är missnöjda med hur de hanterar totalentreprenader. \n\nVi kan stämma av till vintern. Ska få en ny chef här nu, man vet ju aldrig",
+      "Trivs som fisken i vattnet,  fantastisk avdelning och en fantastisk grupp. Ny kille som gick in som chef nu har jag ju känt i 5 år innan. Vi har mycket kul på gång också.\n\nJag har heller inga framtidsplaner. Nyss blivit 60- Planen för mig är pension.\n \nVäldigt trevlig och glad gubbe. Men svårflyttad. Trivs väldigt bra idag."
+    ],
+    "tier": 3,
+    "tier_reason": "Senior expert in niche field but explicitly planning retirement and very satisfied in current role, making recruitment unlikely.",
+    "ai_suggestions": {
+      "role": "Geotekniker",
+      "stack": null,
+      "experience": "30+ år",
+      "city": null,
+      "note": "Tekn doktor och specialist inom geoteknik på Skanska Sverige med omfattande erfarenhet från stora infrastruktur- och byggprojekt. Mycket nöjd i nuvarande roll med stark teamkänsla och inga framtidsplaner utöver pension – svårflyttad kandidat."
+    }
+  },
+  {
+    "id": "12579",
+    "name": "Peter Canbro",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12579/show",
+    "role": "Elektriker",
+    "organization": "ManpowerGroup",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://se.linkedin.com/in/peter-canbro-137b0510a",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Sparse professional data with limited technical stack information and unclear career trajectory.",
+    "ai_suggestions": {
+      "role": "Elektriker",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Peter Canbro är elektriker med anknytning till ManpowerGroup. Profilen saknar detaljerad information om specifik erfarenhet, teknikstack eller karriärsutveckling, vilket gör en fulländad bedömning svår."
+    }
+  },
+  {
+    "id": "12580",
+    "name": "Peter Bruce",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12580/show",
+    "role": "Mätningsingenjör",
+    "organization": "Ahmadiah Contracting & Tr. Co.",
+    "email": null,
+    "phone": null,
+    "linkedin": null,
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Junior-level prospect with limited information; unclear tech stack and no detailed background provided",
+    "ai_suggestions": {
+      "role": "Mätningsingenjör",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Peter Bruce är mätningsingenjör på Ahmadiah Contracting & Tr. Co. Kandidaten klassificeras som prospekt utan närmare information om teknisk kompetens eller erfarenhet."
+    }
+  },
+  {
+    "id": "12581",
+    "name": "Peter Brevell",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12581/show",
+    "role": "Byggledare Projekteringsledare Installationsledare",
+    "organization": "Sweco",
+    "email": "pp.brevell@gmail.com",
+    "phone": "+4686956000",
+    "linkedin": "https://www.linkedin.com/in/peter-brevell-281b6860/",
+    "notes": [
+      "Prospekt",
+      "Numret inte aktuellt, går till en Jesper. Kör växeln",
+      "är öppen för samtal\n\nroll:\nidag är jag KA, är byggledare, är installationssamordnare/ledare, håller på med c märkningar, projektledare, multidiciplinär \n\ngör mycket inom installationsledning idag \n\njag har prata med peab för flera år sen, tackade inte ja då\ndet va flera delar, för det första är jag van med tjänstebil och det hade inte dom\noch sen han som ville rekrytera mig han kändes bra, men projekten va han inte ärlig med, då kändes de inte ärligt \nmen det här är flera år sen, 8-9 år sen \n\ntjänstebil är krav för mig faktiskt\nsen funderar jag på om jag ska köpa egen bil eventuellt, fyller 60 \njag fick bil på sweco trots att det inte va självklart men dom behövde mitt CV och då löste dom den frågan, allt går ju att lösa om man verkligen vill ha någon tänker jag\n\njag lyssnar gärna och öppen för möjligheter, men man måste veta om förutsättningar och bil är en sån kuggfråga \nsen har jag bra lön \ninnan året har jag 64\n\nhar samma regler kring bil här på sweco men jag fick bil ändå \n\nVill:\ntrivs i mixrollen men trivs oxå som installationsledning och ute på plats, det tycker jag är väldigt roligt \n\nPEAB är intressant! \n\ngår förmåner och eventuellt bil att matcha så tar han gärna en träff, jag får presentera och nämna det vi pratat om\n\npp.brevell@gmail.com \n\n",
+      "ingen bil på peab, så får släppa "
+    ],
+    "tier": 1,
+    "tier_reason": "Senior construction leader at Sweco with 30+ years implied experience, multi-disciplinary expertise in project management and installation coordination — immediately placeable despite specific requirements.",
+    "ai_suggestions": {
+      "role": "Byggledare / Installationsledare",
+      "stack": "Projektledning, Installationssamordning, C-märkningar, Byggledaruppgifter",
+      "experience": "30+ år",
+      "city": null,
+      "note": "Erfaren byggledare och installationsledare från Sweco med stark bakgrund inom multidisciplinär projektutveckling. Söker motsvarande ledningsroll med tjänstebil som förutsättning; öppen för nya möjligheter men värderar tydliga förutsättningar och trovärdig kommunikation högt."
+    }
+  },
+  {
+    "id": "12582",
+    "name": "Peter Axeborn",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12582/show",
+    "role": "Planeringsspecialist",
+    "organization": "Skanska Sverige AB",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://se.linkedin.com/in/peter-axeborn-89b56511/sv",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Planeringsspecialist role lacks clear technical stack information; insufficient data to assess technical seniority.",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Peter är planeringsspecialist på Skanska Sverige AB. Utan tillgång till detaljerad CV-data eller LinkedIn-profil är det svårt att bedöma teknisk kompetens och erfarenhet."
+    }
+  },
+  {
+    "id": "12584",
+    "name": "Peter Alheid",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12584/show",
+    "role": "Geokonstruktör",
+    "organization": "Hercules Grundläggning AB",
+    "email": null,
+    "phone": "+46706565939",
+    "linkedin": null,
+    "notes": [
+      "Prospekt",
+      "Gör:\n- Situationen är alldeles utmärkt för tillfället.\n- Hercules ska flytta, det ska bli ett aktivitetsbaserat kontor. Det är om något år den förändringen kommer äga rum. \n- Det är geokonstruktion han håller på med. \n- Man har blivit lite bortskämt på entreprenörsidan. \n\nVill:\n- Geokonstruktion är det han kommer fortsätta med. \n- Företag: Mycket tveksamt om han är öppen för konsult. Men aa kanske. \n",
+      "Nej jag trivs bra idag. \n\nGör: \n- Geokonstruktör\n\nKanske på sikt, vet aldrig vad som händer. Kan höras igen. \n\nTips! Finns ju ganska få bra, dem vill man helst ha själv.",
+      "https://hercules.se/nyheter/peter-alheid-ar-hercules-palguru/",
+      "Ringde upp. \"Ska inte slösa med din tid, jag är inte intresserad\"",
+      "Rekrytering? Nää inte för mig. Jag sitter bra, är mer akademiskt lagt. Vill inte byta, sitter bra. Sparade du lite tid :)"
+    ],
+    "tier": 3,
+    "tier_reason": "Specialist in niche field (geokonstruktion) with strong current position but explicitly uninterested in recruitment opportunities",
+    "ai_suggestions": {
+      "role": "Geokonstruktör",
+      "stack": null,
+      "experience": "10+ år",
+      "city": null,
+      "note": "Peter är en erfaren geokonstruktör på Hercules Grundläggning AB som är väl etablerad och nöjd med sin nuvarande roll. Han har konsekvent avböjt rekryteringskontakter och uttryckt starkt desintresse för byten, vilket gör honom en långsiktig prospekt snarare än en aktiv kandidat."
+    }
+  },
+  {
+    "id": "12585",
+    "name": "Pertti Karjalainen",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12585/show",
+    "role": "Entreprenadingenjör",
+    "organization": "PEAB",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/pertti-karjalainen-3b79676a/",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Construction engineer with limited tech stack visibility and sparse technical data available",
+    "ai_suggestions": {
+      "role": "Entreprenadingenjör",
+      "stack": null,
+      "experience": "10+ år",
+      "city": null,
+      "note": "Entreprenadingenjör på PEAB med erfarenhet inom byggprojekt och konstruktion. Profilen saknar detaljerad teknisk information och är klassificerad som prospekt från 2018."
+    }
+  },
+  {
+    "id": "12586",
+    "name": "Pernilla Svalborg",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12586/show",
+    "role": "Entreprenadingenjör",
+    "organization": "PEAB",
+    "email": "Pernilla.Svalborg@gmail.com",
+    "phone": "+46709790020",
+    "linkedin": "https://www.linkedin.com/in/pernilla-svalborg-184a991b/",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Construction engineer with limited technical stack visibility and sparse profile data makes assessment difficult.",
+    "ai_suggestions": {
+      "role": "Entreprenadingenjör",
+      "stack": null,
+      "experience": "8–10 år",
+      "city": null,
+      "note": "Entreprenadingenjör på PEAB med fokus på konstruktion och projekteringsledning. Begränsad information tillgänglig för bedömning av teknisk kompetens och karriärutveckling."
+    }
+  },
+  {
+    "id": "12587",
+    "name": "Pernilla Knutsson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12587/show",
+    "role": "Projektledare",
+    "organization": "JM",
+    "email": "pernilla.knutsson@jm.se",
+    "phone": "+46317035724",
+    "linkedin": "https://www.linkedin.com/in/pernilla-knutsson-21697670/",
+    "notes": [
+      "Prospekt",
+      "Växeln hittade ingen Pernilla Knutsson, skriver på linkedIn! ",
+      "Enl hennes facebook jobbat på bonava 2015-2018 och nu JM sedan 1 oktober 2018, testar ringa deras växel",
+      "Jobbar på JM idag, sitter i möte till 16:30\n031 703 57 24",
+      "Gör:\n-Bytte jobb i oktober, flyttade på sig ganska nyss. JM\n-Tidigare Bonava.\n-Projektledare. Samma som Bonava. Projektchef. \n-Projektledning länge.\n\nVill:\n-Inte tänkt på vad som är intressant, fortfarande ny i sin roll. \n-Byta till något annat typ av jobb, samma bransch men någon annan roll kanske. \n-Svårt att säga exakt, tidiga skeden, övergripande områden. Projektchefsrollen, mer övergripande chefsarbete. \n-Inte är den som är ute efter personalansvar, inriktning på utveckling och bra arbete. \n-Beställarsidan: Är på beställarsidan och entreprenadsidan nu anser hon. Aldrig varit på entreprenadsidan däremot. \n-Produktion är inget som lockar. Mer utvecklingssidan. \n-Utvecklingschef kanske, som inte har någon personalansvar. En del roller som senior advisor, delaktig i hur företaget ska jobba utan personalansvar. \n-Titel inte viktigt. \n\n",
+      "Ville att vi skulle ha fortsatt kontakt om något hände på JM sa hon. Så hon bad att jag mailade henne mina uppgifter så skulle vi höras.\n\npernilla.knutsson@jm.se",
+      "Inte sugen på att byta AG för att jobba i typ samma roll. \n\nVill:\n- lämna projekten och jobba mer övergripande\n- tidiga skeden\n- detaljplaner",
+      "Sofia Söderström:\nNej AC; passar bättre för BU",
+      "Göteborg, verkar tyvärr vara helt felprospekterad.",
+      "Var upptagen till 12:30 ",
+      "Upptagen till 14.00",
+      "Du kan prova imorgon efter lunch. ",
+      "Inte tänkt så mycket på det sen dess. Har varit här i 1,5 år så kanske inte läge just nu \n\nGör: \n- Jobbar som projektledare nu, ibland kanske jag tänker att jag ska göra något annat \n- Inte byta till en liknande roll som hon har idag \n- Jobbar 20 år som projektledare  \n\nVill: \n- Vill jobba med utveckling, detaljplaner och tidiga skeden\n- Sitter hellre bostäder än kommersiella \n- Vill inte samma jobb eller roll som hon har idag. \n- Vill sitt med utveckling, intresserad av produkten, kundvärden och kundkontakt. \n- Tycker det är tråkigt med prognoser och att sitta med kalkyl 70% det vill jag inte göra \n\nPitchade Alfred lite lätt och det lät intressant men vill jobba med bostäder, annars intressant och inte läge nu. \n\nHöras längre fram eller om en roll dyker upp",
+      "Testa att ringa cirka halv 4! ",
+      "möte till 14 enligt växeln ",
+      "Varit ett annorlunda år för alla detta år. Inte direkt haft tankar att se mig om men det kan bero på att det har känts osäker, pandemisituation. Vad händer med marknaden i byggsektorn? komma in sist osv. Nu känns det dock helt klart mer stabilt!  \n\nHar väl lite saker som jag saknar. \n\nIDAG: \nProjektledare idag. Har jobbat som PL i nästan 20 år. Känner dock att den rollen jag har är för lite  utveckling och för mycket kalkyler. Har bättre fokus och kunskap om utveckling, problemlösningar, jobba med tidiga skeden och att utforma områden. Även kundfokus - förstå  vad kunden behöver. \n\nHamnat där jag bara snurrar kalkyler, sitter just nu i projekt med dåligt ekonomi och räknar, försöker få allt att fungera. Det är såklart en viktigt bit också men saknar tidiga skeden och utveckling. \n\nSKEDEN: \n-Under tiden på Bonava arbetade jag mycket med tidiga skeden och utveckling. innan dess Riksbyggen, satt som projektledare men arbetade mycket med tidiga skeden för ingen då hade en tjänst som ansvarig för projektutveckling. Det låg på oss projektledare så min chef såg till att jag fick de mesta av dom bitarna och fasade in mig åt det hållet. \n\n-Kommit in när det är en tomt som är köpt. Granskar ofta avtal men skriver dom vanligtvis inte själv. Kommer allt som oftast in när marken är köpt men ibland när någon funderar på att köpa också. Marknadsundersökning. Vad saknas? vad finns runtomkring? Vad har vi för målgrupp? Man är med och tar beslut. Detaljplaner ihop med kommunen.\n\n-Har varit med i alla skeden, men kanske inte ett projekt från början till slut ( i och med att det är väldigt långa processer, varit med om något som är uppemot 14 år). \n\nMin titel har dock alltid varit projektledare eller projektchef. \n\nPROJEKT: \nBostäder mest, sedan 2002. Innan dess blandat. Gillar bostäder! \nInte jättemycket erfarenhet av just hyresrätter, men litegrann. \n\nMagnolia: \nEn sådan typ av roll kan jag nog absolut tänka mig. Vet dock inte så mycket om Magnolia så skulle vilja läsa på lite. Sen ska jag vara ärlig och säga att jag är lite osäker pga litet kontor, är så van att ha stor organisation. Men behöver inte falla på det.  \n\npernilla.knutsson@jm.se  hon ska få länk till tjänstebeskrivning, vi hörs nästa v! ",
+      "Tittat på hemsidan och gått igenom. \n\nLäste om tjänsten också. Känner kanske inte riktigt är det jag söker. Är som jag sa tidigare van vid större organisationer och dem var bara 5 i Göteborg. Vill mer åt tidiga skeden vilket det även var här, men inräknat med allt det andra så är jag tveksam. Få personer, man gör mycket mer. På större organisationer blir man mer specialist.\n\nBlir mer heltäckande. \n\nInte just nu iallafall. Lite i corona-tider, rätt tid att byta jobb? velig med konjunkturen och omständigheter. \n\nDyker det upp annat får vi gärna höra av oss. Hon hann börja tröttna på vissa saker i jobbet innan jul, så inte stängd för att se sig om. Hon hör av sig om något drastiskt förändras. Ber om cv\n\n",
+      "inte prio från Forsen skull",
+      "Ska vara tillbaka vid 14.",
+      "Inget svar nu heller. Provar kontakt på Linkedin. ",
+      "Svar; Hej\nDet kan vara intressant. Det beror på vilket företag och hur rollen är utformad. Du får gärna höra av dig efter kl 14.30 idag eller nästa vecka så tar vi ett samtal. Mobil 072-4680371\n/Pernilla",
+      "Gör: \n- PL på JM sedan två och ett halvt år tillbaka. \n - JM enbart Bostäder. Västra Frölunda 120lgh, Säverdal Seniorboende.\n- PL rollen ändrar sig beroende på vilket bolag du är på... Inte riktigt vad hon tänkt sig här. \n- Projektledaren är ansvarig över allt - från upphandling och byggmöten till marknad, produktion, och eftermarknad. \n\nVill: \n- Projektutveckling, tidiga skeden.\n- Varit på konsultsidan tidigare - inte stängt några dörrar.\n- Beställare kanske är det jag sett framför mig men behöver inte bli så. \n\nBerättar om Alfred vilket hon tycker låter intressant... Hon ska gå in och läsa lite på hemsidan och sen hörs vi i nästa vecka. ",
+      "Pernilla har så mkt att slutföra innan semestern och har inte hunnit kika eller fundera något mer. Mer mig skicka et nytt mail med länk till Alfreds hemsida och mina kontaktuppgifter så ska hon sätta sig in i tankarna lite mer under sommaren. ",
+      "Möte - tillbaka 10.30",
+      "Jag letar efter en ny arbetsplats, vill ej vara kvar på JM\nHelt rätt tajming nu \n\nDock är det för långt för mig att ta mig till Cernera.\nBor i Torslanda så är fel \n\nLetar efter något \nProjektutveckling \nProjektledare \n\nHar jobbar som pl nu i 23 år\n\nHelst vill jag jobba med tidigare skeden men måste byta bolag, trivs ej på JM \n",
+      "Tipsar: \nMattias Pettersson\nMalin Petterson\nKristina Gatel \n",
+      "Vill: \n\nTrivs inte bra alls. Letar nytt. PL 23år. Ska jag fortsätta, vad ska jag göra?\ntidiga skeden, utvecklingsfasen\nKonsult? ",
+      "Pernilla inte funderat klart än... vi hörs under nästa vecka. ",
+      "Pratar med Pernilla. Hon har haft så mkt runt omkring sig och behövde bara ta en paus. Funderat lite men inte helt ändå. Känner sig lite osäker, inte hört talas om dem och sen att det är ett mindre bolag... \n\"Ska jag gå tillbaka till konsult?\"\n\nGällande bolaget och storleken försöker jag trycka på deras stabilitet etc. \n\nSäger att jag hör av mig om två veckor igen. ",
+      "Inget svar. Provar att maila. ",
+      "Svar; Hej\nTack för att du hörde av dig!\nJag har funderat och kommit fram till att jag nog inte är beredd att ta steget in i konsultbranschen just nu.\nJag har därför sett mig om efter jobb på byggherresidan istället. Jag har hittat ett nytt jobb som jag har tackat ja till.\nSå detta är inte aktuellt för mig just nu.\nHa det gott!!\n/Pernilla"
+    ],
+    "tier": 3,
+    "tier_reason": "Candidate has strong residential development experience (23 years as project manager) but is currently inactive/placed elsewhere; profile lacks clear current tech stack and immediate availability.",
+    "ai_suggestions": {
+      "role": "Projektutvecklare / Utvecklingschef",
+      "stack": null,
+      "experience": "23 år",
+      "city": "Göteborg (Torslanda)",
+      "note": "Erfaren projektledare inom bostadsutveckling med stark fokus på tidiga skeden, detaljplaner och projektutveckling. Sökte aktivt nytt jobb 2021 då hon trivdes dåligt på JM, intresserad av beställarroll utan personalansvar. Enligt sista notering från januari 2022 accepterade hon tjänst inom byggherreside och är därmed placerad."
+    }
+  },
+  {
+    "id": "12588",
+    "name": "Per-Arne Sjöberg",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12588/show",
+    "role": "Projektledare",
+    "organization": "Holmens Rörgille AB",
+    "email": null,
+    "phone": "+46734257876",
+    "linkedin": "https://www.linkedin.com/in/per-arne-sj%C3%B6berg-29b50894",
+    "notes": [
+      "Prospekt",
+      "Satt hos läkaren, får testa senare"
+    ],
+    "tier": 3,
+    "tier_reason": "Project manager with limited technical stack clarity and sparse profile data requiring further assessment",
+    "ai_suggestions": {
+      "role": "Projektledare",
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Projektledare på Holmens Rörgille AB. Profilen saknar teknisk stack-information och karriärdetaljer. Kandidaten är klassificerad som prospekt men har begränsad aktivitet i systemet sedan 2019."
+    }
+  },
+  {
+    "id": "12590",
+    "name": "Per Winterbielke",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12590/show",
+    "role": "Produktionschef",
+    "organization": "Skanska Sverige AB",
+    "email": "Per.winterbielke@skanska.se <Per.winterbielke@skanska.se>",
+    "phone": "+46104480480",
+    "linkedin": "https://www.linkedin.com/in/per-winterbielke-12b167bb",
+    "notes": [
+      "Prospekt",
+      "Påmint via mail",
+      "IK ",
+      "Har påminnt om CV, han ska försöka fixa innan helgen men jag ringer på måndag om det inte har kommit in något. Mycket att göra på jobbet nu! ",
+      "Han har stora projekt idag, inte intresserad av något jättelitet. lite över 50 000 idag plus bonus (60 000 ca). Två projekt idag ena på 230 milj och ett på 215 milj kronor. Han ska skicka över CV innan onsdag, annars ringer jag igen!\n\nHan är lite irriterad just nu på nuvarande arbetsplats, så känns som bra timing. ",
+      "IK ",
+      "IK. ",
+      "Produktionschef i ca 10 år. Trivs bra i den rollen. Tycker det är skoj i den profilen och så man arbetar i produktionen.\n\nFörst 1 på 130 lgh 220 msek\nSedan 1 146 lgh på 250 msek\n\nSnurrar ca 400 msek byggtid 18-20 månader. \n\nTrivs i större projekt. Vill inte ha något litet så som läget är. \n\nInte tänkt så mycket på att röra på sig, var lite frustrerad över något annat. \n\nInget dåligt på PEAB - drog aldrig igång projekten som det var lovat. \n\nAndreas D'Arienzo, Henrik Korpås. \n\nTung produktionschef. ",
+      "IK så skrev ett mail där jag frågade om typ av projekt. ",
+      "\"Det skulle vara roligt att bygga kommersiellt och gärna något som sticker ut från mängden om man fick önska fritt\". ",
+      "- PEAB. Han var ju där, det var lite rörigt och så då. \n- Gillar ordning och reda och struktur, och det upplevde han inte att det var då. \n- Han vill ändå träffa dom och ge det en chans! ",
+      "28/11 08:00-12:00\n30/11 9:30-12:00\n7/12 13:00-16:30 \n",
+      "Henrik Korpås (AC), Åsa Bergkvist (Personalchef). \n\n7/12- 15.00-16.00",
+      "Henrik.korpas@peab.se\n\nAsa.bergkvist@peab.se",
+      "När Andreas kom in hade dem 0 i orderstocken och det enda D'Arienzo gjorde var att räkna på jobb för att få igång projekten. \n\nPer Winterbielke rekommenderade en herre att få över då, sket sig lite i att få över den killen som lockade över honom till Skanska rätt in i ett stort projekt. ",
+      "- Han ballar nog ur mötet.\n- Men för det första, han känner att det är tf arbetschef, han omsätter ju mer än vad han gör. Känns inte helt seriöst att han ska in och träffa en som gör det. \n\nFattade inte helt?? Men han ballade ur iaf",
+      "Vill projektchef inte PC. \n\nMåste ha det, känner efter fundering att han hellre vill gå som Projektchef istället. ",
+      "Aktuellt för PrC när behovet dyker upp men inte just nu, Dan har återkopplat!",
+      "Nytt projekt på Per Winterbielke - inte läge att gå vidare just nu.\n\nFår gärna höra av oss längre fram. \n\nHar det lite för bra just nu!",
+      "Inte läge, trivs bra som det är. Har fullt upp. \nKan ringa längre fram. ",
+      "Olägligt, Står med en transport. Hörs efter årsskiftet",
+      "Har det ganska bra, det finns inget som lockar i dagsläget. \n\nVäg/mark på konsultsidan är inte rätt för honom. "
+    ],
+    "tier": 2,
+    "tier_reason": "Experienced production manager at major construction firm with substantial project portfolio, but data is outdated (2018–2021) and candidate has consistently declined opportunities.",
+    "ai_suggestions": {
+      "role": "Produktionschef / Projektchef",
+      "stack": null,
+      "experience": "ca 10 år",
+      "city": null,
+      "note": "Erfaren produktionschef på Skanska med stark bakgrund från stora byggprojekt (400 msek snurr, 18–20 månaders byggtid). Föredrar större projekt och värdesätter ordning, struktur och professionell ledning. Har visat intresse för kommersiell byggverksamhet, men är sedan 2018 konsekvent opåverkad av rekryteringsinitiativ och trivs väl i nuvarande roll."
+    }
+  },
+  {
+    "id": "12591",
+    "name": "Per Widén SALES",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12591/show",
+    "role": "Avdelningschef",
+    "organization": "Norconsult AB",
+    "email": "widen.per@gmail.com",
+    "phone": "+46767601136",
+    "linkedin": "https://www.linkedin.com/in/per-wid%C3%A9n-63647390/",
+    "notes": [
+      "Prospekt",
+      "Blandat i projekt, fria arbetstider. Föräldraledighet i sommar. Sitter lugnt i båten fram tills dess, har det väldigt bra idag och ser inte anledningar att byta arbetsgivare nu. Skulle vara om någonting ändras till det negativa, typ att han inte får jobba varierat, byte av chef etc. Men, bad om ny kontakt i sommar, man vet aldrig vad som händer. ",
+      "IK ",
+      "IK ",
+      "Nybliven småbarnspappa. Inte omöjlig att röra på sig på sikt men just idag är det inget vidare läge. WSP och Ramböll är bra bolag, men att byta konsult måste innebära någonting nytt, annars blir det precis samma sak. Lite sugen på beställare. Vill vara med tidigt i planeringsstadiet. Är det något som Ramböll/WSP kan erbjuda på sikt? Återkom efter årskiftet! L",
+      "För mig nu så trivs jag bra! Föräldraledig fram till sommaren. Inga större planer att titta mig om.\n\nAlltid intressant på sikt, vet aldrig vad som händer. \n\nIdag: \nProjektledare/UA. Alla typer av uppdrag, allt från trafikverket till kommuner. \n\nVill:\nTrivs som sagt bra, har ett varierande arbete. \n-På sikt linjeroll - teamchef/gruppledare. Fått frågan om det tidigare. Men inget jag suktar efter så nu, men på sikt kanske. \n\nBolag: \nDär jag är idag, fördelar inte så jättestora. Även medarbetarägda. \n-Det som skulle få mig att byta inom konsultvärlden, är om jag inte skulle trivas eller inte får göra det jag vill längre. Alternativt om min chef skulle bytas ut, sånt kan ju hända. \n\nWsp - väletablerad bolag. Hade absolut kunnat vara intressant om jag var i den vändan och såg mig om eller inte trivdes här. \n\nSka höras efter semestern för att stämma av läget, om något förändrats. ",
+      "Ja, alltså jag började faktiskt jobba nu den här veckan så inte hunnit fundera.\n\nMed tanke på corona så är jag väldigt skeptiskt till att byta jobb. Kommer sitta still i båten. \n\nMen kan höras av fram mot vintern/efter årsskiftet! \n\n",
+      "Gör: \n- Trivs fortfarande bra, jobbat 10 år på samma företag och får göra det han vill.\n\nVilll:\n- Det som kan få honom att byta jobb är om ex. han skulle få en dålig chef eller det hastigt skulle bli sämre.\n- Eller att de inte kan erbjuda den lönen han vill ha. \n\n\nStänger inga dörrar såklart men inte intressant nu, höras till hösten!\n",
+      "Gör: \n- Trivs bra, inte inne på att byta nu\n- Uppdragsledare med infrastrukturprojekt, jobbar mycket mot Trafikverket och Göteborgs Stad\n\nVill: \n- Saknar inget i det han gör idag. Han får styra mycket själv. Men skulle han bli missnöjd över något så är han inte sen på att se sig om, håller dörrarna öppna \n\nDe ska få en ny VD nu och han visste inte riktigt vad som skulle hända efter det, om det blir omorganisation eller liknande, så vi får jättegärna höra av oss om ca ett halvår igen för att kolla status då ",
+      "De är ungefär samma sen innan, kanske snarare att man känner oro i världen och vill trygga sig, inga större tankar på att byta, fortsatt samma. Kan höras framåt igen ",
+      "dumt till är i fjällen tillbaka nästa vecka ",
+      "Är typ låst där han är.\nEkonomiska delar som håller honom. Är låst i 1 år. Kan testa höra av oss när han inte är låst på samma sätt. \n\nVILL:\nLiknande\nSer inte att det skulle vara bättre på något annat konsultbolag.- men vill samtidigt inte stänga någon dörr. \nJust nu känner han dock att det måste bli dåligt på Norconsult för att han ska vara öppen för att flytta på sig. \n\nFrågade vilket bolag jag rinde för, nämnde WSP. \n- Lät inte helt stängd inför dem, så kan nog testa presentera WSP igen när han inte är låst längre. ",
+      "han har säkert aktier i bolaget ",
+      "Just nu är jag lite upplåst, har aktier i Norconsult nu. Men sen trivs jag rätt bra också, men om det förändras så stänger jag inga dörrar. \n\nFramåt? Vet inte, skulle kanske inte vara kvar om ja vill göra annorlunda. De flesta konsulter är liknande när det kommer till jobbet. \n\nVi kan hålla ett öppet samtal om status längre fram när noteringen gått igenom  ",
+      "Sitter väl rätt så still i båten. Söker \n\nGÖR:\nUL i infra-projekt.\nMest väg.\n\nRamboll\n\nJobbar i bolag med en viss kultur. Ramboll är ett av dem bolag han kan tänka sig framåt.\n\nJust nu händer det mycket där han är. Bl.a. byte av chef. Kan höra av framåt för att se.  ",
+      "Jag sitter rätt så fast här, är inte i stadiet att söka mig vidare. Intressant roll &amp; med Ramboll men är inte där i livet. \n\nVill vara kvar i rollen som Avdelningschef iallafall två år för att sedan se om detta skulle vara något att bygga vidare på. Trivs bra i tekniken också och uppdragsledningen i projekt. ",
+      "Är på skidsemester så passar inte så bra nu. testa nästa vecka",
+      "Sitter i möte, testa på måndag istället",
+      "Gör: \n- Nyligen gått som som avdelningschefs, vill testa detta ett tag, \n- Chef för drygt 25, sitter i uppdrag också UL, infra projekt\n\nVill: \n- Vill inte lämna tekniken helt, kommer vilja sitta i uppdrag\n- Gillar personalansvar\n\nRejlers portfölj: \n- Ganska liknande roll som jag har idag utan personalansvaret, det är absolut intressant, men känner samtidigt att jag är ny i personalansvaret här och vill testa det ett tag framöver\n\n- Vill inte stänga några dörrar man vet vad som händer framåt"
+    ],
+    "tier": 2,
+    "tier_reason": "Senior infrastructure project manager with recent promotion to department head at established consulting firm, but currently settling into new role with limited mobility.",
+    "ai_suggestions": {
+      "role": "Avdelningschef / Uppdragsledare",
+      "stack": "Infrastrukturprojekt, vägprojekt, projektledning",
+      "experience": "15+ år",
+      "city": "Göteborg",
+      "note": "Per är nyligen befordrad till avdelningschef på Norconsult AB där han leder ett team på 25+ personer och samtidigt är aktiv uppdragsledare i infrastrukturprojekt, främst väg- och trafikprojekt för Trafikverket och kommuner. Han trivs väl i sin nuvarande roll och vill testa personalansvaret ytterligare ett par år innan han överväger sitt nästa steg, men stänger inte dörrarna för framtida möjligheter hos större konsultföretag som WSP eller Ramboll om situationen förändras."
+    }
+  },
+  {
+    "id": "12593",
+    "name": "Per Serrander",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12593/show",
+    "role": "Consultant, Project Manager (IPMA-C)",
+    "organization": "Vattenfall AB",
+    "email": "Perserrander@gmail.com",
+    "phone": "+46104731862",
+    "linkedin": "https://www.linkedin.com/in/per-serrander-3112b110",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 1,
+    "tier_reason": "Senior project manager at major Nordic utility company with formal IPMA-C certification and consultancy experience",
+    "ai_suggestions": {
+      "role": "Project Manager / Consultant",
+      "stack": null,
+      "experience": "15+ år",
+      "city": null,
+      "note": "Erfaren projektledare och konsult på Vattenfall AB med IPMA-C certifiering. Stark bakgrund inom energisektorn och projektledning på strategisk nivå."
+    }
+  },
+  {
+    "id": "12594",
+    "name": "Per Renntun",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12594/show",
+    "role": "Purchaser",
+    "organization": "AFRY",
+    "email": "pelle@pmi.nu",
+    "phone": "+46705402880",
+    "linkedin": "https://www.linkedin.com/in/per-renntun-a7a8ab8b/",
+    "notes": [
+      "Prospekt",
+      "lagt till på linkedin ",
+      "provar via mejl",
+      "Öppen för att ta ett samtal. Ska höras av nästa vecka",
+      "Bakgrund:\n- Jobbat som egenföretagare och varit försäljare tidigare.\n- Började med projektinköp 2011. Sen kategoriansvarig. Då jobbade man 75% ramavtal, prislistor, rabattbrev osv med stöttning i större projekt. \n- Careen var stökigt. Från 5000 till 3000 arbetare under min tid där. Därav bytte jag därifrån. Det kändes för ostadigt.\n- Sen sökte jag mig bland annat till PEAB. Kategoriansvariga för VVS o Ventilation. Pga långsam process hamnade jag mot väg/infra. Varit i johannelund, och södertunnlarna i Sthlm.\n- Blev lyft och satt under tillförordnade ekonomichefen. Blev lovad inköpschef, men insåg att det inte kommer hända. Även en för stressig roll. Blev rekommenderad att söka externt. Då hittade jag min nuvarande roll. \n\nRoll:\n- Bor i Stenungsund där kontoret ligger. Varit där 2,5 år. Jobbat mot raffinaderi ST1. Bensin/diesel. Nu nytt projekt jobbar mot Northwolt revolt. Bygga en återvinningsanläggning. \n- Projektinköp i dessa projekt. Småköp upp till 8-9 miljoner per köp. Även jobbat med att ta fram styrsystem i vårt arbetssätt. Multikulturellt. \n- Erfarenhet, upphandling av material o varor men även entreprenad. Ganska bred. \n\nVill:\n- Jag är chefsmaterial i grunden vad gäller min erfarenhet och kunskap. Men det är inte en sådan roll som driver mig mest. Vill ha vettig belastning och stabilitet i gruppen. Förtroende i ledningen. \n- Det jag gör nu är stimulerande. Men ser framåt mot innovativa företag också. \n- Vill inköp, inte för mycket administration. \n\nPEAB Inköp:\n- För en dryg vecka sen hörde min arbetsledare av sig vid ST1-projektet. Mikael Lundén. Han har blivit kontaktad gällande Peab inköp skrev att till Per att han kan tipsa Peab om honom. ---&gt; DET ÄR JAG SOM KONTAKTAT MIKAEL SOM LIGGER PÅ INTRESSERAD I UPPDRAGET. \n- Är man placerad till 100% eller är det flexibelt? \n- Ligger på 60k idag. Vill inte lämna Afry för att gå ner i lön eller resa mer men vägs det upp? Tjänstebil, restid, lön? Sånt kan vägas upp.\n- Just nu har jag inget ansvar direkt. Allt beror på vad jag gör, har jag ansvar vill jag ha betalt för det. \n- Öppen för att få presentation. Öppen generellt för bra förslag som matchar mig. Öppen för utmaningar och andra branschen inom mitt kunskapsområde. \n\nSka mejla ihop en sammanfattning så han har information att läsa in sig på. Riktig snackare. Härlig kille. ",
+      "Har funderat o det är lite riktigt läge för mig. Hörs efter sommaren igen det är för mycket nu med allt möjligt ändå."
+    ],
+    "tier": 2,
+    "tier_reason": "Mid-level procurement specialist with 11+ years of project purchasing experience at established companies (AFRY, PEAB, Careen), but currently seeking stability and clearer career trajectory.",
+    "ai_suggestions": {
+      "role": "Procurement Specialist / Project Purchaser",
+      "stack": "Project procurement, supplier management, contract negotiation, system development",
+      "experience": "11+ år",
+      "city": "Stenungsund",
+      "note": "Erfaren inköpsproffs med bred bakgrund inom projektinköp, upphandling och kategoriansvar för stora infrastruktur- och industriprojekt (raffineringar, återvinning). Söker en stabil roll med verklig påverkan på inköp snarare än ledning, med förtroende från ledningen och rimlig arbetsbelastning."
+    }
+  },
+  {
+    "id": "12595",
+    "name": "Per Persson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12595/show",
+    "role": "Ställverkselektriker",
+    "organization": "Veolia Norden",
+    "email": null,
+    "phone": "+46767802979",
+    "linkedin": "https://www.linkedin.com/in/per-persson-5baa8a97",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Specialist electrical role in utilities sector with limited visibility into broader tech stack or software development experience",
+    "ai_suggestions": {
+      "role": "Ställverkselektriker",
+      "stack": null,
+      "experience": "6+ år",
+      "city": null,
+      "note": "Per är ställverkselektriker på Veolia Norden med erfarenhet från kraftdistribution och elteknisk underhåll. Profilen kräver ytterligare information för att bedöma möjlig passning för teknikpositioner."
+    }
+  },
+  {
+    "id": "12596",
+    "name": "Per Nylander",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12596/show",
+    "role": "Geotekniker",
+    "organization": "Sweco",
+    "email": "peruny@gmx.com",
+    "phone": "+46704313604",
+    "linkedin": "https://www.linkedin.com/in/per-nylander-a41a6574/",
+    "notes": [
+      "Prospekt",
+      "Börjar på SGI i september. Två bra tips: Marcus Andreasson och David Ekstrand. ",
+      "Känner David Schälin",
+      "GÖR: geotekniker som håller på med olika projekt som varierar i storlek. Mest hållit på med tekniska typer av arbetsuppgifter, har inte tänkt så mycket på framtiden.\n\nVILL: Jag hade svårt med att få ut något av värde från per, han pratade mycket men det var inte något relevant för noteringar. Vi kom iallafall överens om att han ska tänka reflektera mer så återkommer jag nästa månad. Har inget emot konsultrollen osv. \n\nNotering för mig själv: fokusera mer på vad han inte har på jobbet i form av flexibiltet, förmåner, utveckling och hur en roll som denna på WSP kan gynna arbetskarriären kanske. ",
+      "inte intressrad villde inte lyssna på d ja hade att säga trots än att jag refererera till våra tidigare samtal och så, ser sig själv inte lämna sgi",
+      "Perra har bytt till PE. ",
+      "Hinner inte nu, men vi hörs i eftermiddag!",
+      "Prova imorgon, sitter dumt till idag",
+      "Den är bra situationen, PE.\n\nRoll:\n- Jobbar som geotekniker, mycket mot byggnader. Håller utredningar, geotekniska utredningar inför nybyggnation. \n\nVill:\n- Har inte reflekterat över vad som kan vara intressant. \n- Trivs ju bra nu, skulle vara om situationen förändras på något sätt. \n\nVi kan höras längre fram igen om situationen skulle förändras",
+      "Det ligger dumt i tiden att se sig omkring, ska vara pappaledig snart. Fullt fokus på det. \nVi kan höras om ett halvår/år\n\n",
+      "070 431 36 04 direkt",
+      "nej jag känner inte att det är läge. Har bara varit på Sweco i 2 år och trivs bra det gör jag. Har hoppat lite mellan konsultbolag tidigare och ser inte hur jag skulle få en bättre vardag hos Ramboll så får tacka nej till den idag"
+    ],
+    "tier": 3,
+    "tier_reason": "Passive candidate with limited career clarity, currently satisfied at Sweco, upcoming parental leave, and historically resistant to recruitment outreach.",
+    "ai_suggestions": {
+      "role": "Geotekniker",
+      "stack": null,
+      "experience": "6+ år",
+      "city": null,
+      "note": "Per är geotekniker specialiserad på geotekniska utredningar för byggnation. Han är för närvarande nöjd på Sweco (2 år) och planerar pappaledighet, vilket gör honom inte tillgänglig för recruitment på närmare tid. Han har begränsad karriärreflexion och kräver strukturerad uppföljning senare."
+    }
+  },
+  {
+    "id": "12598",
+    "name": "Per Kärrdin",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12598/show",
+    "role": "Enhetschef",
+    "organization": "Trafikverket",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/per-k%C3%A4rrdin-50556b39/",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Management role at public agency with unclear technical stack and no recent activity data to assess current technical capabilities",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Per Kärrdin är enhetschef på Trafikverket. Profilen saknar detaljerad information om teknisk bakgrund, kompetenser eller relevanta projekt som krävs för teknisk placering."
+    }
+  },
+  {
+    "id": "12600",
+    "name": "Per Hedmark",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12600/show",
+    "role": "Byggnadskonstruktör",
+    "organization": "BJ Svets & Anläggning AB",
+    "email": "perhedmark@hotmail.com",
+    "phone": "+46721505351",
+    "linkedin": "https://www.linkedin.com/in/per-hedmark/?originalSubdomain=se",
+    "notes": [
+      "Prospekt",
+      "Trevligt och intressant. Ja absolut kan vara ett alternativ. Gick in på roller.\n\nFörstahand flytten men vill gärna ses igen så man kan se vilken rollen. Slutet av juni.\n\n",
+      "Rätt inkörd på stålkonstruktion, Både industri och kommersiellt. Men har gjort lite allt möjligt.",
+      "Ska träffa Jakob levander. Charles har koll",
+      "Tidsförslag för PEab Teknik: fm 20/6 från kl.09.00",
+      "Per Hedmark - Semester början av juli. ",
+      "Per tyckte träffen med Andreas gick bra precis som Andreas. Han tycker om granskning och ser fram emot att processen går vidare. Väntar in samtal från Ulrika så hon kan boka upp intervju med Per under nästa vecka. ",
+      "Kan ses: Efter jobb denna vecka. kl.16.30. Därefter i Aug som gäller. ",
+      "WSP: Jättebra. Ska skriva ihop ett avtal. Känns som ett alternativ.",
+      "IK, ska följa upp om andra intervjun är inbokad med Ullis och om han har funderat något mer. ",
+      "Fortsatt positiv och det står mellan WSP &amp; Peab. Han har ett erbjuande från WSP och ska träffa Ulrika på Peab under v.35.",
+      "Väldigt trevligt möte och väntar på ett erbjudande från Peab. Lutar nog lite åt Peab. ",
+      "IK ",
+      "Han begärde 1500kr mer så bollen ligger hos Peab just nu. Borde gå i lås inom kort:) ",
+      "Anställd hos PEAB",
+      "Looström rycker i honom på egen hand.",
+      "sagt upp sig från PEAB börjar på stålhall",
+      "Gör:\n- GC idag och har startat upp gruppen här. Spännande men utmanande. \n- Saknar kollegor, vi är inte så många just nu men förhoppningsvis blir vi fler. \n- Kör typ enbart stål\n\nVill:\n- Vill ge detta en chans och köra på något år till. \n- Alltid kul att hålla kontakten så vi är välkomna att ringa igen\n\nSitowise: har jobbat på BTB tidigare. Skulle kunna bli aktuellt längre fram men inte nu. ",
+      "Peab drar i honom själva, kolla med Danne framöver",
+      "namnefternamn@hotmail.com",
+      "Kan kolla tider som passar. ta tider från hans sida.",
+      "Torsdag nästa vecka: spelar inte så stor roll. förmiddag är positivt. \nTisdag hela dagen. till eller från kontor",
+      "tisdag 10:00-11:00",
+      "nästa vecka: tisdag (inte 14-15), måndag funkar helt tomt, Onsdag (inte 10-11).",
+      "måndag nästa vecka klockan 13:00",
+      "NCC - lite utmaningar kring att vara på site osv. Dörren inte helt stängd men svårt att få ihop det med honom nu. Har inte erfarenhet av stålmontaget eller besiktning på plats. "
+    ],
+    "tier": 2,
+    "tier_reason": "Established structural steel specialist with proven track record at major construction firms (PEAB, WSP), though currently in a niche role with limited colleague network.",
+    "ai_suggestions": {
+      "role": "Byggnadskonstruktör",
+      "stack": "Stålkonstruktion, GC (Ground Control/Allmän Konstruktion)",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Per är en erfaren byggnadskonstruktör specialiserad på stålkonstruktion inom både industri och kommersiella projekt. Han har arbetad på större aktörer som PEAB ochWSP, och är för närvarande engagerad i konstruktionsgrupp med fokus på stålarbeten, även om han uttrycker att kollegakåren är liten och önskar utökas."
+    }
+  },
+  {
+    "id": "12601",
+    "name": "Per Friberg",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12601/show",
+    "role": "Department Manager Geotechnics and Rock mechanics",
+    "organization": "WSP Sverige AB",
+    "email": null,
+    "phone": "+46107227085",
+    "linkedin": "https://se.linkedin.com/in/per-friberg-2917ba51",
+    "notes": [
+      "Prospekt"
+    ],
+    "tier": 3,
+    "tier_reason": "Domain-specific civil engineering/geotechnics role with limited software development stack visibility",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": "15+ år",
+      "city": null,
+      "note": "Avdelningschef inom geoteknik och bergmekanik på WSP Sverige AB. Profilen indikerar ledande position inom infrastruktur- och byggsektorn, men saknar tydlig koppling till mjukvaruutveckling eller IT-relaterade kompetenser som är relevanta för tech-rekrytering."
+    }
+  },
+  {
+    "id": "12602",
+    "name": "Per Eriksson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/12602/show",
+    "role": "Konstruktör",
+    "organization": "Structor Västerås AB",
+    "email": "per.eriksson@structor.se",
+    "phone": null,
+    "linkedin": "http://linkedin.com/in/per-eriksson-32a80666",
+    "notes": [
+      "Prospekt",
+      "markanden är mest ner. \n\ndem kommer inte anställa på ett bra tag! har som ambition att anställa på sikt men inte idag. \n\ngjorde sig av med 2 i början på förra året. \n\n",
+      "Möte efter sommaren.\n\nHar annons ute för att fiska men inte kritiskt att få in en till person. "
+    ],
+    "tier": 3,
+    "tier_reason": "Junior-level constructor with limited technical stack information and unclear specialization makes placement challenging.",
+    "ai_suggestions": {
+      "role": "Konstruktör",
+      "stack": null,
+      "experience": "Okänd",
+      "city": "Västerås",
+      "note": "Per Eriksson arbetar som konstruktör på Structor Västerås AB. Baserat på rekryterarnas noteringar verkar företaget inte ha aktuella anställningsbehov och har genomgått personalnedskärningar, vilket gör denna prospect mindre relevant för närvarande."
     }
   }
 ]
