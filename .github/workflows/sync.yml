@@ -41,5 +41,6 @@ jobs:
           file_pattern: public/candidates.json
 
       - name: Trigger Netlify deploy
-        run: curl -s -X POST ${{ secrets.NETLIFY_BUILD_HOOK }}
+        if: ${{ secrets.NETLIFY_BUILD_HOOK != '' }}
+        run: curl -s -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
 
