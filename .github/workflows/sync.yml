@@ -40,7 +40,4 @@ jobs:
           commit_message: 'chore: sync candidates from Ponty'
           file_pattern: public/candidates.json
 
-      - name: Trigger Netlify deploy
-        if: ${{ secrets.NETLIFY_BUILD_HOOK != '' }}
-        run: curl -s -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
 

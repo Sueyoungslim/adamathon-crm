@@ -60,7 +60,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(null)
 
   useEffect(() => {
-    fetch('/candidates.json')
+    fetch('https://raw.githubusercontent.com/Sueyoungslim/adamathon-crm/main/public/candidates.json')
       .then(r => { if (!r.ok) throw new Error(); return r.json() })
       .then(data => {
         setCandidates(data)
