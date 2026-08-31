@@ -1,22 +1,102 @@
 [
   {
+    "id": "126503",
+    "name": "Filip Todorovic",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/126503/show",
+    "role": null,
+    "organization": "Axfood",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/filip-todorovic-22487a149/",
+    "notes": [],
+    "tier": 2,
+    "tier_reason": "Mid-level fullstack engineer with solid AWS and modern tech experience at established company, but recent code test underperformance (13/18) suggests some skill gaps despite strong profile.",
+    "ai_suggestions": {
+      "role": "Cloud Engineer / Fullstack Developer",
+      "stack": "AWS, TypeScript, Next.js, Python, React Native, Kubernetes, Docker, CI/CD, serverless, AWS Bedrock",
+      "experience": "~2 år på Axfood, totalt ~5–6 år inkl. tidigare roller",
+      "city": null,
+      "note": "Filip är en tekniskt driven Cloud Engineer på Axfood med stark fullstack-kompetens och aktiv intresse för AI och modern molninfrastruktur. Han söker inte aktivt men är öppen för tekniska lead-roller med större ansvar och möjlighet att påverka beslut; dock flaggas kodtestresultat som potentiell svag punkt."
+    }
+  },
+  {
+    "id": "126903",
+    "name": "Melek Gülsever",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/126903/show",
+    "role": null,
+    "organization": "ILT Education",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/gulsever/",
+    "notes": [],
+    "tier": 3,
+    "tier_reason": "Limited technical details available; ILT Education suggests educational/training focus rather than core engineering role",
+    "ai_suggestions": {
+      "role": null,
+      "stack": null,
+      "experience": null,
+      "city": null,
+      "note": "Melek Gülsever arbetar inom utbildningssektorn på ILT Education. Mer information om teknisk bakgrund, erfarenhet och kompetenser behövs för en korrekt bedömning."
+    }
+  },
+  {
+    "id": "128463",
+    "name": "Nathalie Olsson",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/128463/show",
+    "role": null,
+    "organization": "SEB",
+    "email": null,
+    "phone": "+46733996410",
+    "linkedin": "https://www.linkedin.com/in/nathalie-olsson-2aa2651a3",
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior technologist at tier-1 bank with proven AI leadership, multi-language expertise, and strong product acumen—immediately placeable in growth-stage tech roles.",
+    "ai_suggestions": {
+      "role": "AI Lead / Senior Software Engineer",
+      "stack": "Rust, Python, Java, TypeScript, React, GCP, Google ADK",
+      "experience": "5 år",
+      "city": null,
+      "note": "Nathalie är en tekniskt driven utvecklare med stark AI-kompetens och produktförståelse från SEB. Hon älskar att lära sig nya teknologier, kombinerar kodning med kundsamtal och affärsinsikt, och söker nu en mindre, mer påverkande miljö där hon kan bidra både tekniskt och strategiskt."
+    }
+  },
+  {
+    "id": "128593",
+    "name": "Emil Kantelius",
+    "ponty_url": "https://larenius.ponty-system.se/candidate/128593/show",
+    "role": null,
+    "organization": "Husqvarna Group",
+    "email": null,
+    "phone": null,
+    "linkedin": "https://www.linkedin.com/in/emilkantelius",
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior-level candidate from recognised Fortune 500 company (Husqvarna Group) with clear seniority indicators",
+    "ai_suggestions": {
+      "role": "Software Engineer",
+      "stack": "Java, Python, JavaScript, React, AWS, Docker, Kubernetes",
+      "experience": "8+ år",
+      "city": null,
+      "note": "Erfaren mjukvaruutvecklare från Husqvarna Group med stark bakgrund inom fullstack-utveckling och molnarkitektur. Demonstrerad förmåga att arbeta med moderna teknologier och skalbar systemdesign."
+    }
+  },
+  {
     "id": "117520",
     "name": "Jakob Pettersson Peeker",
     "ponty_url": "https://larenius.ponty-system.se/candidate/117520/show",
     "role": null,
     "organization": null,
     "email": "jakobpeeker@gmail.com",
-    "phone": null,
+    "phone": "+46793520799",
     "linkedin": "https://www.linkedin.com/in/jakob-pettersson-peeker-55720029",
     "notes": [],
     "tier": 3,
-    "tier_reason": "Insufficient data from profile; recruiter note does not provide meaningful technical or experience information.",
+    "tier_reason": "Insufficient profile data available to assess experience level, technical stack, or career trajectory.",
     "ai_suggestions": {
       "role": null,
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "Kandidat utan tillgänglig profilinformation. Rekryteraren planerade ett samtal för att bedöma hans bakgrund och kompetenser vidare."
+      "note": "Kandidat utan tillgänglig information om arbetshistorik, kompetenser eller erfarenhet. Endast en minnesanteckning om framtida kontakt finns tillgänglig."
     }
   },
   {
@@ -30,13 +110,13 @@
     "linkedin": "https://www.linkedin.com/in/eduardo-alvarez-nowak/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level engineer with fintech experience at established company, but currently satisfied in role and timeline uncertain",
+    "tier_reason": "Mid-level developer at established fintech company with demonstrated frontend interest, but currently content in role and not actively seeking",
     "ai_suggestions": {
-      "role": "Frontend Engineer",
+      "role": "Frontend Developer",
       "stack": "JavaScript, React",
-      "experience": "3-5 år",
+      "experience": "4–6 år",
       "city": null,
-      "note": "Eduardo arbetar som frontendutvecklare på Lendo AB, ett välkänt fintech-företag. Han är för närvarande nöjd i sin roll men öppen för nya möjligheter om 1-2 år, vilket indikerar begränsad omedelbar tillgänglighet."
+      "note": "Eduardo arbetar för Lendo AB (fintech) och har stark intresse för frontend-utveckling. Han är för närvarande nöjd på sin arbetsplats men öppen för nya möjligheter om 1–2 år."
     }
   },
   {
@@ -45,18 +125,18 @@
     "ponty_url": "https://larenius.ponty-system.se/candidate/129184/show",
     "role": null,
     "organization": "Qred",
-    "email": null,
-    "phone": null,
+    "email": "elmerssonrasmus@gmail.com",
+    "phone": "+46735455725",
     "linkedin": "https://www.linkedin.com/in/rasmus-elmersson-79a161174/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior Engineering Manager at established fintech company with 7+ years experience, strong technical stack (React, TypeScript, GraphQL), proven leadership of cross-functional teams, and clear growth trajectory.",
+    "tier_reason": "Senior Engineering Manager at recognised fintech (Qred) with 7+ years experience, strong technical stack, proven leadership of 10+ people, and clear career trajectory.",
     "ai_suggestions": {
       "role": "Engineering Manager / Tech Lead",
       "stack": "React, React Native, Next.js, Redux, GraphQL, TypeScript, Jest, Selenium, Figma, Adobe Creative Suite",
       "experience": "7+ år",
       "city": "Stockholm",
-      "note": "Erfaren Engineering Manager på Qred med hybrid fokus på peoplemanagement och teknisk ledning. Kombinerar frontend-expertis med designkompetens och intresse för AI-implementering. Motiveras av teamutveckling, problemlösning och möjligheten att påverka teknik och arbetssätt."
+      "note": "Erfaren Engineering Manager som leder två team (frontend och UX) på Qred och kombinerar stark teknisk expertis inom modern webbutveckling med fokus på personlig utveckling och organisatorisk förbättring. Söker fortsatt ledningsroll med bevarad teknisk närhet, stabila team-förutsättningar och möjlighet till karriärtillväxt inom en värderingsstyrd organisation."
     }
   },
   {
@@ -70,13 +150,13 @@
     "linkedin": "https://www.linkedin.com/in/lauradalcol/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior professional at prestigious EQT Group with clear seniority and recognisable international background",
+    "tier_reason": "Senior professional at recognisable PE/investment firm EQT Group with clear seniority indicators and likely strong technical or business acumen.",
     "ai_suggestions": {
       "role": "Investment Manager",
       "stack": null,
-      "experience": "10+ år",
+      "experience": "8+ år",
       "city": null,
-      "note": "Erfaren investeringsprofessionell på EQT Group med stark bakgrund inom private equity och kapitalförvaltning. Visar ledarpotential och global marknadskompetens."
+      "note": "Erfaren professionell från EQT Group med bakgrund inom investeringar och kapitalförvaltning. Stark track record från ett av Europas ledande investeringsbolag."
     }
   },
   {
@@ -90,13 +170,13 @@
     "linkedin": "https://www.linkedin.com/in/behrad-balov-0692971b6/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional at established utility company with relevant infrastructure background, but limited technical stack visibility",
+    "tier_reason": "Mid-level professional at established Swedish energy company with relevant infrastructure background, but limited technical stack visibility in provided data",
     "ai_suggestions": {
       "role": "Infrastructure Engineer",
-      "stack": "AWS, infrastructure management, cloud operations",
-      "experience": "5–7 år",
+      "stack": null,
+      "experience": "8+ år",
       "city": null,
-      "note": "Behrad arbetar vid Ellevio, ett ledande energidistributionsföretag i Sverige, med fokus på infrastruktur och molntjänster. Profilen indikerar erfarenhet av AWS och drift av kritisk infrastruktur, men kräver vidare utredning kring specifik teknisk expertise och ledningsansvar."
+      "note": "Behrad arbetar på Ellevio, en väletablerad svensk energiinfrastrukturföretag, vilket indikerar solid erfarenhet inom kritisk infrastruktur och operativ excellens. Profilen tyder på en erfaren infrastrukturfokuserad professionell, men mer information om teknisk stack och specifika projekt krävs för exakt positionering."
     }
   },
   {
@@ -110,13 +190,13 @@
     "linkedin": "https://www.linkedin.com/in/rishabh-sharma-00b119168",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level engineer at recognisable fintech company with clear growth focus, but currently engaged in current role",
+    "tier_reason": "Mid-level professional at established fintech company with demonstrated interest in career progression, but currently focused on current role.",
     "ai_suggestions": {
       "role": "Software Engineer",
       "stack": null,
       "experience": "3–5 år",
       "city": null,
-      "note": "Rishabh arbetar på Rillion och är för närvarande fokuserad på att utveckla sitt nuvarande projekt. Han är öppen för framtida möjligheter men prioriterar att bygga värde där han är nu."
+      "note": "Rishabh arbetar på Rillion och visar professionell utvecklingsinriktning. Han är för närvarande fokuserad på att bygga värde i sin nuvarande position men är öppen för framtida samtal."
     }
   },
   {
@@ -130,13 +210,13 @@
     "linkedin": "https://www.linkedin.com/in/philip-ivers-ohlsson-9874a313b",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior AI/ML engineer with broad end-to-end expertise, architectural thinking, and proven ability to lead technical solutions across multiple domains.",
+    "tier_reason": "Senior AI/ML engineer with end-to-end fullstack expertise, Solution Architect capabilities, and strong technical foundation from recognized university — immediately placeable for senior roles",
     "ai_suggestions": {
-      "role": "Senior AI/ML Engineer, Solution Architect",
-      "stack": "Python, C++, Scala, GCP, LLM, RAG, agentic AI, data engineering, microservices, decentralized systems",
-      "experience": "8+ år",
+      "role": "Senior Software Engineer / Solution Architect",
+      "stack": "Python, C++, Scala, GCP, ML, LLM, RAG, Agentic AI, Data Engineering, Microservices, Cloud Architecture",
+      "experience": "8-10 år",
       "city": "Stockholm",
-      "note": "Philip är en erfaren konsult och frilansar med stark fokus på AI och maskininlärning, från traditionell ML till moderna LLM-lösningar och agentic AI. Han söker greenfield-projekt eller anställning där han kan jobba med arkitektur och problemlösning med frihet att forma tekniska lösningar, särskilt inom nischade branschspecifika lösningar med högkvalitativa kollegor."
+      "note": "Erfaren konsult och frilansar med bred kompetens inom AI, ML och data engineering. Han arbetar fullstack från arkitektur och backend till frontend med särskild focus på att designa och bygga tekniska lösningar från grunden. Söker arkitektur- och problemlösningsroll med frihet och innovation, helst greenfield, och värdesätter kompetenta kollegor i iterativ arbetsmiljö."
     }
   },
   {
@@ -149,14 +229,14 @@
     "phone": "+46707447010",
     "linkedin": "https://www.linkedin.com/in/johan-mets-0016a474/",
     "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level professional with game development background at recognized indie studio, but limited technical stack clarity from provided data",
+    "tier": 3,
+    "tier_reason": "Limited technical information available; candidate declined current opportunity and referred another person instead.",
     "ai_suggestions": {
-      "role": "Game Developer",
+      "role": null,
       "stack": null,
-      "experience": "6–8 år",
+      "experience": null,
       "city": null,
-      "note": "Johan är en spelutvecklare med erfarenhet från Boxplay Studios, ett känt indiepelutvecklingsföretag. Profilen indikerar solid bakgrund inom speldesign och utveckling, men kräver verifiering av specifik teknikstack och projektportfölj för exakt placeringsbeslut."
+      "note": "Johan Mets arbetar på Boxplay Studios men är inte tillgänglig för aktuellt uppdrag. Han föreslår att återkontakt tas om 6-12 månader då han behöver engagera sig fullt ut i nya projekt. Hänvisar till Sofia Lantz Barzi som potentiell kandidat."
     }
   },
   {
@@ -170,13 +250,13 @@
     "linkedin": "https://www.linkedin.com/in/charlescarlfjord",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional at recognized mobility tech company with relevant experience, but limited technical stack details available from profile overview.",
+    "tier_reason": "Mid-level professional from recognized mobility tech company, but limited technical stack visibility requires further clarification.",
     "ai_suggestions": {
-      "role": "Product/Tech Professional",
+      "role": "Product Manager or Operations Manager",
       "stack": null,
-      "experience": "4-6 år",
+      "experience": "5-7 år",
       "city": null,
-      "note": "Charles arbetar på VOI Technology, ett välkänt mikromobilitetsföretag. Baserat på företagets fokus har han sannolikt erfarenhet av IoT, mobilappar eller backend-system, men specifika teknologier behöver verifieras."
+      "note": "Charles arbetar vid VOI Technology, ett väl känt scooter-tech företag. Mer information om hans specifika roll, teknisk bakgrund och geografisk placering behövs för en fullständig bedömning."
     }
   },
   {
@@ -189,14 +269,14 @@
     "phone": null,
     "linkedin": "https://www.linkedin.com/in/joel-lidstrom",
     "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior engineer at recognisable SaaS company Mentimeter with clear seniority indicators and demonstrable technical leadership",
+    "tier": 2,
+    "tier_reason": "Mid-level professional at recognisable company with some tech stack indication, but limited public profile data available",
     "ai_suggestions": {
-      "role": "Senior Software Engineer",
-      "stack": "JavaScript, React, Node.js, TypeScript, AWS",
-      "experience": "8+ år",
+      "role": "Software Engineer",
+      "stack": "JavaScript, React, Node.js",
+      "experience": "5–7 år",
       "city": null,
-      "note": "Erfaren utvecklare från Mentimeter med stark bakgrund inom frontend- och fullstack-utveckling. Visar tydligt teknikledarskap och erfarenhet från skalbar SaaS-miljö."
+      "note": "Erfaren utvecklare från Mentimeter med fokus på moderna webteknologier. Saknar detaljerad information om karriärväg och tidigare erfarenheter, men utgör en potentiell kandidat för medelnivåpositioner inom fullstack-utveckling."
     }
   },
   {
@@ -210,13 +290,13 @@
     "linkedin": "https://www.linkedin.com/in/eric-h%C3%B6rberg-4673b29a/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior AI/ML leader with 8+ years at recognizable company, hands-on technical expertise in agentic AI systems, proven product delivery, and advanced degree from KTH.",
+    "tier_reason": "Senior AI/ML leader with 8+ years hands-on experience, proven ability to architect and productionize agentic AI systems, strong technical foundation across ML/data/cloud, and recognisable company (Avaus)",
     "ai_suggestions": {
-      "role": "Head of AI / AI Engineering Lead",
-      "stack": "Python, Spark, Generative AI, agentic AI systems, RAG, knowledge graphs, MCP, GCP, AWS, Azure, Terraform, Docker, CI/CD, .NET",
+      "role": "AI Engineering Lead / Head of AI",
+      "stack": "Python, Generative AI, agentic AI systems, RAG, knowledge graphs, MCP, Machine Learning, Spark, GCP, AWS, Azure, Terraform, Docker, CI/CD",
       "experience": "8+ år",
       "city": null,
-      "note": "Erfaren AI-ledare med stark teknisk bakgrund som bygger och productionizar agentic AI-system. Söker en roll där han kan kombinera praktisk kodning med större strategisk påverkan i ett starkt tekniskt miljö med peers på samma nivå."
+      "note": "Mycket erfaren AI-leader och hands-on engineer med fokus på agentic AI och automatisering. Söker miljö med starka tekniska kollegor och möjlighet att kombinera implementering med arkitektonisk ansvar och större impact."
     }
   },
   {
@@ -229,14 +309,14 @@
     "phone": "+46724545554",
     "linkedin": "https://www.linkedin.com/in/gabriel-christensson/",
     "notes": [],
-    "tier": 3,
-    "tier_reason": "Limited profile data available; candidate currently not actively seeking, making immediate placement uncertain.",
+    "tier": 2,
+    "tier_reason": "Mid-level professional at recognisable company with openness to future opportunities, but current timing unclear and limited technical stack data available.",
     "ai_suggestions": {
       "role": null,
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "Gabriel Christensson arbetar på Moank och är öppen för framtida möjligheter, men är inte aktivt sökande för närvarande. Mer information om teknisk bakgrund och erfarenhet behövs."
+      "note": "Gabriel arbetar på Moank och är öppen för framtida karriärmöjligheter. Kandidaten är inte aktuell för omedelbar rekrytering men visar intresse av långsiktig kontakt och nätverkande."
     }
   },
   {
@@ -250,13 +330,13 @@
     "linkedin": "https://www.linkedin.com/in/andre-tvard/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional from established company with some technical background, but limited stack visibility from provided data",
+    "tier_reason": "Mid-level professional at established company (Piab Group) with clear intent to engage, but limited technical stack visibility from available data.",
     "ai_suggestions": {
-      "role": "Software Developer",
+      "role": "Developer",
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "André arbetar på Piab Group och har visats intresse för utvecklingsrollen. Mer information om teknisk bakgrund och erfarenhet behövs för fullständig bedömning."
+      "note": "André arbetar på Piab Group och har visat intresse för rekrytering genom två pitchaktiviteter. Ytterligare information om teknisk bakgrund och erfarenhetsnivå behövs för fullständig bedömning."
     }
   },
   {
@@ -270,13 +350,13 @@
     "linkedin": "https://www.linkedin.com/in/shixin-ma-510217235",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level candidate from recognisable company with Java/TypeScript interest, but limited profile visibility and unclear exact seniority",
+    "tier_reason": "Mid-level candidate at recognisable company with Java/TypeScript preference, but limited stack clarity from available data",
     "ai_suggestions": {
-      "role": "Backend Developer",
+      "role": "Software Developer",
       "stack": "Java, TypeScript",
-      "experience": "3–5 år",
+      "experience": "2–3 år",
       "city": null,
-      "note": "Shixin arbetar på Cognizant och söker aktivt roller inom Java eller TypeScript. Kandidaten har uttryckligen angett att C# inte är en styrka, vilket indikerar fokus på andra backend-teknologier."
+      "note": "Shixin arbetar på Cognizant och söker utvecklarroller inom Java eller TypeScript. Kandidaten är aktivt intresserad av att byta roll men saknar C#-erfarenhet, vilket indikerar fokus på JVM och webbteknologier."
     }
   },
   {
@@ -288,7 +368,16 @@
     "email": null,
     "phone": "+46730347988",
     "linkedin": "https://www.linkedin.com/in/eskilforsell/",
-    "notes": []
+    "notes": [],
+    "tier": 1,
+    "tier_reason": "Senior AI/Data Science leader with PhD, major tech company experience (Spotify, Netflix), proven ability to bridge business and technology, and strong track record building AI capabilities in complex organizations.",
+    "ai_suggestions": {
+      "role": "AI Product Owner / Senior Data Scientist / ML Engineering Lead",
+      "stack": "Python, SQL, Google ADK, LangGraph, Microsoft Foundry, React, TypeScript, Supabase, AI agents, machine learning, generative AI",
+      "experience": "8+ år",
+      "city": "Stockholm",
+      "note": "Eskil är en erfaren Data Science- och AI-ledare med PhD i ekonomi från Stockholm School of Economics och bakgrund från Spotify och Netflix som Senior/Staff Data Scientist. Han söker ett tekniskt fokuserat AI-jobb i privat sektor där han kan kombinera djup ML-kompetens, produktutveckling och verksamhetsförståelse, helst i en miljö med kompetent team och framåtanda."
+    }
   },
   {
     "id": "128529",
@@ -301,13 +390,13 @@
     "linkedin": "https://www.linkedin.com/in/aoliveirag/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional with experience at recognisable company (Peratech), but limited stack data and unsuccessful recent process suggests need for active engagement",
+    "tier_reason": "Mid-level background with experience at recognisable tech company, but limited stack visibility and incomplete hiring process suggests mid-career positioning.",
     "ai_suggestions": {
       "role": "Software Engineer",
-      "stack": null,
+      "stack": "null",
       "experience": "5–7 år",
-      "city": null,
-      "note": "António har erfarenhet från Peratech Holdco Limited. Var nyligen i rekryteringsprocess hos Modal men denna avslutades utan erbjudande. LinkedIn-profilen bör granskas för att bekräfta teknisk stack och specialisering."
+      "city": "null",
+      "note": "António har arbetat på Peratech Holdco Limited och nådde långt i rekryteringsprocessen på Modal 2026, vilket indikerar solid teknisk kompetens. Mer information om teknikstack och specifika arbetsuppgifter krävs för fullständig bedömning."
     }
   },
   {
@@ -321,13 +410,13 @@
     "linkedin": "https://www.linkedin.com/in/niels-wessén-9a5731bb",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior ML engineer with 5.5+ years at recognized medtech company, deep expertise in medical imaging, MLOps, and end-to-end system ownership — immediately placeable in technical leadership roles.",
+    "tier_reason": "Senior ML engineer with 5.5 years at tier-1 medtech company, proven end-to-end ownership of production systems handling 50k patient images, strong deep learning and MLOps expertise.",
     "ai_suggestions": {
       "role": "Machine Learning Engineer / MLOps Engineer",
-      "stack": "Python, PyTorch, TensorRT, Medical imaging (CT/MR), Deep learning, Segmentation models, Image-to-image translation, MLOps, Edge deployment, Databases, Backend, Frontend, Time series analysis",
-      "experience": "7+ år",
+      "stack": "Python, PyTorch, TensorRT, medical image analysis, deep learning, segmentation models, image-to-image translation, MLOps, edge deployment, databases, artifact tracking",
+      "experience": "9 år",
       "city": null,
-      "note": "Erfaren ML-ingenjör med stark bakgrund inom medicinsk bildanalys och MLOps från RaySearch Laboratories. Har byggt end-to-end-system för hantering av 50 000 patientbilder, arbetat med modellvalidering, inferensoptimering och edge deployment. Söker roll med fokus på produktutveckling, end-to-end-ansvar och möjlighet att arbeta med AI-agenter i produktion."
+      "note": "Erfaren ML-ingenjör från RaySearch Laboratories med djup kunskap inom medicinsk bildanalys, deep learning och MLOps. Har byggt och underhållit production ML-system end-to-end, från modellträning till edge deployment. Söker möjlighet att arbeta fokuserat på produkter med helhetsperspektiv i tekniskt avancerad miljö, med intresse för AI-agenter och LLM-integrationer."
     }
   },
   {
@@ -341,13 +430,13 @@
     "linkedin": "https://www.linkedin.com/in/andreas-movin",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior AI/ML engineer at Accenture with strong technical leadership, proven delivery on complex GenAI projects, and clear specialization in LLM/RAG solutions—highly placeable in product roles.",
+    "tier_reason": "Senior AI/ML engineer at Accenture with proven technical leadership, strong generative AI expertise, and clear business impact focus—immediately placeable in product-focused roles.",
     "ai_suggestions": {
-      "role": "Senior AI Engineer / ML Engineer",
-      "stack": "Python, SQL, Generative AI, LLM, RAG, Databaskopplingar, Dokumenthantering, Metadata, Evals",
+      "role": "Senior AI Engineer / Machine Learning Engineer",
+      "stack": "Python, SQL, Generative AI, LLM, RAG, Databaser, Dokumenthantering, Metadata",
       "experience": "5–7 år",
       "city": null,
-      "note": "Erfaren AI-specialist från Accenture med fokus på generativ AI och LLM-baserade lösningar. Kombinerar tekniskt ledarskap med hands-on utveckling, stark kundfokus och förmåga att implementera end-to-end AI-lösningar från idé till produktion. Söker produktrollmöjlighet där han kan påverka utvecklingen nära business och användare."
+      "note": "KTH-utbildad teknisk fysiker med djup erfarenhet av att utveckla AI-lösningar från implementation till affärsnytta. Specialiserad inom generativ AI och RAG-lösningar, med aktiv erfarenhet av att leda tekniska projekt samtidigt som han arbetar nära kunder och användare för att förstå verkliga problem och säkerställa värdeskapande resultat."
     }
   },
   {
@@ -361,13 +450,13 @@
     "linkedin": "https://www.linkedin.com/in/andrew-wu-ba92b921/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior leader at Fortune 500 company with 17+ years experience, managing cross-functional data/AI teams, actively driving organizational AI transformation",
+    "tier_reason": "Senior leader at Fortune 500 company with 10+ years development experience, now managing 3 strategic teams across data/ML/AI transformation — immediately placeable for senior/lead roles",
     "ai_suggestions": {
-      "role": "Engineering Manager / Data & AI Lead",
-      "stack": "Backend, Data Engineering, Big Data, Machine Learning, AI, Jira, Claude",
-      "experience": "17+ år",
+      "role": "Engineering Manager, Data/AI",
+      "stack": "Backend, Data Engineering, Big Data, Machine Learning, AI, Claude, Jira",
+      "experience": "10+ år",
       "city": "Stockholm",
-      "note": "Erfaren tech-ledare på Visa med 7+ års erfarenhet där som manager över data readiness, platform och data science teams. Övergår från backend/bigdata-fokus till ML/AI-strategi och leder organisatorisk transformation kring agentic workflows. Aktivt intresserad av hur AI-adoption påverkar organisationsstruktur och kultur, med beprövad förmåga att implementera AI-lösningar i stor skala (4x produktivitetsökning)."
+      "note": "Erfaren utvecklare och ledare på Visa med 7 år erfarenhet där. Leder tre team inom data readiness, platform och data science. Pionjär i organisationsomfattande AI-integration och agentic workflows. Intresserad av hur organisationer transformeras genom AI och kan dela insikter om skalning av AI-produktivitet samt organisatoriska utmaningar."
     }
   },
   {
@@ -381,13 +470,13 @@
     "linkedin": "https://www.linkedin.com/in/ada-huttula/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level 2D game artist with 5 years coherent experience at recognisable studios (ELK Studios, Gro Play) and clear pipeline responsibilities, but limited seniority signals or leadership experience.",
+    "tier_reason": "Solid mid-level 2D game artist with 5 years coherent experience at recognisable studios and clear technical skills, but limited evidence of senior/lead responsibilities or broader production scope.",
     "ai_suggestions": {
       "role": "2D Game Artist",
-      "stack": "Adobe Photoshop, Adobe Creative Suite, Spine, Game Art, Mobile Game Development, 3D Art, UI, Animation",
+      "stack": "Adobe Photoshop, Adobe Creative Suite, Spine, game art production",
       "experience": "5 år",
       "city": "Stockholm",
-      "note": "Ada är en driven 2D-konstnär med väl dokumenterad karriär inom mobil- och spelutvekling. Hon har utvecklats från generalist till specialiserad 2D-artist med ansvar för assethantering och produktionspipeline, och söker nu nya utmaningar efter tre år på ELK Studios."
+      "note": "Erfaren 2D-konstnär med progressiv karriär från generalist till specialiserad rollframför allt inom mobilspelsutveckling. Ada har daglig kompetens i Photoshop och Spine-animation, samt ett växande intresse för pipelinearbete och produktionsstöd. Hon söker nu nya utmaningar efter tre år på ELK Studios."
     }
   },
   {
@@ -401,13 +490,13 @@
     "linkedin": "https://www.linkedin.com/in/dzenan/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior engineering leader with 13+ years at recognisable company (Tobii), managing 25+ engineers across cloud products, strong AI/ML background, and proven strategic + hands-on capability—immediately placeable despite harvesting gap.",
+    "tier_reason": "Senior engineering leader with 13+ years at recognisable company (Tobii), hands-on technical depth, proven management of 25+ engineers, and deep AI/ML expertise — immediately placeable for Director/VP Engineering roles.",
     "ai_suggestions": {
-      "role": "Director of Engineering",
-      "stack": "Cloud, AI, ML, LLM, RAG, Vector databases, Jira, Data integration, Neural networks",
+      "role": "Director of Engineering / VP Engineering",
+      "stack": "Cloud platforms, AI/ML, LLMs, RAG, Vector databases, Jira, agentisk workflows, neurala nätverk, data integration",
       "experience": "13+ år",
       "city": null,
-      "note": "Erfaren ledare och ingenjör med djup teknisk kunskap inom AI/ML och cloud-produkter. Söker ny utmaning med fokus på SW-produkter och agentisk transformation; mycket hands-on, strategisk tänkare med bra människokompetens och växthungrig mentalitet."
+      "note": "Senior teknikledare från Tobii med stark fokus på AI-transformation och agentiska system. Handskuldig, strategisk och produktmindful ledare med 25 direktrapporterade. Söker hands-on VP/Director-roll inom SW-produkt med AI-tonvikt; saknar specifik harvesting-erfarenhet men väl kompenserad av bredd och teknisk mognad."
     }
   },
   {
@@ -421,13 +510,13 @@
     "linkedin": "https://www.linkedin.com/in/isac-t%C3%B6rnberg-28328785/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior technical generalist with proven leadership at startups (founder/CTO), significant experience at scale (Spotify), deep expertise across embedded systems to distributed backend, and demonstrated ability to build and execute across full tech stack.",
+    "tier_reason": "Senior technical generalist with proven experience at scale (Spotify), multiple successful ventures, and deep expertise across embedded systems, distributed infrastructure, and real-time systems.",
     "ai_suggestions": {
-      "role": "Senior/Lead Backend Engineer, Technical Co-founder, or VP Engineering",
-      "stack": "C++, embedded/firmware, Bluetooth, WebRTC, backend systems, distributed infrastructure, data systems, iOS",
-      "experience": "8–10 år",
+      "role": "Senior Backend/Systems Engineer",
+      "stack": "C++, WebRTC, embedded/firmware, Bluetooth, backend infrastructure, distributed systems",
+      "experience": "8+ år",
       "city": null,
-      "note": "Isac är en framstående teknisk generalist med kombinerad erfarenhet från hårdvara, embedded-utveckling, distribuerade system och storskalig backend-infrastruktur. Han söker en större teknisk miljö där han kan fokusera på ingenjörsarbete och implementering snarare än administration, med preferens för startups eller scale-ups med hybrid flexibilitet."
+      "note": "Bred teknisk generalist med erfarenhet från både startup- och skalningsfasen. Kombinerar låg-nivåutveckling med prestandafokus och distribuerade system, från hårdvarunära robotmjukvara till storskaliga datasystem på Spotify. Sökandes framför allt efter större tekniskt team i startup/scaleup-miljö med fokus på implementering och tekniska problem."
     }
   },
   {
@@ -441,13 +530,13 @@
     "linkedin": "https://www.linkedin.com/in/sarmad-sajjad/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional at recognisable company (H&M Group) but limited technical stack visibility from provided data",
+    "tier_reason": "Mid-level professional at recognized company with decent background, but limited technical stack information available from basic profile data",
     "ai_suggestions": {
-      "role": null,
+      "role": "Software Engineer",
       "stack": null,
-      "experience": null,
+      "experience": "4–6 år",
       "city": null,
-      "note": "Sarmad Sajjad arbetar för H&M Group, en välkänd global retailer. Baserat på tillgänglig information krävs mer detaljer om specifik roll, teknisk bakgrund och geografisk placering för en fullständig bedömning."
+      "note": "Erfaren utvecklare på H&M Group med bakgrund inom mjukvaruutveckling. Profilen tyder på solid erfarenhet men kräver djupare analys av teknisk kompetens för optimal placering."
     }
   },
   {
@@ -461,13 +550,13 @@
     "linkedin": "https://www.linkedin.com/in/maxime-sainte-catherine-428749182",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior engineer at Scania with 4+ years autonomous systems expertise, strong C++ foundation, proven technical leadership, and clear trajectory from research to product development.",
+    "tier_reason": "Senior autonomous systems engineer from recognisable company (Scania/Traton) with deep C++ expertise, proven technical leadership, and clear trajectory from research to product development.",
     "ai_suggestions": {
       "role": "Senior Software Engineer, Autonomous Systems",
-      "stack": "C++, Python, ROS, Unreal Engine, Linux, Docker, GitLab CI, Jenkins, Matlab/Simulink, Autoware AI, Rust, React, Java",
-      "experience": "4+ år",
-      "city": "Stockholm",
-      "note": "Erfaren mjukvaruutvecklare specialiserad på autonoma system med bred erfarenhet från onboard-plattformar, collision avoidance och simuleringsmiljöer. Söker en mer prototyp- och produktnära miljö med möjlighet till hybrid arbete och hands-on programmering."
+      "stack": "C++, Python, ROS, Unreal Engine, Linux, Docker, GitLab CI, Jenkins, Matlab/Simulink, Rust, React, Java",
+      "experience": "4+ år inom autonoma system och mjukvareutveckling, tidigare 2 år som Research Engineer på KTH",
+      "city": "Stockholm (söder om, pendlar till Södertälje)",
+      "note": "Erfaren C++-utvecklare med stark bakgrund i autonoma fordon, mjukvaruarkitektur och systemintegrering. Söker en mer prototyporienterad roll med möjlighet till hands-on programmering och snabbare iterationscykler, helst med hybridflexibilitet. Öppen för andra möjligheter efter 4+ år på Scania."
     }
   },
   {
@@ -481,13 +570,13 @@
     "linkedin": "https://www.linkedin.com/in/abjorshammar/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "20+ år erfaring med stark track record från Northvolt och Klarna, director-nivå ledarskap med budget- och personalansvar, bred tech stack inom cloud/infrastruktur",
+    "tier_reason": "20+ år experience, director-level leadership at scale (Northvolt 30+ direct reports, ~200 in org chain), built platforms from ground up, recognisable tech stack across cloud/infrastructure/AI.",
     "ai_suggestions": {
-      "role": "Director, Platform Engineering / Cloud Architecture",
-      "stack": "AWS, GCP, Azure, Terraform, Kubernetes, Docker, Ansible, Python, Bash, HCL",
+      "role": "Director of Platform Engineering / VP Engineering",
+      "stack": "AWS, GCP, Azure, Terraform, Kubernetes, Docker, Ansible, Python, Bash, HCL, Linux",
       "experience": "20+ år",
       "city": "Stockholm",
-      "note": "Senior plattforms- och molnarkitekt med beprövad förmåga att bygga och leda stora teknik-teams från grunden. Senaste erfarenhet från Northvolt där han strukturerade en 30+ personers plattformsavdelning med SRE, DevEx och säkerhetsverksamhet. Erkänner sitt värde ligger i teamuppbyggnad snarare än ren teknik. Kombinerar klassisk infrastruktur-expertis med växande intresse för agentisk AI i enterprise-sammanhang, vilket han för närvarande utforskar genom frilansuppdrag."
+      "note": "Erfaren plattformsarkitekt och ledare som byggt cloud- och infrastrukturteam från noll vid Northvolt (30+ direktrapporter) och tidigare roller. Kombinerar solid teknisk grund (AWS/Terraform/Kubernetes) med chefsfilosofi fokuserad på teamuppbyggnad och organisatorisk mognad. Aktiv intresse för enterprise AI och agentiska system; frilansar för närvarande och söker roll med mandat att bygga och leda i teknikdrivet organsation."
     }
   },
   {
@@ -501,13 +590,13 @@
     "linkedin": "https://www.linkedin.com/in/barnie-kim",
     "notes": [],
     "tier": 1,
-    "tier_reason": "20+ years SW engineering from recognisable company (Klarna), deep AI/ML expertise with proven leadership, immediately placeable in senior technical or lead role",
+    "tier_reason": "Senior engineer with 20+ years experience, proven track record at scale (Klarna, team leadership), deep AI/ML expertise (RAG systems, LLM agents, embeddings) — immediately placeable in technical leadership roles",
     "ai_suggestions": {
       "role": "Senior Software Engineer / Technical Lead",
-      "stack": "Python, LLM, RAG systems, OpenAI, Vector databases, AI agents",
+      "stack": "Python, LLM, RAG systems, OpenAI, embeddings, vector databases, AI agents",
       "experience": "20+ år",
       "city": null,
-      "note": "Erfaren mjukvaruingenjör från Klarna med över 20 års bakgrund, specialiserad på AI-infrastruktur, RAG-system och agentor. Nyligen lämnat Klarna efter 7 år och söker stabil, handson-orienterad teknisk ledningsroll med möjlighet att arkitektera och leda team samtidigt som han utvecklas vidare inom AI."
+      "note": "Erfaren SW-engineer från Klarna med fokus på AI-infrastruktur och agentbaserade system. Leder gärna team på teknisk nivå men vill förbli hands-on; söker stabil produktbolag där hen kan kombinera arkitektur och kodning. Initiativrik och prestigelös, nyligen startade hobby-AI-projekt för språköversättning."
     }
   },
   {
@@ -521,13 +610,13 @@
     "linkedin": "https://www.linkedin.com/in/daniel-bonde-1707711",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior all-around backend engineer with 18+ years at recognisable media tech company, deep full-stack expertise, and proven ability to architect and own complex systems.",
+    "tier_reason": "18+ års erfarenhet från senior roll på Vizrt med bred, djup tech stack och proven förmåga att leverera across full stack – omedelbar placerbar.",
     "ai_suggestions": {
-      "role": "Senior Backend Engineer",
-      "stack": "C#/.NET Core, Python, Perl, C++, Java, PostgreSQL, Azure, AWS, Docker, GitHub Actions, Vue/TypeScript",
-      "experience": "18 år 8 månader",
+      "role": "Senior Software Engineer",
+      "stack": "C#/.NET Core, Python, Perl, C++, Java, Vue/TypeScript, PostgreSQL, AWS, Azure, Docker, GitHub Actions",
+      "experience": "18 år 8 mån",
       "city": null,
-      "note": "Daniel är en erfaren senior backend-ingenjör med stark fokus på C#/.NET och databaser (PostgreSQL, Oracle, DB2). Han har under två decennier på Vizrt byggat kritiska system för filöverföring, medihantering och broadcast-grafik, ofta som enda ansvarig för komplexe migrations- och infrastrukturprojekt. Självbeskriven som \"väldigt all around\" – skriver infrastruktur, integration, frontend och backend efter behov. Söker IC-roll i produktutveckling, tillgänglig omedelbar eller senast januaristart."
+      "note": "Erfaren senior backend-utvecklare med stark kompetens inom .NET/C#, databaser och molninfrastruktur (AWS, Azure). Förstår infrastruktur, integrationer och client-side-utveckling – \"väldigt all around\". Lämnar Vizrt på grund av omorganisation; söker fortsatt IC-roll i produktutveckling utan chefsansvar."
     }
   },
   {
@@ -541,13 +630,13 @@
     "linkedin": "https://www.linkedin.com/in/oleg-skoldinov",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level candidate from recognisable startup (Alva Labs) showing technical curiosity and clear communication, but sparse profile data limits placement confidence.",
+    "tier_reason": "Mid-level candidate at recognisable company showing genuine interest and technical curiosity, but limited stack visibility from available data",
     "ai_suggestions": {
       "role": null,
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "Oleg är en reflekterad tekniker som visar intresse för arkitektur och teamdynamik. Hans frågor indikerar mognad och ett strategiskt tänkesätt kring arbetsmiljö, men ytterligare information om teknisk stack och bakgrund behövs för en exakt matchning."
+      "note": "Oleg arbetar på Alva Labs och visar initiativ och teknisk intresse genom detaljerade frågor om arkitektur, teamstruktur och praktiska villkor. Kandidaten är proaktiv och värdesätter transparens kring rollegenskaper och kompensation innan vidare dialog."
     }
   },
   {
@@ -561,13 +650,13 @@
     "linkedin": "https://www.linkedin.com/in/philip-jacobson-12b46b175",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional with security-focused experience at a recognisable company, but limited public profile data available",
+    "tier_reason": "Mid-level professional with cybersecurity focus at specialized firm, but limited public profile information available",
     "ai_suggestions": {
-      "role": "Security Engineer",
-      "stack": "Security tools, infrastructure",
-      "experience": "3–5 år",
+      "role": "Cybersecurity Specialist",
+      "stack": "Cybersecurity, Security Operations",
+      "experience": "3-5 år",
       "city": null,
-      "note": "Philip arbetar som Security Engineer på 2Secure med fokus på cybersäkerhet och infrastruktur. Kandidaten har relevant erfarenhet från en etablerad säkerhetsfokuserad organisation, men ytterligare information om specifik teknologi och karriärväg rekommenderas."
+      "note": "Philip är en cybersäkerhetsproffs vid 2Secure med fokus på säkerhetstjänster och operationer. Profilen kräver ytterligare information för att bedöma teknisk djupgående kunskap och specifika specialiseringar."
     }
   },
   {
@@ -579,16 +668,7 @@
     "email": null,
     "phone": "+46733498700",
     "linkedin": "https://www.linkedin.com/in/rodolfoweisser",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "18+ års djup erfarenhet inom Microsoft-stack och transaktionssystem, stark moderniseringsförtjänst, lead-potential, omedelbar placerbarhet.",
-    "ai_suggestions": {
-      "role": "Senior Backend Engineer / Tech Lead",
-      "stack": "C#, .NET (Framework/Core/8-10), ASP.NET, Entity Framework, SQL Server, REST/microservices, gRPC, WCF, React, Next.js, TypeScript, Docker, Kubernetes, Azure DevOps, Claude/Copilot",
-      "experience": "18 år",
-      "city": null,
-      "note": "Erfaren systemarkitekt med lång track record inom försäkring, betalningar och transaktionssystem. Starkt ledarskapsintresse och önskan om närmare teamgemenskap; söker nu rollbyte från konsult till internposition med tech lead-ansvar. Aktivt använder moderna AI-verktyg i dagligt arbete."
-    }
+    "notes": []
   },
   {
     "id": "93141",
@@ -601,13 +681,13 @@
     "linkedin": "https://www.linkedin.com/in/johan-berg-engstrand-2421632b",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior-track developer at recognisable financial institution with strong full-stack .NET/React expertise, complex domain experience, and clear technical leadership on critical systems.",
+    "tier_reason": "Senior fintech developer at recognisable Swedish bank with 4.5 years total experience, strong full-stack .NET/React skillset, complex domain expertise (securities, compliance), and proven ability to architect mission-critical systems from scratch.",
     "ai_suggestions": {
-      "role": "Software Developer / Full-Stack Engineer",
-      "stack": ".NET, C#, React, TypeScript, JavaScript, SQL Server, NServiceBus, EF Core, REST APIs, Azure DevOps, Git, Vitest, XUnit",
-      "experience": "4,5 år (1,5 år heltid + 3 år deltid under studier)",
+      "role": "Software Developer / Backend Engineer",
+      "stack": ".NET, C#, React, TypeScript, JavaScript, SQL Server, NServiceBus, EF Core, REST APIs, Azure DevOps, Git",
+      "experience": "4,5 år (1,5 år heltid, 3 år deltid under studier)",
       "city": "Stockholm",
-      "note": "Johan är en fullstack-utvecklare på Skandiabanken med stark bakgrund inom finansiell systemutveckling. Han har designat och implementerat kritiska system från grunden (flaggningsrapportering, autentiseringsmigrering, värdepappersöverföring) och arbetar självständigt med både backend-arkitektur och frontend-delivery i produktionsmiljö. Söker ny arbetsgivare baserat på kultur och lagkemi snarare än teknisk riktning; lönesättning på 55–60k+."
+      "note": "Johan är en erfaren fullstack-utvecklare på Skandiabanken med specialisering i fintech-system och distribuerad arkitektur. Han har byggt kritiska system från grunden (flaggningsrapportering, värdepappersöverföring) och samarbetar väl i agila, tvärfunktionella team. Han söker främst rätt arbetsgivare och arbetsmiljö snarare än specifik teknik."
     }
   },
   {
@@ -621,13 +701,13 @@
     "linkedin": "https://www.linkedin.com/in/mrezaurrahman",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior engineer with 10+ years experience, proven track record at recognizable companies (WiTTRA, Inovia AI, Ericsson, SEB), strong Go/backend expertise, architectural impact, and clear leadership trajectory.",
+    "tier_reason": "Senior engineer with 10+ years experience, proven track record at established companies (WiTTRA, Inovia AI), strong Go/backend expertise, measurable business impact (50% cost reduction, 60% test efficiency gains), and clear tech lead/architect trajectory.",
     "ai_suggestions": {
       "role": "System Architect / Tech Lead",
-      "stack": "Go, TypeScript, Node.js, Ruby on Rails, Kubernetes, Docker, AWS, GCP, PostgreSQL, MongoDB, gRPC, GraphQL, Prometheus, Grafana, ELK, OpenTelemetry",
-      "experience": "10 år",
+      "stack": "Go, Golang, TypeScript, Node.js, Ruby on Rails, REST APIs, gRPC, GraphQL, Kubernetes, Docker, AWS, GCP, PostgreSQL, MongoDB, Redis, Prometheus, Grafana, ELK, OpenTelemetry, CI/CD",
+      "experience": "10+ år",
       "city": "Stockholm",
-      "note": "Erfaren systemarkitekt och tech lead med stark fokus på Go-baserad backend, IoT-plattformar och distribuerade system. Har levererat påvisbara resultat (50% driftskostnadsminskning, 60% testeffektivitet) och leder gärna tvärfunktionella team med betoning på infrastruktur, molnteknik och systemdesign. Öppen för nya utmaningar inom arkitektur och produktpipelines."
+      "note": "Senior IoT och backend-arkitekt med djup expertise inom distribuerade system och molninfrastruktur. Demonstrerad förmåga att leverera affärsvärde genom systemoptimering (50% kostnadsminskning), ledarskap över tvärfunktionella team, och moderna DevOps-praktiker. Söker systemarkitekt- eller tech lead-roller för att påverka större produktpipeliner."
     }
   },
   {
@@ -641,13 +721,13 @@
     "linkedin": "https://www.linkedin.com/in/%C3%A5se-tysnes-pjanovic-120399103/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior product marketer with 11 years' experience, proven leadership building PMM function at scale-up, strong strategic GTM expertise across B2C and B2B sectors",
+    "tier_reason": "Senior product marketing leader with 11 years progressive experience, established at recognisable companies (Betsson, William Hill, Avinode), built and scaled PMM function from scratch with team leadership.",
     "ai_suggestions": {
       "role": "Product Marketing Manager",
-      "stack": "Go-to-Market strategy, Product positioning, CRM, Customer segmentation, Sales enablement, Data analysis, AI-assisted workflows",
+      "stack": "Go-to-Market Strategy, Product Positioning, CRM, Customer Segmentation, Sales Enablement, Data Analysis, AI",
       "experience": "11 år",
       "city": null,
-      "note": "Åse är en erfaren produktmarketing-ledare med bakgrund från gaming- och flygbranschen. Hon har byggt upp produktmarketing-funktionen på Avinode från grunden, certifierats som PMM och utvecklat ett team på 3 personer, med stark kompetens inom GTM-strategi, kundengagemang och sales enablement."
+      "note": "Erfaren produktmarknadsförare med stark spår från B2C gaming till B2B luftfartsindustri. Har byggt upp produktmarketing-funktionen på Avinode från grunden, certifierad PMM, leder team på 3 personer och driver GTM-strategi, segmentering och sales enablement. Söker utmaningar utanför nuvarande organisation efter 6 år."
     }
   },
   {
@@ -661,13 +741,13 @@
     "linkedin": "https://www.linkedin.com/in/andersmn/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior engineering leader with VP/CTO experience at scale-up, proven track record at Spotify and Volvo Cars, clear organizational impact and technical vision.",
+    "tier_reason": "Senior engineering leader with 15+ years at top-tier companies (Spotify, Volvo, Kry, Sitoo), proven ability to scale organizations and drive technical strategy at VP/Director level.",
     "ai_suggestions": {
-      "role": "VP of Engineering / CTO",
-      "stack": "iOS, Android, Cloud Infrastructure, CI/CD, GitHub Actions, GitHub Copilot, Claude, SDK Development",
+      "role": "VP of Engineering / Engineering Director / CTO",
+      "stack": "iOS, Mobile Architecture, CI/CD, GitHub Actions, GitHub Copilot, Claude, SDK Development, Cloud Infrastructure",
       "experience": "15+ år",
       "city": "Stockholm",
-      "note": "VP of Engineering på Sitoo som skalat engineeringorganisationen från 13 till 57 personer. Bred erfarenhet från Spotify, Volvo Cars och Kry inom ledarskap av tekniska organisationer, arkitektur och produktutveckling. Fokuserad på organisationsstruktur, ansvarfördelning mellan produkt/design/engineering och balans mellan utvecklingstakt och skalbarhet."
+      "note": "VP of Engineering på Sitoo med erfarenhet från ledande tech-företag. Specialiserad på att bygga och skala engineeringorganisationer, teknisk arkitektur och förändringsarbete. Har växt organisationer från startup till 57+ personer och leder från kontoret dagligen. Söker ny utmaning med fokus på teknisk eftertanke, skalbarhet och prioritering."
     }
   },
   {
@@ -681,13 +761,13 @@
     "linkedin": "https://www.linkedin.com/in/linn%C3%A9a-s%C3%B6rling/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level designer with strong project leadership, recognisable design tools, and clear career trajectory towards digital design—worth pursuing for digital product roles.",
+    "tier_reason": "Mid-level designer with solid project leadership experience, strong visual design toolkit, and clear ambition toward digital product design—worth pursuing for the right role.",
     "ai_suggestions": {
       "role": "Digital Designer / Design Project Lead",
-      "stack": "Figma, Illustrator, InDesign, Photoshop, XD, Rhinoceros, Blender, KeyShot, AI automation",
-      "experience": "6–8 år",
+      "stack": "Figma, Illustrator, InDesign, Photoshop, XD, Rhinoceros, Blender, KeyShot, AI tools",
+      "experience": "5–7 år",
       "city": "Stockholm",
-      "note": "Linnéa är en erfaren designer med projektledarskapserfarenhet från INNTECH, där hon driver kundprojekt från koncept till produktion. Hon söker att utvecklas mot digital design och gränssnittsarbete med fokus på automatisering, samtidigt som hon behåller sin starka grund inom visuell identitet och kundkommunikation."
+      "note": "Linnéa är en erfaren designledare med stark bakgrund inom visuell identitet, kundprojektstyring och grafisk design. Hon söker nu att utvecklas mot digitala produkter och gränssnitt, med intresse för automatisering och AI-drivet designarbete."
     }
   },
   {
@@ -701,13 +781,13 @@
     "linkedin": "https://www.linkedin.com/in/carolina-lagerberg-6761552a/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional with established track record at recognisable Swedish company, but limited public tech stack visibility",
+    "tier_reason": "Mid-level professional at established Swedish company with clear seniority, but limited technical stack visibility from provided data",
     "ai_suggestions": {
-      "role": "Product Manager",
+      "role": null,
       "stack": null,
-      "experience": "8–10 år",
+      "experience": null,
       "city": null,
-      "note": "Erfaren produktledare på ATG med fokus på affärsutveckling och produktstrategi. Starkt nätverk inom Swedish tech och gaming-industrin, men teknisk stack kräver vidare utredning."
+      "note": "Carolina Lagerberg arbetar på ATG, ett välkänt svenskt företag specialiserat på spel och vadslagning. Utan ytterligare detaljer från LinkedIn-profilen är det svårt att bedöma hennes exakta roll, teknisk bakgrund eller erfarenhetsår."
     }
   },
   {
@@ -721,13 +801,13 @@
     "linkedin": "https://www.linkedin.com/in/arash72af",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional with banking sector experience and open to new opportunities, but limited technical stack visibility",
+    "tier_reason": "Mid-level professional at established financial institution with openness to opportunities, but limited technical stack clarity from available data",
     "ai_suggestions": {
-      "role": "Finance/Banking Professional",
+      "role": "Finansanalytiker eller bankspecialist",
       "stack": null,
-      "experience": "8-10 år",
+      "experience": "8–10 år",
       "city": null,
-      "note": "Arash arbetar på Svea Bank och är öppen för att utforska nya möjligheter. Profilen saknar detaljerad teknisk information, men banking-bakgrunden tyder på erfarenhet av finanssystem och processer."
+      "note": "Arash arbetar på Svea Bank och är öppen för att utforska nya möjligheter. För att bedöma placeringspotential krävs mer information om teknisk bakgrund och specifika kompetenser."
     }
   },
   {
@@ -741,13 +821,13 @@
     "linkedin": "https://www.linkedin.com/in/frederik-marqvard/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior engineer at scale-up Zalando with clear tech leadership experience and established professional presence",
+    "tier_reason": "Senior-level candidate at recognisable tech company Zalando with clear seniority indicators and immediate market appeal.",
     "ai_suggestions": {
-      "role": "Backend Engineer",
-      "stack": "Java, Python, Kotlin, AWS, Kubernetes, Docker, Spring Boot",
+      "role": "Senior Software Engineer",
+      "stack": "Java, Kotlin, Spring, AWS, Microservices, Cloud Architecture",
       "experience": "8+ år",
-      "city": "Berlin",
-      "note": "Erfaren backend-ingenjör från Zalando med stark kunskap inom distribuerade system och cloud-native arkitektur. Demonstrerad expertis i Java/Kotlin och molnplattformar gör honom omedelbar placerbar för seniora roller."
+      "city": null,
+      "note": "Erfaren mjukvaruingenjör på Zalando med stark bakgrund inom Java-baserad backend-utveckling och molnarkitektur. Väl positionerad för seniora roller inom fintech, e-commerce eller skalabara system."
     }
   },
   {
@@ -761,13 +841,13 @@
     "linkedin": "https://www.linkedin.com/in/josefin-sch%C3%B6nqvist-a6570990/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior UX/UI designer with 8+ years experience, strong portfolio (Impact Crowd, Lynk & Co), proven leadership in startups, and emerging AI expertise — immediately placeable.",
+    "tier_reason": "8+ years senior UX/UI designer with proven track record at scale (millions of users), co-founder of AI-Hack, strong AI integration skills, and immediately available.",
     "ai_suggestions": {
-      "role": "Senior UX/UI Designer / Product Designer",
-      "stack": "Figma, FigJam, Photoshop, Illustrator, After Effects, Premiere Pro, Webflow, ChatGPT, Lovable, Claude, DALL·E",
+      "role": "Senior UX/UI Designer",
+      "stack": "Figma, FigJam, Photoshop, Illustrator, After Effects, Premiere Pro, Webflow, ChatGPT, Lovable, Claude, DALL·E, OpenArt",
       "experience": "8+ år",
       "city": "Stockholm",
-      "note": "Erfaren UX/UI-designer med stark bakgrund inom produktdesign, designsystem och varumärkesutveckling från startup- och scaleupmiljöer. Medgrundare till AI-Hack med växande expertis inom AI-assisterad design och AI-native produkter. Motiveras av utmaningar där hon kan driva förändring och påverka användarupplevelsen."
+      "note": "Erfaren och driven UX/UI-designer med djup kompetens inom designsystem, användarforskning och produktutveckling. Har ledande erfarenhet från internationella startup- och scaleupmiljöer, samt aktuell expertis inom AI-baserade designflöden och LLM-integration. Co-founder till AI-Hack och motiverad av att skapa meningsfull påverkan genom gränssnittsdesign."
     }
   },
   {
@@ -781,13 +861,13 @@
     "linkedin": "https://www.linkedin.com/in/mohammad-alzahlof",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level professional from recognisable company (Abios), but currently unavailable until June and limited technical stack visibility.",
+    "tier_reason": "Mid-level candidate from recognisable company (Abios) with clear availability constraints but potential for future engagement.",
     "ai_suggestions": {
       "role": null,
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "Mohammad arbetar på Abios och är för närvarande på föräldraledighet fram till juni. Lämplig för uppföljning senare under våren när han är tillgänglig."
+      "note": "Mohammad arbetar på Abios och är för närvarande på föräldraledighet fram till juni 2026. Han är intresserad av att diskutera möjligheter senare under våren när hans ledighet upphör."
     }
   },
   {
@@ -801,13 +881,13 @@
     "linkedin": "https://www.linkedin.com/in/martin-hage-1a9676192/",
     "notes": [],
     "tier": 2,
-    "tier_reason": "Mid-level fullstack developer with 6 years solid experience, strong frontend specialisation (React/React Native), and proven ability to scale products, but limited senior leadership track record.",
+    "tier_reason": "Solid mid-level fullstack developer with 6 years experience and proven product ownership at recognisable companies, but frontend-primary background may not align with senior backend roles.",
     "ai_suggestions": {
       "role": "Frontend Developer / Fullstack Developer",
-      "stack": "JavaScript, TypeScript, React, React Native, Node.js, Python, Go, Firebase, MongoDB, MySQL",
+      "stack": "JavaScript, TypeScript, React, React Native, Node.js, Python, Go, Java, Firebase, MongoDB, MySQL",
       "experience": "6 år",
-      "city": "Stockholm (Södermalm)",
-      "note": "Martin är en erfaren frontendutvecklare med fokus på React och React Native som för närvarande ansvarar för frontend i en växande produktmiljö på Alrik Technologies. Han söker en större organisation med etablerad struktur och tydligare teknisk kontext, samtidigt som han vill behålla nära koppling till produktutveckling."
+      "city": "Stockholm",
+      "note": "Martin är en erfaren frontendutvecklare med stark produkterfarenhet från Alrik Technologies och added.digital. Han har byggt och skalat webbapplikationer och mobilappar från grunden med React/React Native, med viss backend-kompetens i Python, Node.js och Go. Söker större organisation med tydligare struktur och fortsatt fokus på produktutveckling."
     }
   },
   {
@@ -821,13 +901,13 @@
     "linkedin": "https://www.linkedin.com/in/eric-andersson1337",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior data engineer from recognisable consulting background (Netlight) with proven expertise across cloud platforms, modern tech stack, and demonstrated leadership—immediately placeable.",
+    "tier_reason": "Senior data engineer with 3+ years at recognisable consulting firm, proven track record across data platforms, cloud infrastructure, and fullstack development with clear technical depth.",
     "ai_suggestions": {
-      "role": "Data Engineer / Senior Backend Engineer",
-      "stack": "Python, Apache Airflow, PostgreSQL, Neo4j, OpenSearch, Databricks, Azure, Google Cloud Platform, AWS, Node.js, Next.js, TypeScript, React, GraphQL, Docker, Terraform",
-      "experience": "~3–4 år som data engineer/backend, ~1 år frontendutveckling",
+      "role": "Data Engineer / Backend Engineer",
+      "stack": "Python, Apache Airflow, PostgreSQL, Neo4j, OpenSearch, Databricks, Azure, Google Cloud Platform, AWS, React, Next.js, TypeScript, Node.js, GraphQL, Docker, Terraform",
+      "experience": "3+ år",
       "city": null,
-      "note": "Eric är en erfaren data engineer och fullstack-utvecklare med bred molnkompetens (Azure, GCP, AWS) och stark erfarenhet från dataplattformar, ETL/ELT-processer och arkitektur. Efter konsultrollen på Netlight arbetar han nu på ett startup (SimulAir) och söker aktivt nya möjligheter där han kan arbeta praktiskt och brett med backend och data engineering."
+      "note": "Erfaren data engineer från Netlight och Kliva med stark bakgrund i dataplattformar, ETL/ELT-processer och molnarkitektur (Azure, GCP, AWS). Söker praktisk roll inom data engineering, backend eller fullstack med möjlighet att arbeta på kontoret; redan aktiv på arbetsmarknaden."
     }
   },
   {
@@ -841,13 +921,13 @@
     "linkedin": "https://www.linkedin.com/in/aj-labarre/",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior fullstack engineer with 10+ years experience, recognized companies (Meltwater, Storykit), strong modern tech stack, and proven leadership—immediately placeable.",
+    "tier_reason": "Senior fullstackutvecklare med 10+ års erfarenhet från kända startup/scaleup-miljöer, stark teknisk stack och proven track record inom arkitektur och ledarskap.",
     "ai_suggestions": {
-      "role": "Senior Software Engineer / Fullstack Engineer",
+      "role": "Senior Full Stack Engineer / Technical Lead",
       "stack": "JavaScript, TypeScript, Node.js, React, Go, AWS, Terraform, Docker, CI/CD, GitHub Actions, Vercel, Redux, Cypress, MongoDB",
       "experience": "10+ år",
       "city": "Stockholm",
-      "note": "Austin är en erfaren senior fullstackutvecklare med tonvikt på moderna webbapplikationer, molninfrastruktur och arkitekturarbete. Han har djup erfarenhet från produktbolag och startups, samt beprövad förmåga att leda tekniska initiativ och utvecklingsteam samtidigt som han är operativ i kodning."
+      "note": "Austin LaBarre är en erfaren senior fullstackutvecklare med stark bakgrund från Meltwater, Storykit och eget konsultbolag. Han har djup expertis inom moderna webbapplikationer, molninfrastruktur, AI-integrationer och mikrotjänstarkitekturer, samt erfarenhet av tekniskt ledarskap och tvärfunktionella team."
     }
   },
   {
@@ -861,13 +941,13 @@
     "linkedin": "https://linkedin.com/in/ludvig-thunberg",
     "notes": [],
     "tier": 3,
-    "tier_reason": "No profile details provided; cannot assess experience level, tech stack, or background",
+    "tier_reason": "No accessible profile data provided; cannot assess experience level, tech stack, or background",
     "ai_suggestions": {
       "role": null,
       "stack": null,
       "experience": null,
       "city": null,
-      "note": "Kandidatprofilen saknar tillgänglig information. En granskning av LinkedIn-profilen krävs för att bedöma kompetens, erfarenhet och teknisk bakgrund."
+      "note": "Ingen tillgänglig profilinformation kunde hämtas. För att kunna bedöma kandidaten behövs detaljerad information om tidigare erfarenhet, teknisk kompetens och yrkeshistorik."
     }
   },
   {
@@ -881,13 +961,13 @@
     "linkedin": "https://www.linkedin.com/in/luba-weissmann-47b7757",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior AI & Data leader at major industrial company (Epiroc) with 100+ person org responsibility, proven track record at H&M and finance sector, strong technical foundation in ML/data science, and strategic impact experience.",
+    "tier_reason": "Senior AI & Data leader at tier-1 industrial company (Epiroc) with 100+ person team responsibility, proven track record scaling data platforms across startup to enterprise, and strong technical foundation in ML/mathematics.",
     "ai_suggestions": {
       "role": "AI & Data Director",
-      "stack": "Machine Learning, Data Science, BI platforms, Data platforms, AI models, DevOps, Data governance, Access management",
+      "stack": "Machine Learning, Data Science, BI platforms, Data Engineering, DevOps, AI Strategy, Data Governance",
       "experience": "15+ år",
       "city": null,
-      "note": "Erfaren AI & Data-ledare med bakgrund som datavetenskap och ML-specialisering. Har byggt team och moderniserat dataplattformar på Epiroc (100+ personer), tidigare Head of Data Science på H&M och erfarenhet från finans- och startupsektor. Söker teknikdriven organisation med möjlighet att kombinera strategi, ledarskap och teknisk riktning."
+      "note": "Erfaren AI- och dataledar med bakgrund som data scientist och matematiker. Har byggt data science från grunden på H&M, ledde AI/data-funktioner på Epiroc med 100+ personer ansvar, och drivit skalning av dataplattformar, BI-miljöer och AI-lösningar i både startup och enterprise. Söker teknikdriven organisation med möjlighet att kombinera strategi, ledarskap och teknisk riktning."
     }
   },
   {
@@ -901,93 +981,13 @@
     "linkedin": "https://linkedin.com/in/maratdyatko",
     "notes": [],
     "tier": 1,
-    "tier_reason": "Senior engineer at Spotify with proven track record scaling ML platforms, full-stack expertise across multiple high-impact roles, and demonstrated leadership at recognisable companies.",
+    "tier_reason": "Senior engineer at Spotify with 9+ years experience, proven track record leading high-impact projects at scale, and demonstrated full-stack expertise across multiple domains.",
     "ai_suggestions": {
-      "role": "Senior Software Engineer / Full-stack Engineer",
-      "stack": "TypeScript, JavaScript, React, NestJS, Python, FastAPI, Flutter, AWS, GCP, iOS, Android, MySQL, OpenAPI, protobuf",
-      "experience": "11 år",
-      "city": "Sverige",
-      "note": "Erfaren senior engineer med fokus på full-stack utveckling och produktlösningar. Byggde ML-plattformar på Spotify som driver en tredjedel av lyssningarna globalt, ledde team och tog arkitekturbeslut på flera startups (varav en blev börsnoterad), och balanserar parallella projekt med passion för att lösa användarens problem end-to-end."
-    }
-  },
-  {
-    "id": "98701",
-    "name": "Can Bakış",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/98701/show",
-    "role": null,
-    "organization": "Rebtel",
-    "email": "bakis.can@gmail.com",
-    "phone": "+46735334246",
-    "linkedin": "https://www.linkedin.com/in/bakiscan",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level professional from established fintech company with relevant experience, but limited technical stack details visible in provided profile.",
-    "ai_suggestions": {
-      "role": "Software Engineer",
-      "stack": "Java, Python, SQL, REST APIs",
-      "experience": "5–7 år",
-      "city": null,
-      "note": "Can Bakış är en erfaren ingenjör från Rebtel med bakgrund inom mjukvaruutveckling. Har demonstrerat kompetens inom backend-utveckling och API-design inom fintech-sektorn."
-    }
-  },
-  {
-    "id": "126784",
-    "name": "Binbin Su",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/126784/show",
-    "role": null,
-    "organization": "Truxel",
-    "email": "bbslxq@gmail.com",
-    "phone": "+46707723238",
-    "linkedin": "https://www.linkedin.com/in/binbin-su-a32b91112/",
-    "notes": [],
-    "tier": 1,
-    "tier_reason": "Senior ML architect with 9 years production AI experience, PhD from KTH, principal-level role at recognized company, proven ability to build systems from scratch and lead technical strategy.",
-    "ai_suggestions": {
-      "role": "Principal ML Architect / AI Lead",
-      "stack": "Python, TensorFlow, PyTorch, Keras, scikit-learn, NumPy, Pandas, SciPy, Google Cloud Platform, BigQuery, Spark, Hadoop, RAG, transformers",
+      "role": "Senior Software Engineer",
+      "stack": "TypeScript, JavaScript, React, NestJS, Python, FastAPI, Flutter, AWS, GCP, iOS, Android, MySQL, Cordova",
       "experience": "9 år",
-      "city": null,
-      "note": "Högskvalificerad ML-arkitekt med stark erfarenhet av att ta AI-lösningar från forskning till produktionsskalad drift. Kombinerar djup teknisk expertis inom deep learning, MLOps och optimering med strategisk ledarskap och förmåga att översätta affärskrav till tekniska implementeringar. Söker roll där han kan påverka teknisk riktning i växande organisation."
-    }
-  },
-  {
-    "id": "73073",
-    "name": "Anton K. Myrberg",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/73073/show",
-    "role": null,
-    "organization": "Axfood",
-    "email": null,
-    "phone": "+46703065290",
-    "linkedin": "https://www.linkedin.com/in/antonkmyrberg/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level technical leader at recognised retail company with networking focus, but limited stack visibility",
-    "ai_suggestions": {
-      "role": "Frontend Lead",
-      "stack": "Ubiquiti",
-      "experience": "5–7 år",
-      "city": null,
-      "note": "Teknikledare på Axfood med fokus på Ubiquiti frontend-utveckling. Visar ledarskapsförmåga men begränsad teknisk stack-information tillgänglig från nuvarande notering."
-    }
-  },
-  {
-    "id": "60994",
-    "name": "Hampus Fredriksson",
-    "ponty_url": "https://larenius.ponty-system.se/candidate/60994/show",
-    "role": null,
-    "organization": "FreeCode AB",
-    "email": "hampfred@hotmail.com",
-    "phone": "+46701414144",
-    "linkedin": "https://www.linkedin.com/in/hampus-fredriksson-14b07391/",
-    "notes": [],
-    "tier": 2,
-    "tier_reason": "Mid-level fullstack developer with relevant GCP/React experience and 3 years in the field, but limited seniority and currently in smaller teams.",
-    "ai_suggestions": {
-      "role": "Frontend Developer",
-      "stack": "React, GCP, Fullstack",
-      "experience": "3 år",
       "city": "Stockholm",
-      "note": "Hampus är en fullstack-utvecklare med fokus på frontend som söker stabilitet på ett produktbolag. Han har erfarenhet från fintech och onlinecasino-sektorn, är motiverad av större team och tydliga karriärmöjligheter, och är öppen för roller som kombinerar frontend med cloud-teknologi."
+      "note": "Erfaren fullstack-ingenjör med passion för UI och end-to-end produktlösningar. Nuvarande Senior Software Engineer på Spotify (Backstage-missionen), tidigare ledande roll i Personalisation-missionen där han byggde ML-plattformen bakom Discover Weekly. Bred bakgrund från Klarna, Natural Cycles och börsnoteringen Checkin.com; söker company med ambitiöst syfte snarare än teknisk nisch."
     }
   }
 ]
